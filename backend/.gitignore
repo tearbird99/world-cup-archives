@@ -1,0 +1,16 @@
+# ── Python ────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# ── 크롤링 데이터 (용량 크고 재생성 가능) ──
+data/players/
+data/teams/
+data/players-index.json
+data/teams-index.json
+
+# ── season_ids.json 은 커밋 대상 (수동 작성) ──
+!data/season_ids.json

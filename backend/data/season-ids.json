@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "tournament": "FIFA World Cup",
+    "unique_tournament_id": 16,
+    "source": "Sofascore",
+    "note": "2006 season_id=16 is same as tournament_id — verify before scraping"
+  },
+  "seasons": {
+    "1966": 17564,
+    "1970": 17565,
+    "1974": 17566,
+    "1978": 17567,
+    "1982": 17568,
+    "1986": 17569,
+    "1990": 17570,
+    "1994": 17571,
+    "1998": 1151,
+    "2002": 2636,
+    "2006": 16,
+    "2010": 2531,
+    "2014": 7528,
+    "2018": 15586,
+    "2022": 41087
+  }
+}
