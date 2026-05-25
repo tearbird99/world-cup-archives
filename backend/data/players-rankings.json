@@ -1,0 +1,5130 @@
+{
+  "career_rating": [
+    {
+      "rank": 1,
+      "name": "Johan Cruyff",
+      "value": 8.9
+    },
+    {
+      "rank": 2,
+      "name": "Pelé",
+      "value": 8.312
+    },
+    {
+      "rank": 3,
+      "name": "Diego Armando Maradona",
+      "value": 8.252
+    },
+    {
+      "rank": 4,
+      "name": "Lionel Messi",
+      "value": 8.123
+    },
+    {
+      "rank": 5,
+      "name": "Dragan Stojković",
+      "value": 8.1
+    },
+    {
+      "rank": 6,
+      "name": "Ramón Quiroga",
+      "value": 8.089
+    },
+    {
+      "rank": 7,
+      "name": "Ronnie Hellström",
+      "value": 8.05
+    },
+    {
+      "rank": 8,
+      "name": "Bobby Moore",
+      "value": 8.04
+    },
+    {
+      "rank": 9,
+      "name": "Gheorghe Hagi",
+      "value": 8.033
+    },
+    {
+      "rank": 10,
+      "name": "Careca",
+      "value": 8.011
+    }
+  ],
+  "goals": [
+    {
+      "rank": 1,
+      "name": "Miroslav Klose",
+      "value": 16
+    },
+    {
+      "rank": 2,
+      "name": "Ronaldo Nazário",
+      "value": 15
+    },
+    {
+      "rank": 3,
+      "name": "Gerd Müller",
+      "value": 14
+    },
+    {
+      "rank": 4,
+      "name": "Lionel Messi",
+      "value": 13
+    },
+    {
+      "rank": 5,
+      "name": "Kylian Mbappé",
+      "value": 12
+    },
+    {
+      "rank": 6,
+      "name": "Jürgen Klinsmann",
+      "value": 11
+    },
+    {
+      "rank": 7,
+      "name": "Téofilo Cubillas",
+      "value": 10
+    },
+    {
+      "rank": 8,
+      "name": "Grzegorz Lato",
+      "value": 10
+    },
+    {
+      "rank": 9,
+      "name": "Gary Lineker",
+      "value": 10
+    },
+    {
+      "rank": 10,
+      "name": "Gabriel Batistuta",
+      "value": 10
+    }
+  ],
+  "bigChancesCreated": [
+    {
+      "rank": 1,
+      "name": "Lionel Messi",
+      "value": 16
+    },
+    {
+      "rank": 2,
+      "name": "Diego Armando Maradona",
+      "value": 14
+    },
+    {
+      "rank": 3,
+      "name": "Zico",
+      "value": 11
+    },
+    {
+      "rank": 4,
+      "name": "Thomas Häßler",
+      "value": 10
+    },
+    {
+      "rank": 5,
+      "name": "Dragan Stojković",
+      "value": 10
+    },
+    {
+      "rank": 6,
+      "name": "Mesut Özil",
+      "value": 10
+    },
+    {
+      "rank": 7,
+      "name": "Francesco Totti",
+      "value": 10
+    },
+    {
+      "rank": 8,
+      "name": "Andrés Iniesta",
+      "value": 10
+    },
+    {
+      "rank": 9,
+      "name": "Antoine Griezmann",
+      "value": 10
+    },
+    {
+      "rank": 10,
+      "name": "Wolfgang Overath",
+      "value": 9
+    }
+  ],
+  "bigChancesMissed": [
+    {
+      "rank": 1,
+      "name": "Miroslav Klose",
+      "value": 15
+    },
+    {
+      "rank": 2,
+      "name": "Jürgen Klinsmann",
+      "value": 14
+    },
+    {
+      "rank": 3,
+      "name": "Gerd Müller",
+      "value": 13
+    },
+    {
+      "rank": 4,
+      "name": "Gonzalo Higuaín",
+      "value": 13
+    },
+    {
+      "rank": 5,
+      "name": "Ronaldo Nazário",
+      "value": 13
+    },
+    {
+      "rank": 6,
+      "name": "Uwe Seeler",
+      "value": 12
+    },
+    {
+      "rank": 7,
+      "name": "Rudi Völler",
+      "value": 12
+    },
+    {
+      "rank": 8,
+      "name": "Romário",
+      "value": 12
+    },
+    {
+      "rank": 9,
+      "name": "Luigi Riva",
+      "value": 11
+    },
+    {
+      "rank": 10,
+      "name": "Andrzej Szarmach",
+      "value": 11
+    }
+  ],
+  "assists": [
+    {
+      "rank": 1,
+      "name": "Lionel Messi",
+      "value": 8
+    },
+    {
+      "rank": 2,
+      "name": "Diego Armando Maradona",
+      "value": 8
+    },
+    {
+      "rank": 3,
+      "name": "Grzegorz Lato",
+      "value": 7
+    },
+    {
+      "rank": 4,
+      "name": "Pierre Littbarski",
+      "value": 7
+    },
+    {
+      "rank": 5,
+      "name": "Pelé",
+      "value": 6
+    },
+    {
+      "rank": 6,
+      "name": "Uwe Seeler",
+      "value": 6
+    },
+    {
+      "rank": 7,
+      "name": "Thomas Häßler",
+      "value": 6
+    },
+    {
+      "rank": 8,
+      "name": "Francesco Totti",
+      "value": 6
+    },
+    {
+      "rank": 9,
+      "name": "Bastian Schweinsteiger",
+      "value": 6
+    },
+    {
+      "rank": 10,
+      "name": "Thomas Müller",
+      "value": 6
+    }
+  ],
+  "goalsAssistsSum": [
+    {
+      "rank": 1,
+      "name": "Lionel Messi",
+      "value": 21
+    },
+    {
+      "rank": 2,
+      "name": "Miroslav Klose",
+      "value": 20
+    },
+    {
+      "rank": 3,
+      "name": "Gerd Müller",
+      "value": 19
+    },
+    {
+      "rank": 4,
+      "name": "Ronaldo Nazário",
+      "value": 19
+    },
+    {
+      "rank": 5,
+      "name": "Grzegorz Lato",
+      "value": 17
+    },
+    {
+      "rank": 6,
+      "name": "Thomas Müller",
+      "value": 16
+    },
+    {
+      "rank": 7,
+      "name": "Diego Armando Maradona",
+      "value": 16
+    },
+    {
+      "rank": 8,
+      "name": "Kylian Mbappé",
+      "value": 14
+    },
+    {
+      "rank": 9,
+      "name": "Jairzinho",
+      "value": 12
+    },
+    {
+      "rank": 10,
+      "name": "Téofilo Cubillas",
+      "value": 12
+    }
+  ],
+  "accuratePasses": [
+    {
+      "rank": 1,
+      "name": "Dunga",
+      "value": 1306
+    },
+    {
+      "rank": 2,
+      "name": "Javier Mascherano",
+      "value": 1265
+    },
+    {
+      "rank": 3,
+      "name": "Philipp Lahm",
+      "value": 1170
+    },
+    {
+      "rank": 4,
+      "name": "Sergio Busquets",
+      "value": 1155
+    },
+    {
+      "rank": 5,
+      "name": "Sergio Ramos",
+      "value": 1098
+    },
+    {
+      "rank": 6,
+      "name": "Lothar Matthäus",
+      "value": 1089
+    },
+    {
+      "rank": 7,
+      "name": "Bastian Schweinsteiger",
+      "value": 1067
+    },
+    {
+      "rank": 8,
+      "name": "Wolfgang Overath",
+      "value": 1039
+    },
+    {
+      "rank": 9,
+      "name": "Luka Modrić",
+      "value": 1030
+    },
+    {
+      "rank": 10,
+      "name": "Lionel Messi",
+      "value": 1016
+    }
+  ],
+  "inaccuratePasses": [
+    {
+      "rank": 1,
+      "name": "Dunga",
+      "value": 244
+    },
+    {
+      "rank": 2,
+      "name": "Wolfgang Overath",
+      "value": 208
+    },
+    {
+      "rank": 3,
+      "name": "Hugo Lloris",
+      "value": 205
+    },
+    {
+      "rank": 4,
+      "name": "Fabien Barthez",
+      "value": 204
+    },
+    {
+      "rank": 5,
+      "name": "Diego Armando Maradona",
+      "value": 199
+    },
+    {
+      "rank": 6,
+      "name": "Lionel Messi",
+      "value": 198
+    },
+    {
+      "rank": 7,
+      "name": "Paolo Maldini",
+      "value": 193
+    },
+    {
+      "rank": 8,
+      "name": "Lothar Matthäus",
+      "value": 187
+    },
+    {
+      "rank": 9,
+      "name": "Rafael Márquez",
+      "value": 183
+    },
+    {
+      "rank": 10,
+      "name": "Fernando Muslera",
+      "value": 178
+    }
+  ],
+  "totalPasses": [
+    {
+      "rank": 1,
+      "name": "Dunga",
+      "value": 1550
+    },
+    {
+      "rank": 2,
+      "name": "Javier Mascherano",
+      "value": 1426
+    },
+    {
+      "rank": 3,
+      "name": "Philipp Lahm",
+      "value": 1314
+    },
+    {
+      "rank": 4,
+      "name": "Lothar Matthäus",
+      "value": 1276
+    },
+    {
+      "rank": 5,
+      "name": "Sergio Busquets",
+      "value": 1252
+    },
+    {
+      "rank": 6,
+      "name": "Wolfgang Overath",
+      "value": 1247
+    },
+    {
+      "rank": 7,
+      "name": "Bastian Schweinsteiger",
+      "value": 1240
+    },
+    {
+      "rank": 8,
+      "name": "Lionel Messi",
+      "value": 1214
+    },
+    {
+      "rank": 9,
+      "name": "Sergio Ramos",
+      "value": 1199
+    },
+    {
+      "rank": 10,
+      "name": "Luka Modrić",
+      "value": 1173
+    }
+  ],
+  "accurateOwnHalfPasses": [
+    {
+      "rank": 1,
+      "name": "Javier Mascherano",
+      "value": 636
+    },
+    {
+      "rank": 2,
+      "name": "John Stones",
+      "value": 612
+    },
+    {
+      "rank": 3,
+      "name": "Philipp Lahm",
+      "value": 593
+    },
+    {
+      "rank": 4,
+      "name": "Nicolás Otamendi",
+      "value": 591
+    },
+    {
+      "rank": 5,
+      "name": "Dejan Lovren",
+      "value": 585
+    },
+    {
+      "rank": 6,
+      "name": "Thiago Silva",
+      "value": 578
+    },
+    {
+      "rank": 7,
+      "name": "Per Mertesacker",
+      "value": 529
+    },
+    {
+      "rank": 8,
+      "name": "Sergio Ramos",
+      "value": 522
+    },
+    {
+      "rank": 9,
+      "name": "Sergio Busquets",
+      "value": 522
+    },
+    {
+      "rank": 10,
+      "name": "Dunga",
+      "value": 519
+    }
+  ],
+  "accurateOppositionHalfPasses": [
+    {
+      "rank": 1,
+      "name": "Lionel Messi",
+      "value": 824
+    },
+    {
+      "rank": 2,
+      "name": "Dunga",
+      "value": 787
+    },
+    {
+      "rank": 3,
+      "name": "Bastian Schweinsteiger",
+      "value": 673
+    },
+    {
+      "rank": 4,
+      "name": "Wolfgang Overath",
+      "value": 661
+    },
+    {
+      "rank": 5,
+      "name": "Sergio Busquets",
+      "value": 633
+    },
+    {
+      "rank": 6,
+      "name": "Luka Modrić",
+      "value": 632
+    },
+    {
+      "rank": 7,
+      "name": "Javier Mascherano",
+      "value": 629
+    },
+    {
+      "rank": 8,
+      "name": "Lothar Matthäus",
+      "value": 607
+    },
+    {
+      "rank": 9,
+      "name": "Xavi",
+      "value": 603
+    },
+    {
+      "rank": 10,
+      "name": "Toni Kroos",
+      "value": 588
+    }
+  ],
+  "accurateFinalThirdPasses": [
+    {
+      "rank": 1,
+      "name": "Lionel Messi",
+      "value": 493
+    },
+    {
+      "rank": 2,
+      "name": "Mesut Özil",
+      "value": 358
+    },
+    {
+      "rank": 3,
+      "name": "Wolfgang Overath",
+      "value": 347
+    },
+    {
+      "rank": 4,
+      "name": "Bastian Schweinsteiger",
+      "value": 313
+    },
+    {
+      "rank": 5,
+      "name": "Toni Kroos",
+      "value": 307
+    },
+    {
+      "rank": 6,
+      "name": "Dunga",
+      "value": 306
+    },
+    {
+      "rank": 7,
+      "name": "Diego Armando Maradona",
+      "value": 289
+    },
+    {
+      "rank": 8,
+      "name": "Luka Modrić",
+      "value": 286
+    },
+    {
+      "rank": 9,
+      "name": "Lothar Matthäus",
+      "value": 284
+    },
+    {
+      "rank": 10,
+      "name": "Franz Beckenbauer",
+      "value": 268
+    }
+  ],
+  "keyPasses": [
+    {
+      "rank": 1,
+      "name": "Lionel Messi",
+      "value": 75
+    },
+    {
+      "rank": 2,
+      "name": "Diego Armando Maradona",
+      "value": 71
+    },
+    {
+      "rank": 3,
+      "name": "Wolfgang Overath",
+      "value": 62
+    },
+    {
+      "rank": 4,
+      "name": "Lothar Matthäus",
+      "value": 55
+    },
+    {
+      "rank": 5,
+      "name": "Alain Giresse",
+      "value": 51
+    },
+    {
+      "rank": 6,
+      "name": "Kazimierz Deyna",
+      "value": 48
+    },
+    {
+      "rank": 7,
+      "name": "Mesut Özil",
+      "value": 48
+    },
+    {
+      "rank": 8,
+      "name": "Thomas Müller",
+      "value": 44
+    },
+    {
+      "rank": 9,
+      "name": "Xavi",
+      "value": 44
+    },
+    {
+      "rank": 10,
+      "name": "Michel Platini",
+      "value": 43
+    }
+  ],
+  "successfulDribbles": [
+    {
+      "rank": 1,
+      "name": "Lionel Messi",
+      "value": 112
+    },
+    {
+      "rank": 2,
+      "name": "Diego Armando Maradona",
+      "value": 103
+    },
+    {
+      "rank": 3,
+      "name": "Jairzinho",
+      "value": 82
+    },
+    {
+      "rank": 4,
+      "name": "Mario Alberto Kempes",
+      "value": 57
+    },
+    {
+      "rank": 5,
+      "name": "Enzo Scifo",
+      "value": 56
+    },
+    {
+      "rank": 6,
+      "name": "Pierre Littbarski",
+      "value": 53
+    },
+    {
+      "rank": 7,
+      "name": "Eden Hazard",
+      "value": 52
+    },
+    {
+      "rank": 8,
+      "name": "Rivellino",
+      "value": 49
+    },
+    {
+      "rank": 9,
+      "name": "Arjen Robben",
+      "value": 49
+    },
+    {
+      "rank": 10,
+      "name": "Sandro Mazzola",
+      "value": 48
+    }
+  ],
+  "tackles": [
+    {
+      "rank": 1,
+      "name": "Dunga",
+      "value": 102
+    },
+    {
+      "rank": 2,
+      "name": "Lothar Matthäus",
+      "value": 88
+    },
+    {
+      "rank": 3,
+      "name": "Hans-Hubert Vogts",
+      "value": 81
+    },
+    {
+      "rank": 4,
+      "name": "Paolo Maldini",
+      "value": 80
+    },
+    {
+      "rank": 5,
+      "name": "Władysław Żmuda",
+      "value": 76
+    },
+    {
+      "rank": 6,
+      "name": "Javier Mascherano",
+      "value": 72
+    },
+    {
+      "rank": 7,
+      "name": "Bastian Schweinsteiger",
+      "value": 65
+    },
+    {
+      "rank": 8,
+      "name": "Franz Beckenbauer",
+      "value": 60
+    },
+    {
+      "rank": 9,
+      "name": "Maxime Bossis",
+      "value": 60
+    },
+    {
+      "rank": 10,
+      "name": "Jorge Olguín",
+      "value": 58
+    }
+  ],
+  "interceptions": [
+    {
+      "rank": 1,
+      "name": "Paolo Maldini",
+      "value": 64
+    },
+    {
+      "rank": 2,
+      "name": "Hans-Hubert Vogts",
+      "value": 57
+    },
+    {
+      "rank": 3,
+      "name": "Fabio Cannavaro",
+      "value": 48
+    },
+    {
+      "rank": 4,
+      "name": "Dunga",
+      "value": 41
+    },
+    {
+      "rank": 5,
+      "name": "Władysław Żmuda",
+      "value": 39
+    },
+    {
+      "rank": 6,
+      "name": "Antonio Cabrini",
+      "value": 39
+    },
+    {
+      "rank": 7,
+      "name": "Gilberto Silva",
+      "value": 39
+    },
+    {
+      "rank": 8,
+      "name": "Jurgen Kohler",
+      "value": 37
+    },
+    {
+      "rank": 9,
+      "name": "Javier Mascherano",
+      "value": 35
+    },
+    {
+      "rank": 10,
+      "name": "Lúcio",
+      "value": 35
+    }
+  ],
+  "yellowCards": [
+    {
+      "rank": 1,
+      "name": "Javier Mascherano",
+      "value": 7
+    },
+    {
+      "rank": 2,
+      "name": "Cafú",
+      "value": 6
+    },
+    {
+      "rank": 3,
+      "name": "Lothar Matthäus",
+      "value": 5
+    },
+    {
+      "rank": 4,
+      "name": "Sulley Muntari",
+      "value": 5
+    },
+    {
+      "rank": 5,
+      "name": "Héctor Moreno",
+      "value": 5
+    },
+    {
+      "rank": 6,
+      "name": "Rafael Márquez",
+      "value": 5
+    },
+    {
+      "rank": 7,
+      "name": "Nicolás Otamendi",
+      "value": 5
+    },
+    {
+      "rank": 8,
+      "name": "Robin van Persie",
+      "value": 4
+    },
+    {
+      "rank": 9,
+      "name": "Fabian Schär",
+      "value": 4
+    },
+    {
+      "rank": 10,
+      "name": "Gerardo Torrado",
+      "value": 4
+    }
+  ],
+  "accurateCrosses": [
+    {
+      "rank": 1,
+      "name": "David Beckham",
+      "value": 35
+    },
+    {
+      "rank": 2,
+      "name": "Frank Vercauteren",
+      "value": 32
+    },
+    {
+      "rank": 3,
+      "name": "Antoine Griezmann",
+      "value": 28
+    },
+    {
+      "rank": 4,
+      "name": "Pierre Littbarski",
+      "value": 26
+    },
+    {
+      "rank": 5,
+      "name": "Andreas Brehme",
+      "value": 26
+    },
+    {
+      "rank": 6,
+      "name": "Xavi",
+      "value": 26
+    },
+    {
+      "rank": 7,
+      "name": "Neymar",
+      "value": 25
+    },
+    {
+      "rank": 8,
+      "name": "Thomas Häßler",
+      "value": 25
+    },
+    {
+      "rank": 9,
+      "name": "Ángel Di María",
+      "value": 25
+    },
+    {
+      "rank": 10,
+      "name": "Kevin De Bruyne",
+      "value": 25
+    }
+  ],
+  "totalShots": [
+    {
+      "rank": 1,
+      "name": "Lionel Messi",
+      "value": 105
+    },
+    {
+      "rank": 2,
+      "name": "Cristiano Ronaldo",
+      "value": 103
+    },
+    {
+      "rank": 3,
+      "name": "Ronaldo Nazário",
+      "value": 75
+    },
+    {
+      "rank": 4,
+      "name": "Kazimierz Deyna",
+      "value": 72
+    },
+    {
+      "rank": 5,
+      "name": "Luigi Riva",
+      "value": 71
+    },
+    {
+      "rank": 6,
+      "name": "Franz Beckenbauer",
+      "value": 70
+    },
+    {
+      "rank": 7,
+      "name": "Zbigniew Boniek",
+      "value": 69
+    },
+    {
+      "rank": 8,
+      "name": "Eusébio",
+      "value": 66
+    },
+    {
+      "rank": 9,
+      "name": "Mario Alberto Kempes",
+      "value": 66
+    },
+    {
+      "rank": 10,
+      "name": "Miroslav Klose",
+      "value": 66
+    }
+  ],
+  "shotsOnTarget": [
+    {
+      "rank": 1,
+      "name": "Lionel Messi",
+      "value": 46
+    },
+    {
+      "rank": 2,
+      "name": "Ronaldo Nazário",
+      "value": 37
+    },
+    {
+      "rank": 3,
+      "name": "Cristiano Ronaldo",
+      "value": 37
+    },
+    {
+      "rank": 4,
+      "name": "Gerd Müller",
+      "value": 34
+    },
+    {
+      "rank": 5,
+      "name": "Neymar",
+      "value": 30
+    },
+    {
+      "rank": 6,
+      "name": "Kazimierz Deyna",
+      "value": 30
+    },
+    {
+      "rank": 7,
+      "name": "Miroslav Klose",
+      "value": 30
+    },
+    {
+      "rank": 8,
+      "name": "Eusébio",
+      "value": 29
+    },
+    {
+      "rank": 9,
+      "name": "Franz Beckenbauer",
+      "value": 26
+    },
+    {
+      "rank": 10,
+      "name": "Grzegorz Lato",
+      "value": 26
+    }
+  ],
+  "shotsOffTarget": [
+    {
+      "rank": 1,
+      "name": "Cristiano Ronaldo",
+      "value": 37
+    },
+    {
+      "rank": 2,
+      "name": "Lionel Messi",
+      "value": 36
+    },
+    {
+      "rank": 3,
+      "name": "Gheorghe Hagi",
+      "value": 34
+    },
+    {
+      "rank": 4,
+      "name": "Eusébio",
+      "value": 32
+    },
+    {
+      "rank": 5,
+      "name": "Luigi Riva",
+      "value": 32
+    },
+    {
+      "rank": 6,
+      "name": "Asamoah Gyan",
+      "value": 32
+    },
+    {
+      "rank": 7,
+      "name": "Mario Alberto Kempes",
+      "value": 30
+    },
+    {
+      "rank": 8,
+      "name": "Miroslav Klose",
+      "value": 30
+    },
+    {
+      "rank": 9,
+      "name": "Rivellino",
+      "value": 28
+    },
+    {
+      "rank": 10,
+      "name": "Kazimierz Deyna",
+      "value": 28
+    }
+  ],
+  "groundDuelsWon": [
+    {
+      "rank": 1,
+      "name": "Diego Armando Maradona",
+      "value": 300
+    },
+    {
+      "rank": 2,
+      "name": "Lionel Messi",
+      "value": 215
+    },
+    {
+      "rank": 3,
+      "name": "Jairzinho",
+      "value": 175
+    },
+    {
+      "rank": 4,
+      "name": "Lothar Matthäus",
+      "value": 165
+    },
+    {
+      "rank": 5,
+      "name": "Dunga",
+      "value": 139
+    },
+    {
+      "rank": 6,
+      "name": "Paolo Maldini",
+      "value": 138
+    },
+    {
+      "rank": 7,
+      "name": "Enzo Scifo",
+      "value": 131
+    },
+    {
+      "rank": 8,
+      "name": "Bastian Schweinsteiger",
+      "value": 126
+    },
+    {
+      "rank": 9,
+      "name": "Mario Alberto Kempes",
+      "value": 124
+    },
+    {
+      "rank": 10,
+      "name": "Franz Beckenbauer",
+      "value": 123
+    }
+  ],
+  "aerialDuelsWon": [
+    {
+      "rank": 1,
+      "name": "Miroslav Klose",
+      "value": 88
+    },
+    {
+      "rank": 2,
+      "name": "Brian McBride",
+      "value": 76
+    },
+    {
+      "rank": 3,
+      "name": "Fabio Cannavaro",
+      "value": 67
+    },
+    {
+      "rank": 4,
+      "name": "Roque Santa Cruz",
+      "value": 63
+    },
+    {
+      "rank": 5,
+      "name": "Per Mertesacker",
+      "value": 63
+    },
+    {
+      "rank": 6,
+      "name": "Diego Godín",
+      "value": 62
+    },
+    {
+      "rank": 7,
+      "name": "Paolo Maldini",
+      "value": 62
+    },
+    {
+      "rank": 8,
+      "name": "Kennet Andersson",
+      "value": 60
+    },
+    {
+      "rank": 9,
+      "name": "José Torres",
+      "value": 59
+    },
+    {
+      "rank": 10,
+      "name": "Harry Maguire",
+      "value": 57
+    }
+  ],
+  "totalDuelsWon": [
+    {
+      "rank": 1,
+      "name": "Diego Armando Maradona",
+      "value": 310
+    },
+    {
+      "rank": 2,
+      "name": "Lionel Messi",
+      "value": 222
+    },
+    {
+      "rank": 3,
+      "name": "Paolo Maldini",
+      "value": 200
+    },
+    {
+      "rank": 4,
+      "name": "Jairzinho",
+      "value": 189
+    },
+    {
+      "rank": 5,
+      "name": "Lothar Matthäus",
+      "value": 179
+    },
+    {
+      "rank": 6,
+      "name": "Miroslav Klose",
+      "value": 179
+    },
+    {
+      "rank": 7,
+      "name": "Dunga",
+      "value": 151
+    },
+    {
+      "rank": 8,
+      "name": "Bastian Schweinsteiger",
+      "value": 151
+    },
+    {
+      "rank": 9,
+      "name": "Fabio Cannavaro",
+      "value": 149
+    },
+    {
+      "rank": 10,
+      "name": "Enzo Scifo",
+      "value": 140
+    }
+  ],
+  "minutesPlayed": [
+    {
+      "rank": 1,
+      "name": "Lionel Messi",
+      "value": 2314
+    },
+    {
+      "rank": 2,
+      "name": "Paolo Maldini",
+      "value": 2216
+    },
+    {
+      "rank": 3,
+      "name": "Lothar Matthäus",
+      "value": 2045
+    },
+    {
+      "rank": 4,
+      "name": "Javier Mascherano",
+      "value": 1950
+    },
+    {
+      "rank": 5,
+      "name": "Diego Armando Maradona",
+      "value": 1940
+    },
+    {
+      "rank": 6,
+      "name": "Philipp Lahm",
+      "value": 1920
+    },
+    {
+      "rank": 7,
+      "name": "Hugo Lloris",
+      "value": 1830
+    },
+    {
+      "rank": 8,
+      "name": "Władysław Żmuda",
+      "value": 1807
+    },
+    {
+      "rank": 9,
+      "name": "Grzegorz Lato",
+      "value": 1800
+    },
+    {
+      "rank": 10,
+      "name": "Miroslav Klose",
+      "value": 1793
+    }
+  ],
+  "penaltiesTaken": [
+    {
+      "rank": 1,
+      "name": "Lionel Messi",
+      "value": 6
+    },
+    {
+      "rank": 2,
+      "name": "Harry Kane",
+      "value": 5
+    },
+    {
+      "rank": 3,
+      "name": "Eusébio",
+      "value": 4
+    },
+    {
+      "rank": 4,
+      "name": "Rob Rensenbrink",
+      "value": 4
+    },
+    {
+      "rank": 5,
+      "name": "Gabriel Batistuta",
+      "value": 4
+    },
+    {
+      "rank": 6,
+      "name": "Asamoah Gyan",
+      "value": 4
+    },
+    {
+      "rank": 7,
+      "name": "Cristiano Ronaldo",
+      "value": 4
+    },
+    {
+      "rank": 8,
+      "name": "Johan Neeskens",
+      "value": 3
+    },
+    {
+      "rank": 9,
+      "name": "Michal Bilek",
+      "value": 3
+    },
+    {
+      "rank": 10,
+      "name": "Fernando Hierro",
+      "value": 3
+    }
+  ],
+  "penaltyGoals": [
+    {
+      "rank": 1,
+      "name": "Harry Kane",
+      "value": 4
+    },
+    {
+      "rank": 2,
+      "name": "Lionel Messi",
+      "value": 4
+    },
+    {
+      "rank": 3,
+      "name": "Eusébio",
+      "value": 4
+    },
+    {
+      "rank": 4,
+      "name": "Rob Rensenbrink",
+      "value": 4
+    },
+    {
+      "rank": 5,
+      "name": "Gabriel Batistuta",
+      "value": 4
+    },
+    {
+      "rank": 6,
+      "name": "Johan Neeskens",
+      "value": 3
+    },
+    {
+      "rank": 7,
+      "name": "Fernando Hierro",
+      "value": 3
+    },
+    {
+      "rank": 8,
+      "name": "Hristo Stoichkov",
+      "value": 3
+    },
+    {
+      "rank": 9,
+      "name": "Mile Jedinak",
+      "value": 3
+    },
+    {
+      "rank": 10,
+      "name": "Cristiano Ronaldo",
+      "value": 3
+    }
+  ],
+  "shotFromSetPiece": [
+    {
+      "rank": 1,
+      "name": "Rivellino",
+      "value": 26
+    },
+    {
+      "rank": 2,
+      "name": "Cristiano Ronaldo",
+      "value": 25
+    },
+    {
+      "rank": 3,
+      "name": "Diego Armando Maradona",
+      "value": 25
+    },
+    {
+      "rank": 4,
+      "name": "Roberto Carlos",
+      "value": 22
+    },
+    {
+      "rank": 5,
+      "name": "Lionel Messi",
+      "value": 20
+    },
+    {
+      "rank": 6,
+      "name": "Michel Platini",
+      "value": 20
+    },
+    {
+      "rank": 7,
+      "name": "Gheorghe Hagi",
+      "value": 20
+    },
+    {
+      "rank": 8,
+      "name": "Branco",
+      "value": 16
+    },
+    {
+      "rank": 9,
+      "name": "Nelinho",
+      "value": 15
+    },
+    {
+      "rank": 10,
+      "name": "Daniel Passarella",
+      "value": 15
+    }
+  ],
+  "freeKickGoal": [
+    {
+      "rank": 1,
+      "name": "Pelé",
+      "value": 2
+    },
+    {
+      "rank": 2,
+      "name": "Téofilo Cubillas",
+      "value": 2
+    },
+    {
+      "rank": 3,
+      "name": "Rivellino",
+      "value": 2
+    },
+    {
+      "rank": 4,
+      "name": "Bernard Genghini",
+      "value": 2
+    },
+    {
+      "rank": 5,
+      "name": "David Beckham",
+      "value": 2
+    },
+    {
+      "rank": 6,
+      "name": "Robin van Persie",
+      "value": 1
+    },
+    {
+      "rank": 7,
+      "name": "Eric Wynalda",
+      "value": 1
+    },
+    {
+      "rank": 8,
+      "name": "Darijo Srna",
+      "value": 1
+    },
+    {
+      "rank": 9,
+      "name": "Rónald Gómez",
+      "value": 1
+    },
+    {
+      "rank": 10,
+      "name": "Lionel Messi",
+      "value": 1
+    }
+  ],
+  "goalsFromInsideTheBox": [
+    {
+      "rank": 1,
+      "name": "Miroslav Klose",
+      "value": 16
+    },
+    {
+      "rank": 2,
+      "name": "Gerd Müller",
+      "value": 14
+    },
+    {
+      "rank": 3,
+      "name": "Ronaldo Nazário",
+      "value": 13
+    },
+    {
+      "rank": 4,
+      "name": "Kylian Mbappé",
+      "value": 11
+    },
+    {
+      "rank": 5,
+      "name": "Gary Lineker",
+      "value": 10
+    },
+    {
+      "rank": 6,
+      "name": "Jürgen Klinsmann",
+      "value": 10
+    },
+    {
+      "rank": 7,
+      "name": "Lionel Messi",
+      "value": 9
+    },
+    {
+      "rank": 8,
+      "name": "Eusébio",
+      "value": 9
+    },
+    {
+      "rank": 9,
+      "name": "Jairzinho",
+      "value": 9
+    },
+    {
+      "rank": 10,
+      "name": "Grzegorz Lato",
+      "value": 9
+    }
+  ],
+  "goalsFromOutsideTheBox": [
+    {
+      "rank": 1,
+      "name": "Rivellino",
+      "value": 5
+    },
+    {
+      "rank": 2,
+      "name": "Lionel Messi",
+      "value": 4
+    },
+    {
+      "rank": 3,
+      "name": "Lothar Matthäus",
+      "value": 4
+    },
+    {
+      "rank": 4,
+      "name": "Diego Forlán",
+      "value": 4
+    },
+    {
+      "rank": 5,
+      "name": "Téofilo Cubillas",
+      "value": 3
+    },
+    {
+      "rank": 6,
+      "name": "Dirceu",
+      "value": 3
+    },
+    {
+      "rank": 7,
+      "name": "David Villa",
+      "value": 3
+    },
+    {
+      "rank": 8,
+      "name": "Rivaldo",
+      "value": 2
+    },
+    {
+      "rank": 9,
+      "name": "Bobby Charlton",
+      "value": 2
+    },
+    {
+      "rank": 10,
+      "name": "Pelé",
+      "value": 2
+    }
+  ],
+  "shotsFromInsideTheBox": [
+    {
+      "rank": 1,
+      "name": "Miroslav Klose",
+      "value": 62
+    },
+    {
+      "rank": 2,
+      "name": "Ronaldo Nazário",
+      "value": 56
+    },
+    {
+      "rank": 3,
+      "name": "Gerd Müller",
+      "value": 54
+    },
+    {
+      "rank": 4,
+      "name": "Luigi Riva",
+      "value": 50
+    },
+    {
+      "rank": 5,
+      "name": "Lionel Messi",
+      "value": 49
+    },
+    {
+      "rank": 6,
+      "name": "Uwe Seeler",
+      "value": 45
+    },
+    {
+      "rank": 7,
+      "name": "Rudi Völler",
+      "value": 45
+    },
+    {
+      "rank": 8,
+      "name": "Jürgen Klinsmann",
+      "value": 45
+    },
+    {
+      "rank": 9,
+      "name": "Asamoah Gyan",
+      "value": 39
+    },
+    {
+      "rank": 10,
+      "name": "Cristiano Ronaldo",
+      "value": 39
+    }
+  ],
+  "shotsFromOutsideTheBox": [
+    {
+      "rank": 1,
+      "name": "Cristiano Ronaldo",
+      "value": 64
+    },
+    {
+      "rank": 2,
+      "name": "Gheorghe Hagi",
+      "value": 58
+    },
+    {
+      "rank": 3,
+      "name": "Lionel Messi",
+      "value": 56
+    },
+    {
+      "rank": 4,
+      "name": "Franz Beckenbauer",
+      "value": 54
+    },
+    {
+      "rank": 5,
+      "name": "Rivellino",
+      "value": 54
+    },
+    {
+      "rank": 6,
+      "name": "Kazimierz Deyna",
+      "value": 53
+    },
+    {
+      "rank": 7,
+      "name": "Zbigniew Boniek",
+      "value": 45
+    },
+    {
+      "rank": 8,
+      "name": "Wesley Sneijder",
+      "value": 42
+    },
+    {
+      "rank": 9,
+      "name": "Lothar Matthäus",
+      "value": 40
+    },
+    {
+      "rank": 10,
+      "name": "Bobby Charlton",
+      "value": 37
+    }
+  ],
+  "headedGoals": [
+    {
+      "rank": 1,
+      "name": "Miroslav Klose",
+      "value": 7
+    },
+    {
+      "rank": 2,
+      "name": "Gerd Müller",
+      "value": 5
+    },
+    {
+      "rank": 3,
+      "name": "Andrzej Szarmach",
+      "value": 4
+    },
+    {
+      "rank": 4,
+      "name": "Jürgen Klinsmann",
+      "value": 4
+    },
+    {
+      "rank": 5,
+      "name": "Tomas Skuhravy",
+      "value": 4
+    },
+    {
+      "rank": 6,
+      "name": "Enner Valencia",
+      "value": 3
+    },
+    {
+      "rank": 7,
+      "name": "José Augusto",
+      "value": 3
+    },
+    {
+      "rank": 8,
+      "name": "Paolo Rossi",
+      "value": 3
+    },
+    {
+      "rank": 9,
+      "name": "Rudi Völler",
+      "value": 3
+    },
+    {
+      "rank": 10,
+      "name": "Martin Dahlin",
+      "value": 3
+    }
+  ],
+  "leftFootGoals": [
+    {
+      "rank": 1,
+      "name": "Lionel Messi",
+      "value": 10
+    },
+    {
+      "rank": 2,
+      "name": "Rivaldo",
+      "value": 8
+    },
+    {
+      "rank": 3,
+      "name": "Rivellino",
+      "value": 6
+    },
+    {
+      "rank": 4,
+      "name": "Hristo Stoichkov",
+      "value": 6
+    },
+    {
+      "rank": 5,
+      "name": "Diego Armando Maradona",
+      "value": 6
+    },
+    {
+      "rank": 6,
+      "name": "Rob Rensenbrink",
+      "value": 5
+    },
+    {
+      "rank": 7,
+      "name": "Hans Johann Krankl",
+      "value": 5
+    },
+    {
+      "rank": 8,
+      "name": "Davor Šuker",
+      "value": 5
+    },
+    {
+      "rank": 9,
+      "name": "Arjen Robben",
+      "value": 5
+    },
+    {
+      "rank": 10,
+      "name": "Ivan Perišić",
+      "value": 5
+    }
+  ],
+  "rightFootGoals": [
+    {
+      "rank": 1,
+      "name": "Ronaldo Nazário",
+      "value": 11
+    },
+    {
+      "rank": 2,
+      "name": "Téofilo Cubillas",
+      "value": 10
+    },
+    {
+      "rank": 3,
+      "name": "Kylian Mbappé",
+      "value": 10
+    },
+    {
+      "rank": 4,
+      "name": "Gabriel Batistuta",
+      "value": 9
+    },
+    {
+      "rank": 5,
+      "name": "Eusébio",
+      "value": 8
+    },
+    {
+      "rank": 6,
+      "name": "Grzegorz Lato",
+      "value": 8
+    },
+    {
+      "rank": 7,
+      "name": "Karl-Heinz Rummenigge",
+      "value": 8
+    },
+    {
+      "rank": 8,
+      "name": "Roberto Baggio",
+      "value": 8
+    },
+    {
+      "rank": 9,
+      "name": "Thomas Müller",
+      "value": 8
+    },
+    {
+      "rank": 10,
+      "name": "Miroslav Klose",
+      "value": 8
+    }
+  ],
+  "accurateLongBalls": [
+    {
+      "rank": 1,
+      "name": "Lothar Matthäus",
+      "value": 153
+    },
+    {
+      "rank": 2,
+      "name": "Hugo Lloris",
+      "value": 138
+    },
+    {
+      "rank": 3,
+      "name": "Dunga",
+      "value": 134
+    },
+    {
+      "rank": 4,
+      "name": "Fernando Muslera",
+      "value": 120
+    },
+    {
+      "rank": 5,
+      "name": "Wolfgang Overath",
+      "value": 119
+    },
+    {
+      "rank": 6,
+      "name": "Xabi Alonso",
+      "value": 114
+    },
+    {
+      "rank": 7,
+      "name": "Javier Mascherano",
+      "value": 111
+    },
+    {
+      "rank": 8,
+      "name": "David Seaman",
+      "value": 110
+    },
+    {
+      "rank": 9,
+      "name": "Fabien Barthez",
+      "value": 107
+    },
+    {
+      "rank": 10,
+      "name": "Rafael Márquez",
+      "value": 105
+    }
+  ],
+  "clearances": [
+    {
+      "rank": 1,
+      "name": "Fabio Cannavaro",
+      "value": 131
+    },
+    {
+      "rank": 2,
+      "name": "Gaetano Scirea",
+      "value": 125
+    },
+    {
+      "rank": 3,
+      "name": "Władysław Żmuda",
+      "value": 124
+    },
+    {
+      "rank": 4,
+      "name": "Paolo Maldini",
+      "value": 116
+    },
+    {
+      "rank": 5,
+      "name": "Per Mertesacker",
+      "value": 110
+    },
+    {
+      "rank": 6,
+      "name": "Carlos Alberto Gamarra Pavón",
+      "value": 106
+    },
+    {
+      "rank": 7,
+      "name": "Diego Godín",
+      "value": 103
+    },
+    {
+      "rank": 8,
+      "name": "Lúcio",
+      "value": 99
+    },
+    {
+      "rank": 9,
+      "name": "Celso Ayala",
+      "value": 99
+    },
+    {
+      "rank": 10,
+      "name": "Oscar",
+      "value": 96
+    }
+  ],
+  "dispossessed": [
+    {
+      "rank": 1,
+      "name": "Lionel Messi",
+      "value": 86
+    },
+    {
+      "rank": 2,
+      "name": "Diego Armando Maradona",
+      "value": 70
+    },
+    {
+      "rank": 3,
+      "name": "Jairzinho",
+      "value": 54
+    },
+    {
+      "rank": 4,
+      "name": "Neymar",
+      "value": 51
+    },
+    {
+      "rank": 5,
+      "name": "Carlos Valderrama",
+      "value": 37
+    },
+    {
+      "rank": 6,
+      "name": "Cristiano Ronaldo",
+      "value": 36
+    },
+    {
+      "rank": 7,
+      "name": "Karl-Heinz Rummenigge",
+      "value": 35
+    },
+    {
+      "rank": 8,
+      "name": "Youri Djorkaeff",
+      "value": 34
+    },
+    {
+      "rank": 9,
+      "name": "Ronaldo Nazário",
+      "value": 34
+    },
+    {
+      "rank": 10,
+      "name": "Miroslav Klose",
+      "value": 34
+    }
+  ],
+  "possessionLost": [
+    {
+      "rank": 1,
+      "name": "Diego Armando Maradona",
+      "value": 536
+    },
+    {
+      "rank": 2,
+      "name": "Lionel Messi",
+      "value": 492
+    },
+    {
+      "rank": 3,
+      "name": "Wolfgang Overath",
+      "value": 331
+    },
+    {
+      "rank": 4,
+      "name": "Gheorghe Hagi",
+      "value": 324
+    },
+    {
+      "rank": 5,
+      "name": "Cafú",
+      "value": 322
+    },
+    {
+      "rank": 6,
+      "name": "Neymar",
+      "value": 316
+    },
+    {
+      "rank": 7,
+      "name": "Dunga",
+      "value": 315
+    },
+    {
+      "rank": 8,
+      "name": "Jairzinho",
+      "value": 314
+    },
+    {
+      "rank": 9,
+      "name": "Bastian Schweinsteiger",
+      "value": 308
+    },
+    {
+      "rank": 10,
+      "name": "Enzo Scifo",
+      "value": 302
+    }
+  ],
+  "possessionWonAttThird": [
+    {
+      "rank": 1,
+      "name": "Johan Cruyff",
+      "value": 18
+    },
+    {
+      "rank": 2,
+      "name": "Cristiano Ronaldo",
+      "value": 15
+    },
+    {
+      "rank": 3,
+      "name": "Neymar",
+      "value": 14
+    },
+    {
+      "rank": 4,
+      "name": "Lionel Messi",
+      "value": 14
+    },
+    {
+      "rank": 5,
+      "name": "Mesut Özil",
+      "value": 14
+    },
+    {
+      "rank": 6,
+      "name": "Luis Suárez",
+      "value": 14
+    },
+    {
+      "rank": 7,
+      "name": "Ji-Sung Park",
+      "value": 13
+    },
+    {
+      "rank": 8,
+      "name": "Eden Hazard",
+      "value": 13
+    },
+    {
+      "rank": 9,
+      "name": "Rob Rensenbrink",
+      "value": 12
+    },
+    {
+      "rank": 10,
+      "name": "Lothar Matthäus",
+      "value": 12
+    }
+  ],
+  "totalChippedPasses": [
+    {
+      "rank": 1,
+      "name": "Dunga",
+      "value": 220
+    },
+    {
+      "rank": 2,
+      "name": "Lothar Matthäus",
+      "value": 206
+    },
+    {
+      "rank": 3,
+      "name": "Enzo Scifo",
+      "value": 179
+    },
+    {
+      "rank": 4,
+      "name": "Wolfgang Overath",
+      "value": 169
+    },
+    {
+      "rank": 5,
+      "name": "Javier Mascherano",
+      "value": 154
+    },
+    {
+      "rank": 6,
+      "name": "Franz Beckenbauer",
+      "value": 153
+    },
+    {
+      "rank": 7,
+      "name": "Diego Armando Maradona",
+      "value": 150
+    },
+    {
+      "rank": 8,
+      "name": "Michel Platini",
+      "value": 142
+    },
+    {
+      "rank": 9,
+      "name": "Rafael Márquez",
+      "value": 141
+    },
+    {
+      "rank": 10,
+      "name": "Andrea Pirlo",
+      "value": 131
+    }
+  ],
+  "accurateChippedPasses": [
+    {
+      "rank": 1,
+      "name": "Dunga",
+      "value": 144
+    },
+    {
+      "rank": 2,
+      "name": "Lothar Matthäus",
+      "value": 130
+    },
+    {
+      "rank": 3,
+      "name": "Enzo Scifo",
+      "value": 113
+    },
+    {
+      "rank": 4,
+      "name": "Javier Mascherano",
+      "value": 106
+    },
+    {
+      "rank": 5,
+      "name": "Wolfgang Overath",
+      "value": 103
+    },
+    {
+      "rank": 6,
+      "name": "Franz Beckenbauer",
+      "value": 94
+    },
+    {
+      "rank": 7,
+      "name": "Michel Platini",
+      "value": 93
+    },
+    {
+      "rank": 8,
+      "name": "Andrea Pirlo",
+      "value": 86
+    },
+    {
+      "rank": 9,
+      "name": "Rafael Márquez",
+      "value": 86
+    },
+    {
+      "rank": 10,
+      "name": "Luka Modrić",
+      "value": 79
+    }
+  ],
+  "touches": [
+    {
+      "rank": 1,
+      "name": "Dunga",
+      "value": 1951
+    },
+    {
+      "rank": 2,
+      "name": "Lionel Messi",
+      "value": 1931
+    },
+    {
+      "rank": 3,
+      "name": "Philipp Lahm",
+      "value": 1806
+    },
+    {
+      "rank": 4,
+      "name": "Lothar Matthäus",
+      "value": 1751
+    },
+    {
+      "rank": 5,
+      "name": "Javier Mascherano",
+      "value": 1735
+    },
+    {
+      "rank": 6,
+      "name": "Diego Armando Maradona",
+      "value": 1688
+    },
+    {
+      "rank": 7,
+      "name": "Bastian Schweinsteiger",
+      "value": 1662
+    },
+    {
+      "rank": 8,
+      "name": "Sergio Ramos",
+      "value": 1660
+    },
+    {
+      "rank": 9,
+      "name": "Wolfgang Overath",
+      "value": 1618
+    },
+    {
+      "rank": 10,
+      "name": "Franz Beckenbauer",
+      "value": 1536
+    }
+  ],
+  "wasFouled": [
+    {
+      "rank": 1,
+      "name": "Diego Armando Maradona",
+      "value": 157
+    },
+    {
+      "rank": 2,
+      "name": "Lionel Messi",
+      "value": 74
+    },
+    {
+      "rank": 3,
+      "name": "Jairzinho",
+      "value": 65
+    },
+    {
+      "rank": 4,
+      "name": "Neymar",
+      "value": 60
+    },
+    {
+      "rank": 5,
+      "name": "Cristiano Ronaldo",
+      "value": 60
+    },
+    {
+      "rank": 6,
+      "name": "Gheorghe Hagi",
+      "value": 57
+    },
+    {
+      "rank": 7,
+      "name": "Ariel Arnaldo Ortega",
+      "value": 56
+    },
+    {
+      "rank": 8,
+      "name": "Lothar Matthäus",
+      "value": 51
+    },
+    {
+      "rank": 9,
+      "name": "Roberto Baggio",
+      "value": 51
+    },
+    {
+      "rank": 10,
+      "name": "Mario Alberto Kempes",
+      "value": 47
+    }
+  ],
+  "fouls": [
+    {
+      "rank": 1,
+      "name": "Miroslav Klose",
+      "value": 49
+    },
+    {
+      "rank": 2,
+      "name": "Javier Mascherano",
+      "value": 48
+    },
+    {
+      "rank": 3,
+      "name": "Władysław Żmuda",
+      "value": 45
+    },
+    {
+      "rank": 4,
+      "name": "Manuel Amoros",
+      "value": 45
+    },
+    {
+      "rank": 5,
+      "name": "Cafú",
+      "value": 45
+    },
+    {
+      "rank": 6,
+      "name": "Jairzinho",
+      "value": 43
+    },
+    {
+      "rank": 7,
+      "name": "Robin van Persie",
+      "value": 42
+    },
+    {
+      "rank": 8,
+      "name": "Claudio Gentile",
+      "value": 42
+    },
+    {
+      "rank": 9,
+      "name": "Enzo Scifo",
+      "value": 42
+    },
+    {
+      "rank": 10,
+      "name": "Diego Armando Maradona",
+      "value": 41
+    }
+  ],
+  "hitWoodwork": [
+    {
+      "rank": 1,
+      "name": "Cristiano Ronaldo",
+      "value": 5
+    },
+    {
+      "rank": 2,
+      "name": "Roberto Bettega",
+      "value": 4
+    },
+    {
+      "rank": 3,
+      "name": "Asamoah Gyan",
+      "value": 4
+    },
+    {
+      "rank": 4,
+      "name": "Lionel Messi",
+      "value": 3
+    },
+    {
+      "rank": 5,
+      "name": "Uwe Seeler",
+      "value": 3
+    },
+    {
+      "rank": 6,
+      "name": "Gerd Müller",
+      "value": 3
+    },
+    {
+      "rank": 7,
+      "name": "Karl-Heinz Rummenigge",
+      "value": 3
+    },
+    {
+      "rank": 8,
+      "name": "Zbigniew Boniek",
+      "value": 3
+    },
+    {
+      "rank": 9,
+      "name": "Careca",
+      "value": 3
+    },
+    {
+      "rank": 10,
+      "name": "Oliver Bierhoff",
+      "value": 3
+    }
+  ],
+  "dribbledPast": [
+    {
+      "rank": 1,
+      "name": "Dunga",
+      "value": 51
+    },
+    {
+      "rank": 2,
+      "name": "Dirceu",
+      "value": 43
+    },
+    {
+      "rank": 3,
+      "name": "Franky Van der Elst",
+      "value": 42
+    },
+    {
+      "rank": 4,
+      "name": "Henryk Kasperczak",
+      "value": 41
+    },
+    {
+      "rank": 5,
+      "name": "Javier Mascherano",
+      "value": 37
+    },
+    {
+      "rank": 6,
+      "name": "Wolfgang Overath",
+      "value": 36
+    },
+    {
+      "rank": 7,
+      "name": "Kazimierz Deyna",
+      "value": 36
+    },
+    {
+      "rank": 8,
+      "name": "Jean Tigana",
+      "value": 35
+    },
+    {
+      "rank": 9,
+      "name": "Grzegorz Lato",
+      "value": 33
+    },
+    {
+      "rank": 10,
+      "name": "César Cueto",
+      "value": 33
+    }
+  ],
+  "offsides": [
+    {
+      "rank": 1,
+      "name": "Rudi Völler",
+      "value": 34
+    },
+    {
+      "rank": 2,
+      "name": "Julio Salinas",
+      "value": 31
+    },
+    {
+      "rank": 3,
+      "name": "Gary Lineker",
+      "value": 28
+    },
+    {
+      "rank": 4,
+      "name": "Ronaldo Nazário",
+      "value": 27
+    },
+    {
+      "rank": 5,
+      "name": "Robin van Persie",
+      "value": 25
+    },
+    {
+      "rank": 6,
+      "name": "Thierry Henry",
+      "value": 24
+    },
+    {
+      "rank": 7,
+      "name": "Gerd Müller",
+      "value": 22
+    },
+    {
+      "rank": 8,
+      "name": "Rob Rensenbrink",
+      "value": 22
+    },
+    {
+      "rank": 9,
+      "name": "Christian Vieri",
+      "value": 21
+    },
+    {
+      "rank": 10,
+      "name": "Diego Armando Maradona",
+      "value": 21
+    }
+  ],
+  "blockedShots": [
+    {
+      "rank": 1,
+      "name": "Cristiano Ronaldo",
+      "value": 29
+    },
+    {
+      "rank": 2,
+      "name": "Franz Beckenbauer",
+      "value": 24
+    },
+    {
+      "rank": 3,
+      "name": "Lionel Messi",
+      "value": 23
+    },
+    {
+      "rank": 4,
+      "name": "Zbigniew Boniek",
+      "value": 22
+    },
+    {
+      "rank": 5,
+      "name": "Ángel Di María",
+      "value": 21
+    },
+    {
+      "rank": 6,
+      "name": "Luigi Riva",
+      "value": 20
+    },
+    {
+      "rank": 7,
+      "name": "Wesley Sneijder",
+      "value": 16
+    },
+    {
+      "rank": 8,
+      "name": "Uwe Seeler",
+      "value": 15
+    },
+    {
+      "rank": 9,
+      "name": "Michel Platini",
+      "value": 15
+    },
+    {
+      "rank": 10,
+      "name": "Lothar Matthäus",
+      "value": 15
+    }
+  ],
+  "cleanSheet": [
+    {
+      "rank": 1,
+      "name": "Paolo Maldini",
+      "value": 11
+    },
+    {
+      "rank": 2,
+      "name": "Władysław Żmuda",
+      "value": 10
+    },
+    {
+      "rank": 3,
+      "name": "Grzegorz Lato",
+      "value": 10
+    },
+    {
+      "rank": 4,
+      "name": "Peter Shilton",
+      "value": 10
+    },
+    {
+      "rank": 5,
+      "name": "Philipp Lahm",
+      "value": 10
+    },
+    {
+      "rank": 6,
+      "name": "Lilian Thuram",
+      "value": 10
+    },
+    {
+      "rank": 7,
+      "name": "Fabien Barthez",
+      "value": 10
+    },
+    {
+      "rank": 8,
+      "name": "Lionel Messi",
+      "value": 9
+    },
+    {
+      "rank": 9,
+      "name": "Hans-Hubert Vogts",
+      "value": 9
+    },
+    {
+      "rank": 10,
+      "name": "Fabio Cannavaro",
+      "value": 9
+    }
+  ],
+  "goalsConcededInsideTheBox": [
+    {
+      "rank": 1,
+      "name": "Lionel Messi",
+      "value": 25
+    },
+    {
+      "rank": 2,
+      "name": "Hussein Al Sulaimani",
+      "value": 23
+    },
+    {
+      "rank": 3,
+      "name": "Jan Ceulemans",
+      "value": 22
+    },
+    {
+      "rank": 4,
+      "name": "Myung-Bo Hong",
+      "value": 22
+    },
+    {
+      "rank": 5,
+      "name": "Enzo Scifo",
+      "value": 21
+    },
+    {
+      "rank": 6,
+      "name": "François Omam-Biyik",
+      "value": 21
+    },
+    {
+      "rank": 7,
+      "name": "Mohammed Al-Deayea",
+      "value": 21
+    },
+    {
+      "rank": 8,
+      "name": "Javier Mascherano",
+      "value": 20
+    },
+    {
+      "rank": 9,
+      "name": "Stephen Tataw Eta",
+      "value": 20
+    },
+    {
+      "rank": 10,
+      "name": "Lothar Matthäus",
+      "value": 19
+    }
+  ],
+  "goalsConcededOutsideTheBox": [
+    {
+      "rank": 1,
+      "name": "Dino Zoff",
+      "value": 8
+    },
+    {
+      "rank": 2,
+      "name": "Antonio Cabrini",
+      "value": 8
+    },
+    {
+      "rank": 3,
+      "name": "Gaetano Scirea",
+      "value": 8
+    },
+    {
+      "rank": 4,
+      "name": "Claudio Gentile",
+      "value": 7
+    },
+    {
+      "rank": 5,
+      "name": "Alan Rough",
+      "value": 6
+    },
+    {
+      "rank": 6,
+      "name": "Andoni Zubizarreta",
+      "value": 6
+    },
+    {
+      "rank": 7,
+      "name": "Jürgen Klinsmann",
+      "value": 6
+    },
+    {
+      "rank": 8,
+      "name": "Luka Modrić",
+      "value": 6
+    },
+    {
+      "rank": 9,
+      "name": "Jurgen Kohler",
+      "value": 6
+    },
+    {
+      "rank": 10,
+      "name": "Ivan Perišić",
+      "value": 6
+    }
+  ],
+  "matchesStarted": [
+    {
+      "rank": 1,
+      "name": "Lionel Messi",
+      "value": 24
+    },
+    {
+      "rank": 2,
+      "name": "Paolo Maldini",
+      "value": 23
+    },
+    {
+      "rank": 3,
+      "name": "Lothar Matthäus",
+      "value": 22
+    },
+    {
+      "rank": 4,
+      "name": "Miroslav Klose",
+      "value": 22
+    },
+    {
+      "rank": 5,
+      "name": "Diego Armando Maradona",
+      "value": 21
+    },
+    {
+      "rank": 6,
+      "name": "Javier Mascherano",
+      "value": 20
+    },
+    {
+      "rank": 7,
+      "name": "Władysław Żmuda",
+      "value": 20
+    },
+    {
+      "rank": 8,
+      "name": "Grzegorz Lato",
+      "value": 20
+    },
+    {
+      "rank": 9,
+      "name": "Philipp Lahm",
+      "value": 20
+    },
+    {
+      "rank": 10,
+      "name": "Cristiano Ronaldo",
+      "value": 20
+    }
+  ],
+  "penaltyConversion": [
+    {
+      "rank": 1,
+      "name": "Cristiano Ronaldo",
+      "value": 250
+    },
+    {
+      "rank": 2,
+      "name": "Neymar",
+      "value": 200
+    },
+    {
+      "rank": 3,
+      "name": "Daniel Passarella",
+      "value": 200
+    },
+    {
+      "rank": 4,
+      "name": "Lothar Matthäus",
+      "value": 200
+    },
+    {
+      "rank": 5,
+      "name": "Roberto Baggio",
+      "value": 200
+    },
+    {
+      "rank": 6,
+      "name": "Fernando Hierro",
+      "value": 200
+    },
+    {
+      "rank": 7,
+      "name": "Alberto Garcia Aspe",
+      "value": 200
+    },
+    {
+      "rank": 8,
+      "name": "Sami Al Jaber",
+      "value": 200
+    },
+    {
+      "rank": 9,
+      "name": "Gabriel Batistuta",
+      "value": 200
+    },
+    {
+      "rank": 10,
+      "name": "Mile Jedinak",
+      "value": 200
+    }
+  ],
+  "setPieceConversion": [
+    {
+      "rank": 1,
+      "name": "Téofilo Cubillas",
+      "value": 133.333333333333
+    },
+    {
+      "rank": 2,
+      "name": "Hristo Bonev",
+      "value": 100
+    },
+    {
+      "rank": 3,
+      "name": "Branko Oblak",
+      "value": 100
+    },
+    {
+      "rank": 4,
+      "name": "Dirceu",
+      "value": 100
+    },
+    {
+      "rank": 5,
+      "name": "John Robertson",
+      "value": 100
+    },
+    {
+      "rank": 6,
+      "name": "Reinhold Hintermaier",
+      "value": 100
+    },
+    {
+      "rank": 7,
+      "name": "Patrick Vervoort",
+      "value": 100
+    },
+    {
+      "rank": 8,
+      "name": "Ilie Dumitrescu",
+      "value": 100
+    },
+    {
+      "rank": 9,
+      "name": "Kwan Hwangbo",
+      "value": 100
+    },
+    {
+      "rank": 10,
+      "name": "Seok-Ju Ha",
+      "value": 100
+    }
+  ],
+  "totalAttemptAssist": [
+    {
+      "rank": 1,
+      "name": "Lionel Messi",
+      "value": 74
+    },
+    {
+      "rank": 2,
+      "name": "Diego Armando Maradona",
+      "value": 71
+    },
+    {
+      "rank": 3,
+      "name": "Wolfgang Overath",
+      "value": 62
+    },
+    {
+      "rank": 4,
+      "name": "Lothar Matthäus",
+      "value": 54
+    },
+    {
+      "rank": 5,
+      "name": "Alain Giresse",
+      "value": 51
+    },
+    {
+      "rank": 6,
+      "name": "Kazimierz Deyna",
+      "value": 48
+    },
+    {
+      "rank": 7,
+      "name": "Mesut Özil",
+      "value": 48
+    },
+    {
+      "rank": 8,
+      "name": "Xavi",
+      "value": 44
+    },
+    {
+      "rank": 9,
+      "name": "Michel Platini",
+      "value": 43
+    },
+    {
+      "rank": 10,
+      "name": "Thomas Müller",
+      "value": 43
+    }
+  ],
+  "totalContest": [
+    {
+      "rank": 1,
+      "name": "Lionel Messi",
+      "value": 188
+    },
+    {
+      "rank": 2,
+      "name": "Diego Armando Maradona",
+      "value": 182
+    },
+    {
+      "rank": 3,
+      "name": "Jairzinho",
+      "value": 142
+    },
+    {
+      "rank": 4,
+      "name": "Mario Alberto Kempes",
+      "value": 100
+    },
+    {
+      "rank": 5,
+      "name": "Pierre Littbarski",
+      "value": 95
+    },
+    {
+      "rank": 6,
+      "name": "Kylian Mbappé",
+      "value": 95
+    },
+    {
+      "rank": 7,
+      "name": "Neymar",
+      "value": 86
+    },
+    {
+      "rank": 8,
+      "name": "Enzo Scifo",
+      "value": 85
+    },
+    {
+      "rank": 9,
+      "name": "Arjen Robben",
+      "value": 85
+    },
+    {
+      "rank": 10,
+      "name": "Cristiano Ronaldo",
+      "value": 84
+    }
+  ],
+  "totalCross": [
+    {
+      "rank": 1,
+      "name": "Frank Vercauteren",
+      "value": 112
+    },
+    {
+      "rank": 2,
+      "name": "David Beckham",
+      "value": 109
+    },
+    {
+      "rank": 3,
+      "name": "Diego Armando Maradona",
+      "value": 107
+    },
+    {
+      "rank": 4,
+      "name": "Ángel Di María",
+      "value": 105
+    },
+    {
+      "rank": 5,
+      "name": "Andreas Brehme",
+      "value": 99
+    },
+    {
+      "rank": 6,
+      "name": "Pierre Littbarski",
+      "value": 89
+    },
+    {
+      "rank": 7,
+      "name": "Manfred Kaltz",
+      "value": 88
+    },
+    {
+      "rank": 8,
+      "name": "Francisco Arce",
+      "value": 87
+    },
+    {
+      "rank": 9,
+      "name": "Luka Modrić",
+      "value": 83
+    },
+    {
+      "rank": 10,
+      "name": "Thomas Häßler",
+      "value": 82
+    }
+  ],
+  "duelLost": [
+    {
+      "rank": 1,
+      "name": "Diego Armando Maradona",
+      "value": 228
+    },
+    {
+      "rank": 2,
+      "name": "Lionel Messi",
+      "value": 219
+    },
+    {
+      "rank": 3,
+      "name": "Miroslav Klose",
+      "value": 203
+    },
+    {
+      "rank": 4,
+      "name": "Jairzinho",
+      "value": 186
+    },
+    {
+      "rank": 5,
+      "name": "Grzegorz Lato",
+      "value": 162
+    },
+    {
+      "rank": 6,
+      "name": "Henrik Larsson",
+      "value": 145
+    },
+    {
+      "rank": 7,
+      "name": "Mario Alberto Kempes",
+      "value": 136
+    },
+    {
+      "rank": 8,
+      "name": "Neymar",
+      "value": 132
+    },
+    {
+      "rank": 9,
+      "name": "Cristiano Ronaldo",
+      "value": 131
+    },
+    {
+      "rank": 10,
+      "name": "Robin van Persie",
+      "value": 130
+    }
+  ],
+  "aerialLost": [
+    {
+      "rank": 1,
+      "name": "Asamoah Gyan",
+      "value": 79
+    },
+    {
+      "rank": 2,
+      "name": "Miroslav Klose",
+      "value": 79
+    },
+    {
+      "rank": 3,
+      "name": "Brian McBride",
+      "value": 78
+    },
+    {
+      "rank": 4,
+      "name": "Henrik Larsson",
+      "value": 72
+    },
+    {
+      "rank": 5,
+      "name": "Christian Vieri",
+      "value": 65
+    },
+    {
+      "rank": 6,
+      "name": "François Omam-Biyik",
+      "value": 57
+    },
+    {
+      "rank": 7,
+      "name": "José Torres",
+      "value": 53
+    },
+    {
+      "rank": 8,
+      "name": "Chu-young Park",
+      "value": 52
+    },
+    {
+      "rank": 9,
+      "name": "Robin van Persie",
+      "value": 48
+    },
+    {
+      "rank": 10,
+      "name": "Thomas Müller",
+      "value": 47
+    }
+  ],
+  "totalLongBalls": [
+    {
+      "rank": 1,
+      "name": "Hugo Lloris",
+      "value": 341
+    },
+    {
+      "rank": 2,
+      "name": "Fabien Barthez",
+      "value": 310
+    },
+    {
+      "rank": 3,
+      "name": "Fernando Muslera",
+      "value": 297
+    },
+    {
+      "rank": 4,
+      "name": "Keylor Navas",
+      "value": 262
+    },
+    {
+      "rank": 5,
+      "name": "José Luis Chilavert",
+      "value": 256
+    },
+    {
+      "rank": 6,
+      "name": "David Seaman",
+      "value": 252
+    },
+    {
+      "rank": 7,
+      "name": "Manuel Neuer",
+      "value": 251
+    },
+    {
+      "rank": 8,
+      "name": "Pat Bonner",
+      "value": 246
+    },
+    {
+      "rank": 9,
+      "name": "Lothar Matthäus",
+      "value": 232
+    },
+    {
+      "rank": 10,
+      "name": "Lee Woon-Jae",
+      "value": 232
+    }
+  ],
+  "goalsConceded": [
+    {
+      "rank": 1,
+      "name": "Lionel Messi",
+      "value": 27
+    },
+    {
+      "rank": 2,
+      "name": "Myung-Bo Hong",
+      "value": 26
+    },
+    {
+      "rank": 3,
+      "name": "Hussein Al Sulaimani",
+      "value": 26
+    },
+    {
+      "rank": 4,
+      "name": "Mohammed Al-Deayea",
+      "value": 25
+    },
+    {
+      "rank": 5,
+      "name": "Jan Ceulemans",
+      "value": 24
+    },
+    {
+      "rank": 6,
+      "name": "Lothar Matthäus",
+      "value": 24
+    },
+    {
+      "rank": 7,
+      "name": "Enzo Scifo",
+      "value": 23
+    },
+    {
+      "rank": 8,
+      "name": "Javier Mascherano",
+      "value": 22
+    },
+    {
+      "rank": 9,
+      "name": "Téofilo Cubillas",
+      "value": 22
+    },
+    {
+      "rank": 10,
+      "name": "François Omam-Biyik",
+      "value": 22
+    }
+  ],
+  "tacklesWon": [
+    {
+      "rank": 1,
+      "name": "Dunga",
+      "value": 73
+    },
+    {
+      "rank": 2,
+      "name": "Lothar Matthäus",
+      "value": 65
+    },
+    {
+      "rank": 3,
+      "name": "Hans-Hubert Vogts",
+      "value": 57
+    },
+    {
+      "rank": 4,
+      "name": "Jorge Olguín",
+      "value": 49
+    },
+    {
+      "rank": 5,
+      "name": "Paolo Maldini",
+      "value": 48
+    },
+    {
+      "rank": 6,
+      "name": "Władysław Żmuda",
+      "value": 46
+    },
+    {
+      "rank": 7,
+      "name": "Maxime Bossis",
+      "value": 45
+    },
+    {
+      "rank": 8,
+      "name": "Manuel Amoros",
+      "value": 45
+    },
+    {
+      "rank": 9,
+      "name": "Javier Mascherano",
+      "value": 43
+    },
+    {
+      "rank": 10,
+      "name": "Wolfgang Overath",
+      "value": 43
+    }
+  ],
+  "scoringFrequency": [
+    {
+      "rank": 1,
+      "name": "Cristiano Ronaldo",
+      "value": 1495
+    },
+    {
+      "rank": 2,
+      "name": "Ji-Sung Park",
+      "value": 1264
+    },
+    {
+      "rank": 3,
+      "name": "Mesut Özil",
+      "value": 1240
+    },
+    {
+      "rank": 4,
+      "name": "Lothar Matthäus",
+      "value": 1184
+    },
+    {
+      "rank": 5,
+      "name": "Rafael Márquez",
+      "value": 1110
+    },
+    {
+      "rank": 6,
+      "name": "Daley Blind",
+      "value": 1094
+    },
+    {
+      "rank": 7,
+      "name": "Robin van Persie",
+      "value": 1073
+    },
+    {
+      "rank": 8,
+      "name": "David Beckham",
+      "value": 1028
+    },
+    {
+      "rank": 9,
+      "name": "Thiago Silva",
+      "value": 1020
+    },
+    {
+      "rank": 10,
+      "name": "Ivan Perišić",
+      "value": 1009.66666666667
+    }
+  ],
+  "totalOwnHalfPasses": [
+    {
+      "rank": 1,
+      "name": "Javier Mascherano",
+      "value": 675
+    },
+    {
+      "rank": 2,
+      "name": "Philipp Lahm",
+      "value": 641
+    },
+    {
+      "rank": 3,
+      "name": "John Stones",
+      "value": 627
+    },
+    {
+      "rank": 4,
+      "name": "Dejan Lovren",
+      "value": 627
+    },
+    {
+      "rank": 5,
+      "name": "Nicolás Otamendi",
+      "value": 621
+    },
+    {
+      "rank": 6,
+      "name": "Thiago Silva",
+      "value": 598
+    },
+    {
+      "rank": 7,
+      "name": "Dunga",
+      "value": 559
+    },
+    {
+      "rank": 8,
+      "name": "Per Mertesacker",
+      "value": 558
+    },
+    {
+      "rank": 9,
+      "name": "Sergio Ramos",
+      "value": 556
+    },
+    {
+      "rank": 10,
+      "name": "Sergio Busquets",
+      "value": 550
+    }
+  ],
+  "totalOppositionHalfPasses": [
+    {
+      "rank": 1,
+      "name": "Lionel Messi",
+      "value": 1008
+    },
+    {
+      "rank": 2,
+      "name": "Dunga",
+      "value": 991
+    },
+    {
+      "rank": 3,
+      "name": "Wolfgang Overath",
+      "value": 837
+    },
+    {
+      "rank": 4,
+      "name": "Bastian Schweinsteiger",
+      "value": 810
+    },
+    {
+      "rank": 5,
+      "name": "Lothar Matthäus",
+      "value": 766
+    },
+    {
+      "rank": 6,
+      "name": "Javier Mascherano",
+      "value": 751
+    },
+    {
+      "rank": 7,
+      "name": "Luka Modrić",
+      "value": 742
+    },
+    {
+      "rank": 8,
+      "name": "Franz Beckenbauer",
+      "value": 713
+    },
+    {
+      "rank": 9,
+      "name": "Sergio Busquets",
+      "value": 702
+    },
+    {
+      "rank": 10,
+      "name": "Mesut Özil",
+      "value": 689
+    }
+  ],
+  "ballRecovery": [
+    {
+      "rank": 1,
+      "name": "Dino Zoff",
+      "value": 398
+    },
+    {
+      "rank": 2,
+      "name": "Sepp Maier",
+      "value": 373
+    },
+    {
+      "rank": 3,
+      "name": "Peter Shilton",
+      "value": 364
+    },
+    {
+      "rank": 4,
+      "name": "Jan Jongbloed",
+      "value": 315
+    },
+    {
+      "rank": 5,
+      "name": "Jean-Marie Pfaff",
+      "value": 298
+    },
+    {
+      "rank": 6,
+      "name": "Andoni Zubizarreta",
+      "value": 283
+    },
+    {
+      "rank": 7,
+      "name": "Józef Młynarczyk",
+      "value": 269
+    },
+    {
+      "rank": 8,
+      "name": "Emerson Leão",
+      "value": 265
+    },
+    {
+      "rank": 9,
+      "name": "Ladislao Mazurkiewicz",
+      "value": 256
+    },
+    {
+      "rank": 10,
+      "name": "Friedrich Koncilia",
+      "value": 244
+    }
+  ],
+  "outfielderBlocks": [
+    {
+      "rank": 1,
+      "name": "Gaetano Scirea",
+      "value": 23
+    },
+    {
+      "rank": 2,
+      "name": "Fabio Cannavaro",
+      "value": 22
+    },
+    {
+      "rank": 3,
+      "name": "Carlos Alberto Gamarra Pavón",
+      "value": 17
+    },
+    {
+      "rank": 4,
+      "name": "Dimitar Penev",
+      "value": 16
+    },
+    {
+      "rank": 5,
+      "name": "Elías Ricardo Figueroa",
+      "value": 16
+    },
+    {
+      "rank": 6,
+      "name": "Björn Nordqvist",
+      "value": 16
+    },
+    {
+      "rank": 7,
+      "name": "Javier Mascherano",
+      "value": 15
+    },
+    {
+      "rank": 8,
+      "name": "Mohammed Al Khilaiwi",
+      "value": 15
+    },
+    {
+      "rank": 9,
+      "name": "Lúcio",
+      "value": 15
+    },
+    {
+      "rank": 10,
+      "name": "Willi Schulz",
+      "value": 14
+    }
+  ],
+  "appearances": [
+    {
+      "rank": 1,
+      "name": "Lionel Messi",
+      "value": 26
+    },
+    {
+      "rank": 2,
+      "name": "Lothar Matthäus",
+      "value": 25
+    },
+    {
+      "rank": 3,
+      "name": "Miroslav Klose",
+      "value": 24
+    },
+    {
+      "rank": 4,
+      "name": "Paolo Maldini",
+      "value": 23
+    },
+    {
+      "rank": 5,
+      "name": "Cristiano Ronaldo",
+      "value": 22
+    },
+    {
+      "rank": 6,
+      "name": "Władysław Żmuda",
+      "value": 21
+    },
+    {
+      "rank": 7,
+      "name": "Diego Armando Maradona",
+      "value": 21
+    },
+    {
+      "rank": 8,
+      "name": "Javier Mascherano",
+      "value": 20
+    },
+    {
+      "rank": 9,
+      "name": "Grzegorz Lato",
+      "value": 20
+    },
+    {
+      "rank": 10,
+      "name": "Philipp Lahm",
+      "value": 20
+    }
+  ],
+  "penaltyConceded": [
+    {
+      "rank": 1,
+      "name": "Milan Dudić",
+      "value": 2
+    },
+    {
+      "rank": 2,
+      "name": "Yussuf Poulsen",
+      "value": 2
+    },
+    {
+      "rank": 3,
+      "name": "Héctor Chumpitaz",
+      "value": 2
+    },
+    {
+      "rank": 4,
+      "name": "Jerzy Gorgoń",
+      "value": 2
+    },
+    {
+      "rank": 5,
+      "name": "Nasrollah Abdollahi",
+      "value": 2
+    },
+    {
+      "rank": 6,
+      "name": "Pierre Issa",
+      "value": 2
+    },
+    {
+      "rank": 7,
+      "name": "Alessandro Costacurta",
+      "value": 2
+    },
+    {
+      "rank": 8,
+      "name": "Carlos Sánchez",
+      "value": 2
+    },
+    {
+      "rank": 9,
+      "name": "Héctor Moreno",
+      "value": 2
+    },
+    {
+      "rank": 10,
+      "name": "Rafael Márquez",
+      "value": 2
+    }
+  ],
+  "passToAssist": [
+    {
+      "rank": 1,
+      "name": "Pável Pardo Segura",
+      "value": 2
+    },
+    {
+      "rank": 2,
+      "name": "Jairzinho",
+      "value": 2
+    },
+    {
+      "rank": 3,
+      "name": "Andreas Brehme",
+      "value": 2
+    },
+    {
+      "rank": 4,
+      "name": "Arjen Robben",
+      "value": 2
+    },
+    {
+      "rank": 5,
+      "name": "Robert Pires",
+      "value": 2
+    },
+    {
+      "rank": 6,
+      "name": "Ulises de la Cruz",
+      "value": 2
+    },
+    {
+      "rank": 7,
+      "name": "Jude Bellingham",
+      "value": 2
+    },
+    {
+      "rank": 8,
+      "name": "Lasse Schöne",
+      "value": 1
+    },
+    {
+      "rank": 9,
+      "name": "Salomon Kalou",
+      "value": 1
+    },
+    {
+      "rank": 10,
+      "name": "Bacary Sagna",
+      "value": 1
+    }
+  ],
+  "substitutionsOut": [
+    {
+      "rank": 1,
+      "name": "Gonzalo Higuaín",
+      "value": 5
+    },
+    {
+      "rank": 2,
+      "name": "Paulinho",
+      "value": 4
+    },
+    {
+      "rank": 3,
+      "name": "Yeltsin Tejeda",
+      "value": 4
+    },
+    {
+      "rank": 4,
+      "name": "Mesut Özil",
+      "value": 4
+    },
+    {
+      "rank": 5,
+      "name": "Mathieu Valbuena",
+      "value": 4
+    },
+    {
+      "rank": 6,
+      "name": "Ezequiel Lavezzi",
+      "value": 4
+    },
+    {
+      "rank": 7,
+      "name": "Hulk",
+      "value": 4
+    },
+    {
+      "rank": 8,
+      "name": "Oribe Peralta",
+      "value": 4
+    },
+    {
+      "rank": 9,
+      "name": "Josip Drmić",
+      "value": 3
+    },
+    {
+      "rank": 10,
+      "name": "Thomas Oar",
+      "value": 3
+    }
+  ],
+  "totwAppearances": [
+    {
+      "rank": 1,
+      "name": "Antoine Griezmann",
+      "value": 5
+    },
+    {
+      "rank": 2,
+      "name": "Eden Hazard",
+      "value": 4
+    },
+    {
+      "rank": 3,
+      "name": "Bruno Fernandes",
+      "value": 4
+    },
+    {
+      "rank": 4,
+      "name": "Kieran Trippier",
+      "value": 4
+    },
+    {
+      "rank": 5,
+      "name": "Lionel Messi",
+      "value": 3
+    },
+    {
+      "rank": 6,
+      "name": "Luka Modrić",
+      "value": 3
+    },
+    {
+      "rank": 7,
+      "name": "Thiago Silva",
+      "value": 3
+    },
+    {
+      "rank": 8,
+      "name": "Kylian Mbappé",
+      "value": 3
+    },
+    {
+      "rank": 9,
+      "name": "Marcelo Brozović",
+      "value": 2
+    },
+    {
+      "rank": 10,
+      "name": "John Stones",
+      "value": 2
+    }
+  ],
+  "errorLeadToShot": [
+    {
+      "rank": 1,
+      "name": "Luis Ubiña",
+      "value": 3
+    },
+    {
+      "rank": 2,
+      "name": "Christoph Metzelder",
+      "value": 3
+    },
+    {
+      "rank": 3,
+      "name": "Fabian Schär",
+      "value": 2
+    },
+    {
+      "rank": 4,
+      "name": "Róman Torres",
+      "value": 2
+    },
+    {
+      "rank": 5,
+      "name": "Valon Behrami",
+      "value": 2
+    },
+    {
+      "rank": 6,
+      "name": "Jorge Guagua",
+      "value": 2
+    },
+    {
+      "rank": 7,
+      "name": "Alex Song",
+      "value": 2
+    },
+    {
+      "rank": 8,
+      "name": "Cristian Riveros",
+      "value": 2
+    },
+    {
+      "rank": 9,
+      "name": "Kurt Axelsson",
+      "value": 2
+    },
+    {
+      "rank": 10,
+      "name": "Örjan Persson",
+      "value": 2
+    }
+  ],
+  "errorLeadToGoal": [
+    {
+      "rank": 1,
+      "name": "Mohammed Al-Deayea",
+      "value": 3
+    },
+    {
+      "rank": 2,
+      "name": "Mark Schwarzer",
+      "value": 3
+    },
+    {
+      "rank": 3,
+      "name": "Manuel Neuer",
+      "value": 3
+    },
+    {
+      "rank": 4,
+      "name": "Igor Akinfeev",
+      "value": 2
+    },
+    {
+      "rank": 5,
+      "name": "Antal Szentmihalyi",
+      "value": 2
+    },
+    {
+      "rank": 6,
+      "name": "József Gelei",
+      "value": 2
+    },
+    {
+      "rank": 7,
+      "name": "Raul Magana",
+      "value": 2
+    },
+    {
+      "rank": 8,
+      "name": "Kazadi Mwamba",
+      "value": 2
+    },
+    {
+      "rank": 9,
+      "name": "Daniel Carnevali",
+      "value": 2
+    },
+    {
+      "rank": 10,
+      "name": "Ramón Quiroga",
+      "value": 2
+    }
+  ],
+  "saves": [
+    {
+      "rank": 1,
+      "name": "Dino Zoff",
+      "value": 68
+    },
+    {
+      "rank": 2,
+      "name": "Sepp Maier",
+      "value": 65
+    },
+    {
+      "rank": 3,
+      "name": "Ramón Quiroga",
+      "value": 64
+    },
+    {
+      "rank": 4,
+      "name": "Andoni Zubizarreta",
+      "value": 62
+    },
+    {
+      "rank": 5,
+      "name": "Manuel Neuer",
+      "value": 61
+    },
+    {
+      "rank": 6,
+      "name": "Friedrich Koncilia",
+      "value": 59
+    },
+    {
+      "rank": 7,
+      "name": "Ronnie Hellström",
+      "value": 55
+    },
+    {
+      "rank": 8,
+      "name": "Peter Shilton",
+      "value": 54
+    },
+    {
+      "rank": 9,
+      "name": "Mohammed Al-Deayea",
+      "value": 54
+    },
+    {
+      "rank": 10,
+      "name": "Emerson Leão",
+      "value": 53
+    }
+  ],
+  "savedShotsFromInsideTheBox": [
+    {
+      "rank": 1,
+      "name": "Andoni Zubizarreta",
+      "value": 33
+    },
+    {
+      "rank": 2,
+      "name": "Manuel Neuer",
+      "value": 33
+    },
+    {
+      "rank": 3,
+      "name": "Mohammed Al-Deayea",
+      "value": 32
+    },
+    {
+      "rank": 4,
+      "name": "Ronnie Hellström",
+      "value": 30
+    },
+    {
+      "rank": 5,
+      "name": "Ramón Quiroga",
+      "value": 30
+    },
+    {
+      "rank": 6,
+      "name": "Richard Kingson",
+      "value": 28
+    },
+    {
+      "rank": 7,
+      "name": "Vincent Enyeama",
+      "value": 27
+    },
+    {
+      "rank": 8,
+      "name": "Gianluigi Buffon",
+      "value": 27
+    },
+    {
+      "rank": 9,
+      "name": "Dino Zoff",
+      "value": 26
+    },
+    {
+      "rank": 10,
+      "name": "Keylor Navas",
+      "value": 26
+    }
+  ],
+  "savedShotsFromOutsideTheBox": [
+    {
+      "rank": 1,
+      "name": "Dino Zoff",
+      "value": 42
+    },
+    {
+      "rank": 2,
+      "name": "Sepp Maier",
+      "value": 39
+    },
+    {
+      "rank": 3,
+      "name": "Józef Młynarczyk",
+      "value": 35
+    },
+    {
+      "rank": 4,
+      "name": "Friedrich Koncilia",
+      "value": 34
+    },
+    {
+      "rank": 5,
+      "name": "Ramón Quiroga",
+      "value": 33
+    },
+    {
+      "rank": 6,
+      "name": "Peter Shilton",
+      "value": 33
+    },
+    {
+      "rank": 7,
+      "name": "Ubaldo Fillol",
+      "value": 32
+    },
+    {
+      "rank": 8,
+      "name": "Ladislao Mazurkiewicz",
+      "value": 30
+    },
+    {
+      "rank": 9,
+      "name": "Rinat Dasayev",
+      "value": 30
+    },
+    {
+      "rank": 10,
+      "name": "Emerson Leão",
+      "value": 29
+    }
+  ],
+  "punches": [
+    {
+      "rank": 1,
+      "name": "Hans Tilkowski",
+      "value": 16
+    },
+    {
+      "rank": 2,
+      "name": "Gordon Banks",
+      "value": 14
+    },
+    {
+      "rank": 3,
+      "name": "Enrico Albertosi",
+      "value": 14
+    },
+    {
+      "rank": 4,
+      "name": "Jan Jongbloed",
+      "value": 14
+    },
+    {
+      "rank": 5,
+      "name": "Gianluigi Buffon",
+      "value": 13
+    },
+    {
+      "rank": 6,
+      "name": "Enver Maric",
+      "value": 12
+    },
+    {
+      "rank": 7,
+      "name": "Jack Reilly",
+      "value": 12
+    },
+    {
+      "rank": 8,
+      "name": "Sergio Romero",
+      "value": 12
+    },
+    {
+      "rank": 9,
+      "name": "Marcos",
+      "value": 12
+    },
+    {
+      "rank": 10,
+      "name": "Fabien Barthez",
+      "value": 11
+    }
+  ],
+  "highClaims": [
+    {
+      "rank": 1,
+      "name": "Sepp Maier",
+      "value": 48
+    },
+    {
+      "rank": 2,
+      "name": "Dino Zoff",
+      "value": 29
+    },
+    {
+      "rank": 3,
+      "name": "Rinat Dasayev",
+      "value": 27
+    },
+    {
+      "rank": 4,
+      "name": "Ladislao Mazurkiewicz",
+      "value": 26
+    },
+    {
+      "rank": 5,
+      "name": "Taffarel",
+      "value": 24
+    },
+    {
+      "rank": 6,
+      "name": "Jan Tomaszewski",
+      "value": 21
+    },
+    {
+      "rank": 7,
+      "name": "Gianluca Pagliuca",
+      "value": 21
+    },
+    {
+      "rank": 8,
+      "name": "Fernando Muslera",
+      "value": 21
+    },
+    {
+      "rank": 9,
+      "name": "Andoni Zubizarreta",
+      "value": 20
+    },
+    {
+      "rank": 10,
+      "name": "Pablo Larios",
+      "value": 20
+    }
+  ],
+  "savesParried": [
+    {
+      "rank": 1,
+      "name": "Vincent Enyeama",
+      "value": 17
+    },
+    {
+      "rank": 2,
+      "name": "Hugo Lloris",
+      "value": 14
+    },
+    {
+      "rank": 3,
+      "name": "Friedrich Koncilia",
+      "value": 13
+    },
+    {
+      "rank": 4,
+      "name": "Andoni Zubizarreta",
+      "value": 13
+    },
+    {
+      "rank": 5,
+      "name": "Sepp Maier",
+      "value": 12
+    },
+    {
+      "rank": 6,
+      "name": "Ronnie Hellström",
+      "value": 12
+    },
+    {
+      "rank": 7,
+      "name": "Ubaldo Fillol",
+      "value": 12
+    },
+    {
+      "rank": 8,
+      "name": "Jean-Marie Pfaff",
+      "value": 12
+    },
+    {
+      "rank": 9,
+      "name": "Michel Preud'homme",
+      "value": 12
+    },
+    {
+      "rank": 10,
+      "name": "Józef Młynarczyk",
+      "value": 11
+    }
+  ],
+  "goalKicks": [
+    {
+      "rank": 1,
+      "name": "Sepp Maier",
+      "value": 192
+    },
+    {
+      "rank": 2,
+      "name": "Dino Zoff",
+      "value": 190
+    },
+    {
+      "rank": 3,
+      "name": "Hugo Lloris",
+      "value": 186
+    },
+    {
+      "rank": 4,
+      "name": "Peter Shilton",
+      "value": 177
+    },
+    {
+      "rank": 5,
+      "name": "Fernando Muslera",
+      "value": 170
+    },
+    {
+      "rank": 6,
+      "name": "Manuel Neuer",
+      "value": 170
+    },
+    {
+      "rank": 7,
+      "name": "Thibaut Courtois",
+      "value": 149
+    },
+    {
+      "rank": 8,
+      "name": "Mohammed Al-Deayea",
+      "value": 148
+    },
+    {
+      "rank": 9,
+      "name": "Andoni Zubizarreta",
+      "value": 144
+    },
+    {
+      "rank": 10,
+      "name": "Enrico Albertosi",
+      "value": 142
+    }
+  ],
+  "penaltyFaced": [
+    {
+      "rank": 1,
+      "name": "Hugo Lloris",
+      "value": 6
+    },
+    {
+      "rank": 2,
+      "name": "Nasser Hejazi",
+      "value": 4
+    },
+    {
+      "rank": 3,
+      "name": "Kasper Schmeichel",
+      "value": 3
+    },
+    {
+      "rank": 4,
+      "name": "Stipe Pletikosa",
+      "value": 3
+    },
+    {
+      "rank": 5,
+      "name": "Li Chan-Myong",
+      "value": 3
+    },
+    {
+      "rank": 6,
+      "name": "Harald Schumacher",
+      "value": 3
+    },
+    {
+      "rank": 7,
+      "name": "Andoni Zubizarreta",
+      "value": 3
+    },
+    {
+      "rank": 8,
+      "name": "Tony Meola",
+      "value": 3
+    },
+    {
+      "rank": 9,
+      "name": "Ali Boumnijel",
+      "value": 3
+    },
+    {
+      "rank": 10,
+      "name": "Guillermo Ochoa",
+      "value": 3
+    }
+  ],
+  "runsOut": [
+    {
+      "rank": 1,
+      "name": "Manuel Neuer",
+      "value": 20
+    },
+    {
+      "rank": 2,
+      "name": "René Higuita",
+      "value": 19
+    },
+    {
+      "rank": 3,
+      "name": "Iker Casillas",
+      "value": 13
+    },
+    {
+      "rank": 4,
+      "name": "Andoni Zubizarreta",
+      "value": 12
+    },
+    {
+      "rank": 5,
+      "name": "Richard Kingson",
+      "value": 12
+    },
+    {
+      "rank": 6,
+      "name": "Jan Jongbloed",
+      "value": 10
+    },
+    {
+      "rank": 7,
+      "name": "Tony Sylva",
+      "value": 10
+    },
+    {
+      "rank": 8,
+      "name": "Borislav Mihaylov",
+      "value": 9
+    },
+    {
+      "rank": 9,
+      "name": "Fabien Barthez",
+      "value": 9
+    },
+    {
+      "rank": 10,
+      "name": "Hugo Lloris",
+      "value": 9
+    }
+  ],
+  "successfulRunsOut": [
+    {
+      "rank": 1,
+      "name": "Manuel Neuer",
+      "value": 19
+    },
+    {
+      "rank": 2,
+      "name": "René Higuita",
+      "value": 18
+    },
+    {
+      "rank": 3,
+      "name": "Iker Casillas",
+      "value": 12
+    },
+    {
+      "rank": 4,
+      "name": "Andoni Zubizarreta",
+      "value": 11
+    },
+    {
+      "rank": 5,
+      "name": "Richard Kingson",
+      "value": 10
+    },
+    {
+      "rank": 6,
+      "name": "Jan Jongbloed",
+      "value": 9
+    },
+    {
+      "rank": 7,
+      "name": "Tony Sylva",
+      "value": 9
+    },
+    {
+      "rank": 8,
+      "name": "Hugo Lloris",
+      "value": 9
+    },
+    {
+      "rank": 9,
+      "name": "Thomas Ravelli",
+      "value": 8
+    },
+    {
+      "rank": 10,
+      "name": "Pat Bonner",
+      "value": 8
+    }
+  ],
+  "savesCaught": [
+    {
+      "rank": 1,
+      "name": "Sepp Maier",
+      "value": 6
+    },
+    {
+      "rank": 2,
+      "name": "Henry Francillon",
+      "value": 5
+    },
+    {
+      "rank": 3,
+      "name": "Mohammed Al-Deayea",
+      "value": 4
+    },
+    {
+      "rank": 4,
+      "name": "Ladislao Mazurkiewicz",
+      "value": 3
+    },
+    {
+      "rank": 5,
+      "name": "Raul Magana",
+      "value": 2
+    },
+    {
+      "rank": 6,
+      "name": "Ramón Quiroga",
+      "value": 2
+    },
+    {
+      "rank": 7,
+      "name": "Rinat Dasayev",
+      "value": 2
+    },
+    {
+      "rank": 8,
+      "name": "Thomas N'Kono",
+      "value": 2
+    },
+    {
+      "rank": 9,
+      "name": "Mehdi Cerbah",
+      "value": 2
+    },
+    {
+      "rank": 10,
+      "name": "Karel Stromsik",
+      "value": 2
+    }
+  ],
+  "penaltyWon": [
+    {
+      "rank": 1,
+      "name": "Cristiano Ronaldo",
+      "value": 3
+    },
+    {
+      "rank": 2,
+      "name": "Henrik Larsson",
+      "value": 2
+    },
+    {
+      "rank": 3,
+      "name": "Bernd Hölzenbein",
+      "value": 2
+    },
+    {
+      "rank": 4,
+      "name": "Wim Jansen",
+      "value": 2
+    },
+    {
+      "rank": 5,
+      "name": "Johnny Rep",
+      "value": 2
+    },
+    {
+      "rank": 6,
+      "name": "Johan Cruyff",
+      "value": 2
+    },
+    {
+      "rank": 7,
+      "name": "Ladislav Vizek",
+      "value": 2
+    },
+    {
+      "rank": 8,
+      "name": "Nasko Sirakov",
+      "value": 2
+    },
+    {
+      "rank": 9,
+      "name": "Emilio Butragueño",
+      "value": 2
+    },
+    {
+      "rank": 10,
+      "name": "Igor Belanov",
+      "value": 2
+    }
+  ],
+  "substitutionsIn": [
+    {
+      "rank": 1,
+      "name": "Andre Schürrle",
+      "value": 6
+    },
+    {
+      "rank": 2,
+      "name": "Rodrigo Palacio",
+      "value": 5
+    },
+    {
+      "rank": 3,
+      "name": "Ramires",
+      "value": 5
+    },
+    {
+      "rank": 4,
+      "name": "Marcos Ureña",
+      "value": 4
+    },
+    {
+      "rank": 5,
+      "name": "Jose Cubero",
+      "value": 4
+    },
+    {
+      "rank": 6,
+      "name": "Lucas Biglia",
+      "value": 4
+    },
+    {
+      "rank": 7,
+      "name": "Willian",
+      "value": 4
+    },
+    {
+      "rank": 8,
+      "name": "Javier Hernández",
+      "value": 4
+    },
+    {
+      "rank": 9,
+      "name": "Ben Halloran",
+      "value": 3
+    },
+    {
+      "rank": 10,
+      "name": "Alexander Mejía",
+      "value": 3
+    }
+  ],
+  "penaltySave": [
+    {
+      "rank": 1,
+      "name": "Jan Tomaszewski",
+      "value": 2
+    },
+    {
+      "rank": 2,
+      "name": "Iker Casillas",
+      "value": 2
+    },
+    {
+      "rank": 3,
+      "name": "Wojciech Szczęsny",
+      "value": 2
+    },
+    {
+      "rank": 4,
+      "name": "Brad Friedel",
+      "value": 2
+    },
+    {
+      "rank": 5,
+      "name": "Kasper Schmeichel",
+      "value": 1
+    },
+    {
+      "rank": 6,
+      "name": "Justo Villar",
+      "value": 1
+    },
+    {
+      "rank": 7,
+      "name": "Vladimir Stojković",
+      "value": 1
+    },
+    {
+      "rank": 8,
+      "name": "Ubaldo Fillol",
+      "value": 1
+    },
+    {
+      "rank": 9,
+      "name": "Ramón Quiroga",
+      "value": 1
+    },
+    {
+      "rank": 10,
+      "name": "Joel Bats",
+      "value": 1
+    }
+  ],
+  "goalsPrevented": [
+    {
+      "rank": 1,
+      "name": "Dominik Livaković",
+      "value": 3.5245
+    },
+    {
+      "rank": 2,
+      "name": "Wojciech Szczęsny",
+      "value": 3.4076
+    },
+    {
+      "rank": 3,
+      "name": "Andries Noppert",
+      "value": 2.5296
+    },
+    {
+      "rank": 4,
+      "name": "Thibaut Courtois",
+      "value": 2.0559
+    },
+    {
+      "rank": 5,
+      "name": "Mohammed Al-Owais",
+      "value": 1.9548
+    },
+    {
+      "rank": 6,
+      "name": "Hugo Lloris",
+      "value": 1.7855
+    },
+    {
+      "rank": 7,
+      "name": "Shuichi Gonda",
+      "value": 1.5415
+    },
+    {
+      "rank": 8,
+      "name": "Aymen Dahmen",
+      "value": 1.389
+    },
+    {
+      "rank": 9,
+      "name": "Sergio Rochet",
+      "value": 1.1277
+    },
+    {
+      "rank": 10,
+      "name": "Devis Epassy",
+      "value": 0.9767
+    }
+  ],
+  "attemptPenaltyMiss": [
+    {
+      "rank": 1,
+      "name": "Harry Kane",
+      "value": 1
+    },
+    {
+      "rank": 2,
+      "name": "Omar Bravo",
+      "value": 1
+    },
+    {
+      "rank": 3,
+      "name": "Henrik Larsson",
+      "value": 1
+    },
+    {
+      "rank": 4,
+      "name": "Carlos Caszely",
+      "value": 1
+    },
+    {
+      "rank": 5,
+      "name": "Antonio Cabrini",
+      "value": 1
+    },
+    {
+      "rank": 6,
+      "name": "Vadim Yevtushenko",
+      "value": 1
+    },
+    {
+      "rank": 7,
+      "name": "Rubén Sosa",
+      "value": 1
+    },
+    {
+      "rank": 8,
+      "name": "Gylfi Sigurðsson",
+      "value": 1
+    },
+    {
+      "rank": 9,
+      "name": "Christian Cueva",
+      "value": 1
+    },
+    {
+      "rank": 10,
+      "name": "David Villa",
+      "value": 1
+    }
+  ],
+  "directRedCards": [
+    {
+      "rank": 1,
+      "name": "Rigobert Song",
+      "value": 2
+    },
+    {
+      "rank": 2,
+      "name": "Zinedine Zidane",
+      "value": 2
+    },
+    {
+      "rank": 3,
+      "name": "Thierry Henry",
+      "value": 1
+    },
+    {
+      "rank": 4,
+      "name": "Eric Wynalda",
+      "value": 1
+    },
+    {
+      "rank": 5,
+      "name": "Pável Pardo Segura",
+      "value": 1
+    },
+    {
+      "rank": 6,
+      "name": "Tim Cahill",
+      "value": 1
+    },
+    {
+      "rank": 7,
+      "name": "Valon Behrami",
+      "value": 1
+    },
+    {
+      "rank": 8,
+      "name": "Antonio Valencia",
+      "value": 1
+    },
+    {
+      "rank": 9,
+      "name": "Mateja Kežman",
+      "value": 1
+    },
+    {
+      "rank": 10,
+      "name": "Vladyslav Vashchuk",
+      "value": 1
+    }
+  ],
+  "redCards": [
+    {
+      "rank": 1,
+      "name": "Rigobert Song",
+      "value": 2
+    },
+    {
+      "rank": 2,
+      "name": "Zinedine Zidane",
+      "value": 2
+    },
+    {
+      "rank": 3,
+      "name": "Thierry Henry",
+      "value": 1
+    },
+    {
+      "rank": 4,
+      "name": "Eric Wynalda",
+      "value": 1
+    },
+    {
+      "rank": 5,
+      "name": "Pável Pardo Segura",
+      "value": 1
+    },
+    {
+      "rank": 6,
+      "name": "Eddie Pope",
+      "value": 1
+    },
+    {
+      "rank": 7,
+      "name": "Avery John",
+      "value": 1
+    },
+    {
+      "rank": 8,
+      "name": "Tim Cahill",
+      "value": 1
+    },
+    {
+      "rank": 9,
+      "name": "Valon Behrami",
+      "value": 1
+    },
+    {
+      "rank": 10,
+      "name": "Vincent Aboubakar",
+      "value": 1
+    }
+  ],
+  "attemptPenaltyTarget": [
+    {
+      "rank": 1,
+      "name": "Lionel Messi",
+      "value": 2
+    },
+    {
+      "rank": 2,
+      "name": "Ian Harte",
+      "value": 1
+    },
+    {
+      "rank": 3,
+      "name": "Darijo Srna",
+      "value": 1
+    },
+    {
+      "rank": 4,
+      "name": "Lukas Podolski",
+      "value": 1
+    },
+    {
+      "rank": 5,
+      "name": "Ulrich Hoeneß",
+      "value": 1
+    },
+    {
+      "rank": 6,
+      "name": "Kazimierz Deyna",
+      "value": 1
+    },
+    {
+      "rank": 7,
+      "name": "Steffan Tapper",
+      "value": 1
+    },
+    {
+      "rank": 8,
+      "name": "Hugo Sanchez",
+      "value": 1
+    },
+    {
+      "rank": 9,
+      "name": "Donald Masson",
+      "value": 1
+    },
+    {
+      "rank": 10,
+      "name": "Zico",
+      "value": 1
+    }
+  ],
+  "yellowRedCards": [
+    {
+      "rank": 1,
+      "name": "Eddie Pope",
+      "value": 1
+    },
+    {
+      "rank": 2,
+      "name": "Avery John",
+      "value": 1
+    },
+    {
+      "rank": 3,
+      "name": "Vincent Aboubakar",
+      "value": 1
+    },
+    {
+      "rank": 4,
+      "name": "Luis Pérez",
+      "value": 1
+    },
+    {
+      "rank": 5,
+      "name": "Giovanni van Bronckhorst",
+      "value": 1
+    },
+    {
+      "rank": 6,
+      "name": "Luis Cristaldo",
+      "value": 1
+    },
+    {
+      "rank": 7,
+      "name": "Hector Silva",
+      "value": 1
+    },
+    {
+      "rank": 8,
+      "name": "Antonio Rattin",
+      "value": 1
+    },
+    {
+      "rank": 9,
+      "name": "Ray Richards",
+      "value": 1
+    },
+    {
+      "rank": 10,
+      "name": "Tibor Nyilasi",
+      "value": 1
+    }
+  ],
+  "crossesNotClaimed": [
+    {
+      "rank": 1,
+      "name": "Henry Francillon",
+      "value": 3
+    },
+    {
+      "rank": 2,
+      "name": "Ronnie Hellström",
+      "value": 2
+    },
+    {
+      "rank": 3,
+      "name": "Kazadi Mwamba",
+      "value": 2
+    },
+    {
+      "rank": 4,
+      "name": "Piet Schrijvers",
+      "value": 2
+    },
+    {
+      "rank": 5,
+      "name": "Harald Schumacher",
+      "value": 2
+    },
+    {
+      "rank": 6,
+      "name": "Trols Rasmussen",
+      "value": 2
+    },
+    {
+      "rank": 7,
+      "name": "Driss Benzekri",
+      "value": 2
+    },
+    {
+      "rank": 8,
+      "name": "Francisco Porras",
+      "value": 1
+    },
+    {
+      "rank": 9,
+      "name": "Sepp Maier",
+      "value": 1
+    },
+    {
+      "rank": 10,
+      "name": "Luis Rubiños",
+      "value": 1
+    }
+  ],
+  "ownGoals": [
+    {
+      "rank": 1,
+      "name": "Ivan Vutsov",
+      "value": 2
+    },
+    {
+      "rank": 2,
+      "name": "Joseph Yobo",
+      "value": 1
+    },
+    {
+      "rank": 3,
+      "name": "Sergey Ignashevich",
+      "value": 1
+    },
+    {
+      "rank": 4,
+      "name": "Fernandinho",
+      "value": 1
+    },
+    {
+      "rank": 5,
+      "name": "Chu-young Park",
+      "value": 1
+    },
+    {
+      "rank": 6,
+      "name": "Roberto Perfumo",
+      "value": 1
+    },
+    {
+      "rank": 7,
+      "name": "Javier Guzmán Colín",
+      "value": 1
+    },
+    {
+      "rank": 8,
+      "name": "Hans-Hubert Vogts",
+      "value": 1
+    },
+    {
+      "rank": 9,
+      "name": "Colin Curran",
+      "value": 1
+    },
+    {
+      "rank": 10,
+      "name": "Ruud Krol",
+      "value": 1
+    }
+  ],
+  "attemptPenaltyPost": [
+    {
+      "rank": 1,
+      "name": "Asamoah Gyan",
+      "value": 2
+    },
+    {
+      "rank": 2,
+      "name": "Alessandro Altobelli",
+      "value": 1
+    },
+    {
+      "rank": 3,
+      "name": "Gianluca Vialli",
+      "value": 1
+    },
+    {
+      "rank": 4,
+      "name": "Enzo Scifo",
+      "value": 1
+    },
+    {
+      "rank": 5,
+      "name": "Predrag Mijatović",
+      "value": 1
+    },
+    {
+      "rank": 6,
+      "name": "Bryan Ruiz",
+      "value": 1
+    }
+  ]
+}
