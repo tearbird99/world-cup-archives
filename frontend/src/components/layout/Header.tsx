@@ -6,12 +6,12 @@ export default function Header() {
   const { theme, toggleTheme } = useTheme()
 
   return (
-    <header className="h-14 border-b border-border bg-background/95 backdrop-blur-sm sticky top-0 z-50 flex items-center px-6 gap-4">
+    <header className="h-14 flex items-center px-6 gap-4">
       {/* 로고: 트로피 아이콘 + "World Cup Archives" 텍스트 */}
       <div className="flex items-center gap-2.5">
-        <Trophy className="w-5 h-5 text-yellow-500" />
+        <Trophy className="w-5 h-5 text-primary" />
         <span className="font-bold text-base tracking-tight">
-          World Cup <span className="text-yellow-500">Archives</span>
+          World Cup <span className="text-primary">Archives</span>
         </span>
       </div>
 
