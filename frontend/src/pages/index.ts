@@ -1,0 +1,6 @@
+export { default as Home } from './Home'
+export { default as Players } from './Players'
+export { default as Teams } from './Teams'
+export { default as Records } from './Records'
+export { default as History } from './History'
+export { default as Games } from './Games'

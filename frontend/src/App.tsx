@@ -1,11 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
-import Layout from '@/components/layout/Layout'
-import Home from '@/pages/Home'
-import Players from '@/pages/Players'
-import Teams from '@/pages/Teams'
-import Records from '@/pages/Records'
-import History from '@/pages/History'
-import Games from '@/pages/Games'
+import { Layout } from '@/components/layout'
+import { Home, Players, Teams, Records, History, Games } from '@/pages'
 
 export default function App() {
   return (
