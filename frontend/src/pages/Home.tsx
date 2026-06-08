@@ -7,7 +7,7 @@ import main01 from '@/assets/images/home/main-01.jpg'
 import main02 from '@/assets/images/home/main-02.jpg'
 import main03 from '@/assets/images/home/main-03.jpg'
 
-const heroImages = [main01, main02, main03]
+const mainImages = [main01, main02, main03]
 
 export default function Home() {
   const { t } = useTranslation()
@@ -15,7 +15,7 @@ export default function Home() {
 
   useEffect(() => {
     const timer = setInterval(() => {
-      setCurrentImg(prev => (prev + 1) % heroImages.length)
+      setCurrentImg(prev => (prev + 1) % mainImages.length)
     }, 5000)
     return () => clearInterval(timer)
   }, [])
@@ -42,10 +42,10 @@ export default function Home() {
     <div className="flex flex-col gap-0 -m-6">
 
       {/* 1. Main Section */}
-      <section className="relative flex flex-col items-center justify-center text-center px-6 py-28 overflow-hidden">
+      <section className="relative flex flex-col items-center justify-center text-center px-6 min-h-[480px] overflow-hidden">
 
         {/* 배경 이미지 슬라이드 */}
-        {heroImages.map((img, i) => (
+        {mainImages.map((img, i) => (
           <div
             key={i}
             className="absolute inset-0 bg-cover bg-center transition-opacity duration-1000"
@@ -77,7 +77,7 @@ export default function Home() {
 
         {/* 슬라이드 인디케이터 */}
         <div className="relative z-10 flex gap-2 mt-8">
-          {heroImages.map((_, i) => (
+          {mainImages.map((_, i) => (
             <button
               key={i}
               onClick={() => setCurrentImg(i)}
