@@ -7,6 +7,7 @@ import {
   Medal,
   BookOpen,
   Gamepad2,
+  BarChart2,
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { Separator } from '@/components/ui/separator'
@@ -21,6 +22,7 @@ export default function Sidebar() {
     { to: '/teams',   icon: Shield,          label: t('nav.teams') },
     { to: '/records', icon: Medal,           label: t('nav.records') },
     { to: '/history', icon: BookOpen,        label: t('nav.history') },
+    { to: '/stats',   icon: BarChart2,       label: t('nav.stats') },
   ]
 
   // 게임/퀴즈처럼 메인 통계 페이지와 성격이 다른 항목을 분리
