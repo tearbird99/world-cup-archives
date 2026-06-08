@@ -55,7 +55,7 @@
     --card-foreground: oklch(0.145 0 0);
     --popover: oklch(1 0 0);
     --popover-foreground: oklch(0.145 0 0);
-    /* primary: teal-700 (라이트 모드) */
+    /* primary: lime-800 (라이트 모드) */
     --primary: oklch(0.453 0.124 130.933);
     --primary-foreground: oklch(0.985 0 0);
     --secondary: oklch(0.97 0 0);
@@ -91,7 +91,7 @@
     --card-foreground: oklch(0.985 0 0);
     --popover: oklch(0.205 0 0);
     --popover-foreground: oklch(0.985 0 0);
-    /* primary: teal-500 (다크 모드) */
+    /* primary: lime-500 (다크 모드) */
     --primary: oklch(0.768 0.233 130.85);
     --primary-foreground: oklch(0.145 0 0);
     --secondary: oklch(0.269 0 0);
