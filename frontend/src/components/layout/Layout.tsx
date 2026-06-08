@@ -2,6 +2,7 @@ import { Outlet } from 'react-router-dom'
 import { ThemeProvider } from '@/contexts/ThemeContext'
 import Header from './Header'
 import Sidebar from './Sidebar'
+import Footer from "./Footer";
 
 export default function Layout() {
   return (
@@ -21,6 +22,8 @@ export default function Layout() {
           </main>
         </div>
 
+        {/* 하단 푸터 */}
+        <Footer />
       </div>
     </ThemeProvider>
   )
