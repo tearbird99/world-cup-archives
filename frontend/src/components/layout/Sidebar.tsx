@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import {
   LayoutDashboard,
   Users,
@@ -10,28 +11,25 @@ import {
 import { cn } from '@/lib/utils'
 import { Separator } from '@/components/ui/separator'
 
-/*
- * 메인 네비게이션 항목
- * - to: 라우트 경로
- * - icon: lucide-react 아이콘 컴포넌트
- * - label: 사이드바에 표시할 텍스트
- */
-const navItems = [
-  { to: '/',        icon: LayoutDashboard, label: 'Home' },
-  { to: '/players', icon: Users,           label: 'Players' },
-  { to: '/teams',   icon: Shield,          label: 'Teams' },
-  { to: '/records', icon: Medal,           label: 'Records' },
-  { to: '/history', icon: BookOpen,        label: 'History' },
-]
-
-// 게임/퀴즈처럼 메인 통계 페이지와 성격이 다른 항목을 분리
-const extraItems = [
-  { to: '/games', icon: Gamepad2, label: 'Games & Quiz' },
-]
-
 export default function Sidebar() {
+  const { t } = useTranslation()
+
+  // 메인 네비게이션 항목
+  const navItems = [
+    { to: '/',        icon: LayoutDashboard, label: t('nav.home') },
+    { to: '/players', icon: Users,           label: t('nav.players') },
+    { to: '/teams',   icon: Shield,          label: t('nav.teams') },
+    { to: '/records', icon: Medal,           label: t('nav.records') },
+    { to: '/history', icon: BookOpen,        label: t('nav.history') },
+  ]
+
+  // 게임/퀴즈처럼 메인 통계 페이지와 성격이 다른 항목을 분리
+  const extraItems = [
+    { to: '/games', icon: Gamepad2, label: t('nav.games') },
+  ]
+
   return (
-    <aside className="w-56 border-r border-border bg-background flex flex-col py-4 shrink-0">
+    <div className="w-56 border-r border-border bg-background h-full flex flex-col py-4 overflow-y-auto">
       {/* 메인 네비게이션 */}
       <nav className="flex flex-col gap-1 px-3">
         {navItems.map(({ to, icon: Icon, label }) => (
@@ -79,6 +77,6 @@ export default function Sidebar() {
           </NavLink>
         ))}
       </nav>
-    </aside>
+    </div>
   )
 }

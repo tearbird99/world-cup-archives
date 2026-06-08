@@ -1,63 +1,40 @@
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import { Users, Shield, Medal, BookOpen, Gamepad2, ArrowRight } from 'lucide-react'
 
-/* ── 홈 페이지 ────────────────────────────────────────────────────────────────
- * 섹션 구성:
- * 1) Hero       — 월드컵을 상징하는 헤드라인 + 서브 문구
- * 2) Stats Bar  — 숫자로 보는 월드컵 역사 요약
- * 3) Highlights — 역대 명장면 카드 3개
- * 4) Quick Links — 각 페이지 바로가기 카드
- * ─────────────────────────────────────────────────────────────────────────── */
-
-// ── Stats Bar 데이터 ──────────────────────────────────────────────────────────
-const stats = [
-  { label: 'Tournaments', value: '23' },
-  { label: 'Nations', value: '80+' },
-  { label: 'Goals Scored', value: '2,548' },
-  { label: 'Years of History', value: '96' },
-]
-
-// ── Highlight 카드 데이터 ─────────────────────────────────────────────────────
-const highlights = [
-  {
-    year: '1986',
-    title: 'The Hand of God',
-    description:
-      "Diego Maradona's infamous goal against England — part fist, part genius — defined an era and sparked one of football's greatest debates.",
-    tag: 'Argentina · Mexico',
-  },
-  {
-    year: '2002',
-    title: 'The Miracle of Senegal',
-    description:
-      "Senegal's stunning debut, defeating defending champions France in the group stage, shocked the world and rewrote the rules of World Cup football.",
-    tag: 'Senegal · South Korea',
-  },
-  {
-    year: '2014',
-    title: '7–1. Das Requiem.',
-    description:
-      "Germany dismantled host nation Brazil 7–1 in the semi-final. A night so surreal it has its own Wikipedia article — 'Mineirazo'.",
-    tag: 'Germany · Brazil',
-  },
-]
-
-// ── Quick Links 데이터 ────────────────────────────────────────────────────────
-const quickLinks = [
-  { to: '/players', icon: Users,    label: 'Players',      desc: 'Career stats & rankings' },
-  { to: '/teams',   icon: Shield,   label: 'Teams',        desc: 'Nation-by-nation records' },
-  { to: '/records', icon: Medal,    label: 'Records',      desc: 'All-time leaderboards' },
-  { to: '/history', icon: BookOpen, label: 'History',      desc: 'Tournament by tournament' },
-  { to: '/games',   icon: Gamepad2, label: 'Games & Quiz', desc: 'Test your knowledge' },
-]
-
 export default function Home() {
+  const { t } = useTranslation()
+
+  // Stats Bar 데이터
+  const stats = [
+    { label: t('home.stats.tournaments'), value: '23' },
+    { label: t('home.stats.nations'), value: '80+' },
+    { label: t('home.stats.goals'), value: '2,548' },
+    { label: t('home.stats.years'), value: '96' },
+  ]
+
+  // Highlight 카드 데이터
+  const highlights = t('home.highlights', { returnObjects: true }) as {
+    year: string
+    title: string
+    description: string
+    tag: string
+  }[]
+
+  // Quick Links 데이터
+  const quickLinks = [
+    { to: '/players', icon: Users, label: t('nav.players'), desc: t('home.quicklinks.players') },
+    { to: '/teams', icon: Shield, label: t('nav.teams'), desc: t('home.quicklinks.teams') },
+    { to: '/records', icon: Medal, label: t('nav.records'), desc: t('home.quicklinks.records') },
+    { to: '/history', icon: BookOpen, label: t('nav.history'), desc: t('home.quicklinks.history') },
+    { to: '/games', icon: Gamepad2, label: t('nav.games'), desc: t('home.quicklinks.games') },
+  ]
+
   return (
-    <div className="flex flex-col gap-0">
+    <div className="flex flex-col gap-0 -m-6">
 
       {/* 1. Hero Section */}
       <section className="relative flex flex-col items-center justify-center text-center px-6 py-28 overflow-hidden bg-gradient-to-b from-background to-muted">
-        {/* 배경 장식 — 큰 반투명 원 */}
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
           <div className="w-[600px] h-[600px] rounded-full border border-primary/10 opacity-40" />
           <div className="absolute w-[400px] h-[400px] rounded-full border border-primary/10 opacity-30" />
@@ -66,20 +43,18 @@ export default function Home() {
 
         {/* 연도 뱃지 */}
         <span className="relative z-10 mb-4 inline-block text-xs font-semibold tracking-widest uppercase text-primary border border-primary/30 px-3 py-1 rounded-full">
-          1930 — 2026
+          {t('home.badge')}
         </span>
 
         {/* 헤드라인 */}
         <h1 className="relative z-10 text-5xl md:text-6xl font-bold leading-tight tracking-tight mb-6 max-w-3xl">
-          Every four years,<br />
-          <span className="text-primary">the world stops</span> to watch.
+          {t('home.headline1')}<br />
+          <span className="text-primary">{t('home.headline2')}</span> {t('home.headline3')}
         </h1>
 
         {/* 서브 문구 */}
         <p className="relative z-10 text-muted-foreground text-lg max-w-xl leading-relaxed">
-          The FIFA World Cup — the most watched sporting event on Earth.
-          Explore the complete history, statistics, and unforgettable moments
-          from every tournament since 1930.
+          {t('home.subtext')}
         </p>
       </section>
 
@@ -103,7 +78,7 @@ export default function Home() {
       <section className="px-6 py-16">
         <h2 className="text-xl font-bold mb-8 flex items-center gap-2">
           <span className="w-1 h-5 bg-primary rounded-full inline-block" />
-          Moments That Defined the World Cup
+          {t('home.highlights_title')}
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -131,7 +106,7 @@ export default function Home() {
       <section className="px-6 pb-16">
         <h2 className="text-xl font-bold mb-8 flex items-center gap-2">
           <span className="w-1 h-5 bg-primary rounded-full inline-block" />
-          Explore the Archives
+          {t('home.quicklinks_title')}
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">

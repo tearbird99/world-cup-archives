@@ -6,22 +6,28 @@ import Sidebar from './Sidebar'
 export default function Layout() {
   return (
     <ThemeProvider>
-      <div className="h-screen bg-background text-foreground flex flex-col items-center">
+      <div className="min-h-screen bg-background text-foreground">
+
         {/* 상단 헤더: 로고 + 다크모드 토글 */}
-        <div className="w-full border-b border-border bg-background/95 backdrop-blur-sm sticky top-0 z-50">
+        <div className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur-sm">
           <div className="max-w-7xl mx-auto">
             <Header />
           </div>
         </div>
 
-        <div className="flex flex-1 overflow-hidden w-full">
-          {/* 중앙 정렬 컨테이너 */}
-          <div className="flex flex-1 overflow-hidden max-w-7xl mx-auto w-full">
+        {/* 바디: 사이드바 + 메인 콘텐츠 */}
+        <div className="max-w-7xl mx-auto flex">
+
+          {/* 사이드바: 헤더 아래 고정 */}
+          <aside className="sticky top-14 h-[calc(100vh-3.5rem)] shrink-0">
             <Sidebar />
-            <main className="flex-1 overflow-y-auto p-6">
-              <Outlet />
-            </main>
-          </div>
+          </aside>
+
+          {/* 메인 콘텐츠: 나머지 너비 전부 사용 */}
+          <main className="flex-1 min-w-0 p-6">
+            <Outlet />
+          </main>
+
         </div>
       </div>
     </ThemeProvider>
