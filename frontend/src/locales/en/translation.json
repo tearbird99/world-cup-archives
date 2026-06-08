@@ -20,34 +20,14 @@
       "goals": "Goals Scored",
       "years": "Years of History"
     },
-    "highlights_title": "Moments That Defined the World Cup",
-    "highlights": [
-      {
-        "year": "1986",
-        "title": "The Hand of God",
-        "description": "Diego Maradona's infamous goal against England — part fist, part genius — defined an era and sparked one of football's greatest debates.",
-        "tag": "Argentina · Mexico"
-      },
-      {
-        "year": "2002",
-        "title": "The Miracle of Senegal",
-        "description": "Senegal's stunning debut, defeating defending champions France in the group stage, shocked the world and rewrote the rules of World Cup football.",
-        "tag": "Senegal · South Korea"
-      },
-      {
-        "year": "2014",
-        "title": "7–1. Das Requiem.",
-        "description": "Germany dismantled host nation Brazil 7–1 in the semi-final. A night so surreal it has its own Wikipedia article — 'Mineirazo'.",
-        "tag": "Germany · Brazil"
-      }
-    ],
     "quicklinks_title": "Explore the Archives",
     "quicklinks": {
-      "players": "Career stats & rankings",
-      "teams": "Nation-by-nation records",
-      "records": "All-time leaderboards",
-      "history": "Tournament by tournament",
-      "games": "Test your knowledge"
+      "players": "Individual profiles & stats",
+      "teams": "National team profiles & stats",
+      "records": "Records, stats & trivia",
+      "history": "Tournaments through the ages",
+      "stats": "Player rankings by tournament & all-time",
+      "games": "Games & quizzes to test your knowledge"
     }
   }
 }
