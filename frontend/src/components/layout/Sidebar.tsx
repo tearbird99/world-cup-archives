@@ -17,7 +17,7 @@ import { useSidebar } from '@/contexts/SidebarContext'
 import { useTheme } from '@/contexts/ThemeContext'
 
 export default function Sidebar() {
-  const { t } = useTranslation()
+  const { t } = useTranslation('nav')
   const { isOpen, close } = useSidebar()
   const { theme } = useTheme()
 
@@ -30,16 +30,16 @@ export default function Sidebar() {
 
   // 메인 네비게이션 항목
   const navItems = [
-    { to: '/',        icon: LayoutDashboard, label: t('nav.home') },
-    { to: '/players', icon: Users,           label: t('nav.players') },
-    { to: '/teams',   icon: Shield,          label: t('nav.teams') },
-    { to: '/records', icon: Medal,           label: t('nav.records') },
-    { to: '/history', icon: BookOpen,        label: t('nav.history') },
-    { to: '/stats',   icon: BarChart2,       label: t('nav.stats') },
+    { to: '/', icon: LayoutDashboard, label: t('home') },
+    { to: '/players', icon: Users, label: t('players') },
+    { to: '/teams', icon: Shield, label: t('teams') },
+    { to: '/records', icon: Medal, label: t('records') },
+    { to: '/history', icon: BookOpen, label: t('history') },
+    { to: '/stats', icon: BarChart2, label: t('stats') },
   ]
 
   const extraItems = [
-    { to: '/games', icon: Gamepad2, label: t('nav.games') },
+    { to: '/games', icon: Gamepad2, label: t('games') },
   ]
 
   // NavLink 스타일: lime 배경 위이므로 텍스트 색상을 맞춰서 조정

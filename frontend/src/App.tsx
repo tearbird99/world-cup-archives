@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 import { Layout } from '@/components/layout'
 import { Home, Players, Teams, Records, History, Games, Stats } from '@/pages'
+import PlayerDetail from '@/pages/PlayerDetail'
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <Route path="history" element={<History />} />
         <Route path="games" element={<Games />} />
         <Route path="stats" element={<Stats />} />
+        <Route path="/players/:id" element={<PlayerDetail />} />
       </Route>
     </Routes>
   )

@@ -6,7 +6,7 @@ import { useSidebar } from '@/contexts/SidebarContext'
 
 export default function Header() {
   const { theme, toggleTheme } = useTheme()
-  const { i18n } = useTranslation()
+  const { i18n } = useTranslation('nav')
   const { toggle } = useSidebar()
 
   const isDark = theme === 'dark'

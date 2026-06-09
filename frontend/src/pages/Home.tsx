@@ -10,7 +10,8 @@ import main03 from '@/assets/images/home/main-03.jpg'
 const mainImages = [main01, main02, main03]
 
 export default function Home() {
-  const { t } = useTranslation()
+  const { t } = useTranslation('home')
+  const { t: tNav } = useTranslation('nav')
   const [currentImg, setCurrentImg] = useState(0)
 
   useEffect(() => {
@@ -22,20 +23,20 @@ export default function Home() {
 
   // Stats Bar 데이터
   const stats = [
-    { label: t('home.stats.tournaments'), value: '23' },
-    { label: t('home.stats.nations'), value: '80+' },
-    { label: t('home.stats.goals'), value: '2,548' },
-    { label: t('home.stats.years'), value: '96' },
+    { label: t('stats.tournaments'), value: '23' },
+    { label: t('stats.nations'),     value: '80+' },
+    { label: t('stats.goals'),       value: '2,548' },
+    { label: t('stats.years'),       value: '96' },
   ]
 
   // Quick Links 데이터
   const quickLinks = [
-    { to: '/players', icon: Users,     label: t('nav.players'), desc: t('home.quicklinks.players') },
-    { to: '/teams',   icon: Shield,    label: t('nav.teams'),   desc: t('home.quicklinks.teams') },
-    { to: '/records', icon: Medal,     label: t('nav.records'), desc: t('home.quicklinks.records') },
-    { to: '/history', icon: BookOpen,  label: t('nav.history'), desc: t('home.quicklinks.history') },
-    { to: '/stats',   icon: BarChart2, label: t('nav.stats'),   desc: t('home.quicklinks.stats') },
-    { to: '/games',   icon: Gamepad2,  label: t('nav.games'),   desc: t('home.quicklinks.games') },
+    { to: '/players', icon: Users,     label: tNav('players'), desc: t('quicklinks.players') },
+    { to: '/teams',   icon: Shield,    label: tNav('teams'),   desc: t('quicklinks.teams') },
+    { to: '/records', icon: Medal,     label: tNav('records'), desc: t('quicklinks.records') },
+    { to: '/history', icon: BookOpen,  label: tNav('history'), desc: t('quicklinks.history') },
+    { to: '/stats',   icon: BarChart2, label: tNav('stats'),   desc: t('quicklinks.stats') },
+    { to: '/games',   icon: Gamepad2,  label: tNav('games'),   desc: t('quicklinks.games') },
   ]
 
   return (
@@ -61,18 +62,18 @@ export default function Home() {
 
         {/* 연도 뱃지 */}
         <span className="relative z-10 mb-4 inline-block text-xs font-semibold tracking-widest uppercase text-white/80 border border-white/30 px-3 py-1 rounded-full">
-          {t('home.badge')}
+          {t('badge')}
         </span>
 
         {/* 헤드라인 */}
         <h1 className="relative z-10 text-5xl md:text-6xl font-bold leading-tight tracking-tight mb-6 max-w-3xl text-white">
-          {t('home.headline1')}<br />
-          <span className="text-lime-300">{t('home.headline2')}</span> {t('home.headline3')}
+          {t('headline1')}<br />
+          <span className="text-lime-300">{t('headline2')}</span> {t('headline3')}
         </h1>
 
         {/* 서브 문구 */}
         <p className="relative z-10 text-white/70 text-lg max-w-xl leading-relaxed">
-          {t('home.subtext')}
+          {t('subtext')}
         </p>
 
         {/* 슬라이드 인디케이터 */}
@@ -110,7 +111,7 @@ export default function Home() {
       <section className="px-6 py-16">
         <h2 className="text-xl font-bold mb-8 flex items-center gap-2">
           <span className="w-1 h-5 bg-primary rounded-full inline-block" />
-          {t('home.quicklinks_title')}
+          {t('quicklinks_title')}
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
