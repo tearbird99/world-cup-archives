@@ -56,13 +56,13 @@ export default function PlayerDetail() {
                 />
               )}
               <img
-                src={`/players/${player.id}.png`}
+                src={`/players/${player.id}.webp`}
                 alt={player.name}
-                className="relative z-10 h-60 w-auto object-contain drop-shadow-xl"
+                className="relative z-10 h-full w-full object-cover"
                 onError={(e) => {
                   const target = e.currentTarget
                   target.onerror = null
-                  target.src = '/players/default.png'
+                  target.src = '/players/default.webp'
                 }}
               />
             </div>

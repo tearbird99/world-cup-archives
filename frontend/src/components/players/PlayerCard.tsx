@@ -60,13 +60,13 @@ export default function PlayerCard({ player }: PlayerCardProps) {
 
         {/* 선수 사진 */}
         <img
-          src={`/players/${player.id}.png`}
+          src={`/players/${player.id}.webp`}
           alt={player.name}
-          className="relative z-10 h-36 w-auto object-contain drop-shadow-md"
+          className="relative z-10 h-full w-full object-cover"
           onError={(e) => {
             const target = e.currentTarget
             target.onerror = null
-            target.src = '/players/default.png'
+            target.src = '/players/default.webp'
           }}
         />
 
