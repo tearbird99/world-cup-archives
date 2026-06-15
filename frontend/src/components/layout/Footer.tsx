@@ -27,7 +27,7 @@ export default function Footer() {
  
         {/* 우 — 기술 스택 + 저작권 */}
         <span className="text-[11px] opacity-60">
-          Built with React · TypeScript · Tailwind · © {currentYear}
+          Built with React · TypeScript · Tailwind CSS · © {currentYear}
         </span>
  
       </div>

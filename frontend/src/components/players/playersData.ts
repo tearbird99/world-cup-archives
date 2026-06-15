@@ -1,6 +1,6 @@
 import type { PlayerSummary } from './PlayerCard'
 
-export const TEST_PLAYERS: PlayerSummary[] = [
+export const PLAYERS: PlayerSummary[] = [
   {
     id: 12994,
     name: 'Lionel Messi',

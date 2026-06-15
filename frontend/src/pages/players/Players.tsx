@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Search } from 'lucide-react'
 import PlayerCard, { type PlayerSummary } from '@/components/players/PlayerCard'
-import { TEST_PLAYERS } from '@/components/players/playersData'
+import { PLAYERS } from '@/components/players/playersData'
 
 type SortKey = 'name' | 'goals' | 'appearances' | 'rating'
 
@@ -12,7 +12,7 @@ export default function Players() {
   const [sortKey, setSortKey] = useState<SortKey>('appearances')
 
   const filtered = useMemo(() => {
-    let list = [...TEST_PLAYERS]
+    let list = [...PLAYERS]
 
     if (query.trim()) {
       const q = query.toLowerCase()
