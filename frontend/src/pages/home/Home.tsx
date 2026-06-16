@@ -6,8 +6,10 @@ import { Users, Shield, Medal, BookOpen, Gamepad2, ArrowRight, BarChart2 } from 
 import main01 from '@/assets/images/home/main-01.jpg'
 import main02 from '@/assets/images/home/main-02.jpg'
 import main03 from '@/assets/images/home/main-03.jpg'
+import main04 from '@/assets/images/home/main-04.jpg'
+import main05 from '@/assets/images/home/main-05.jpg'
 
-const mainImages = [main01, main02, main03]
+const mainImages = [main01, main02, main03, main04, main05]
 
 export default function Home() {
   const { t } = useTranslation('home')
@@ -15,8 +17,9 @@ export default function Home() {
   const [currentImg, setCurrentImg] = useState(0)
 
   useEffect(() => {
+    const len = mainImages.length
     const timer = setInterval(() => {
-      setCurrentImg(prev => (prev + 1) % mainImages.length)
+      setCurrentImg(prev => (prev + 1) % len)
     }, 5000)
     return () => clearInterval(timer)
   }, [])
@@ -24,19 +27,19 @@ export default function Home() {
   // Stats Bar 데이터
   const stats = [
     { label: t('stats.tournaments'), value: '23' },
-    { label: t('stats.nations'),     value: '80+' },
-    { label: t('stats.goals'),       value: '2,548' },
-    { label: t('stats.years'),       value: '96' },
+    { label: t('stats.nations'), value: '80+' },
+    { label: t('stats.goals'), value: '2,548' },
+    { label: t('stats.years'), value: '96' },
   ]
 
   // Quick Links 데이터
   const quickLinks = [
-    { to: '/players', icon: Users,     label: tNav('players'), desc: t('quicklinks.players') },
-    { to: '/teams',   icon: Shield,    label: tNav('teams'),   desc: t('quicklinks.teams') },
-    { to: '/records', icon: Medal,     label: tNav('records'), desc: t('quicklinks.records') },
-    { to: '/history', icon: BookOpen,  label: tNav('history'), desc: t('quicklinks.history') },
-    { to: '/stats',   icon: BarChart2, label: tNav('stats'),   desc: t('quicklinks.stats') },
-    { to: '/games',   icon: Gamepad2,  label: tNav('games'),   desc: t('quicklinks.games') },
+    { to: '/players', icon: Users, label: tNav('players'), desc: t('quicklinks.players') },
+    { to: '/teams', icon: Shield, label: tNav('teams'), desc: t('quicklinks.teams') },
+    { to: '/records', icon: Medal, label: tNav('records'), desc: t('quicklinks.records') },
+    { to: '/history', icon: BookOpen, label: tNav('history'), desc: t('quicklinks.history') },
+    { to: '/stats', icon: BarChart2, label: tNav('stats'), desc: t('quicklinks.stats') },
+    { to: '/games', icon: Gamepad2, label: tNav('games'), desc: t('quicklinks.games') },
   ]
 
   return (
@@ -82,9 +85,8 @@ export default function Home() {
             <button
               key={i}
               onClick={() => setCurrentImg(i)}
-              className={`h-2 rounded-full transition-all duration-300 ${
-                i === currentImg ? 'bg-white w-6' : 'bg-white/40 w-2'
-              }`}
+              className={`h-2 rounded-full transition-all duration-300 ${i === currentImg ? 'bg-white w-6' : 'bg-white/40 w-2'
+                }`}
             />
           ))}
         </div>

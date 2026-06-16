@@ -75,11 +75,11 @@ export default function StatTable({ s, mode, minutes }: StatTableProps) {
       title: t('detail.section_other'),
       rows: [
         { label: t('detail.touches'),          value: fmt(s.touches,          mode, minutes) },
-        { label: t('detail.dribbles_won'),     value: fmtPct(s.successfulDribbles, s.totalDuels,  mode, minutes) },
+        { label: t('detail.possession_lost'),  value: fmt(s.possessionLost,   mode, minutes) },
+        { label: t('detail.dribbles_won'),     value: fmt(s.successfulDribbles,         mode, minutes) },
         { label: t('detail.ground_duels'),     value: fmtPct(s.groundDuelsWon,     s.groundDuels, mode, minutes) },
         { label: t('detail.aerial_duels'),     value: fmtPct(s.aerialDuelsWon,     s.aerialDuels, mode, minutes) },
         { label: t('detail.total_duels'),      value: fmtPct(s.totalDuelsWon,      s.totalDuels,  mode, minutes) },
-        { label: t('detail.possession_lost'),  value: fmt(s.possessionLost,   mode, minutes) },
         { label: t('detail.fouls'),            value: fmt(s.fouls,            mode, minutes) },
         { label: t('detail.was_fouled'),       value: fmt(s.wasFouled,        mode, minutes) },
       ],
