@@ -19,143 +19,51 @@ OUTPUT_FILE = Path(__file__).parent.parent.parent / 'frontend' / 'src' / 'pages'
 # Sofascore nameCode → flagcdn 호환 코드 매핑
 FLAG_CODE_MAP: dict[str, str] = {
     # ── 유럽 ──────────────────────────────────────────────────────────
-    'POR': 'pt',      # Portugal
-    'ENG': 'gb-eng',  # England (축구 전용)
-    'SCO': 'gb-sct',  # Scotland
-    'WAL': 'gb-wls',  # Wales
-    'NIR': 'gb-nir',  # Northern Ireland
-    'IRE': 'ie',      # Ireland
-    'GER': 'de',      # Germany (현재)
-    'NED': 'nl',      # Netherlands
-    'SUI': 'ch',      # Switzerland
-    'DEN': 'dk',      # Denmark
-    'SWE': 'se',      # Sweden
-    'NOR': 'no',      # Norway
-    'GRE': 'gr',      # Greece
-    'CRO': 'hr',      # Croatia
-    'SRB': 'rs',      # Serbia
-    'SLO': 'si',      # Slovenia
-    'SVK': 'sk',      # Slovakia
-    'CZE': 'cz',      # Czech Republic
-    'ROU': 'ro',      # Romania
-    'HUN': 'hu',      # Hungary
-    'AUT': 'at',      # Austria
-    'BEL': 'be',      # Belgium
-    'ESP': 'es',      # Spain
-    'ITA': 'it',      # Italy
-    'FRA': 'fr',      # France
-    'RUS': 'ru',      # Russia
-    'FIN': 'fi',      # Finland
-    'POL': 'pl',      # Poland
-    'UKR': 'ua',      # Ukraine
-    'IRL': 'ie',      # Republic of Ireland
-    'BUL': 'bg',      # Bulgaria
-    'BIH': 'ba',      # Bosnia & Herzegovina
-    'MKD': 'mk',      # North Macedonia
-    'MNE': 'me',      # Montenegro
-    'ALB': 'al',      # Albania
-    'CYP': 'cy',      # Cyprus
-    'BLR': 'by',      # Belarus
-    'MDA': 'md',      # Moldova
-    'ISL': 'is',      # Iceland
-    'LTU': 'lt',      # Lithuania
-    'LVA': 'lv',      # Latvia
-    'EST': 'ee',      # Estonia
-    'GEO': 'ge',      # Georgia
-    'ARM': 'am',      # Armenia
-    'AZE': 'az',      # Azerbaijan
+    'POR': 'pt',      'ENG': 'gb-eng',  'SCO': 'gb-sct',  'WAL': 'gb-wls',
+    'NIR': 'gb-nir',  'IRE': 'ie',      'IRL': 'ie',      'GER': 'de',
+    'NED': 'nl',      'SUI': 'ch',      'DEN': 'dk',      'SWE': 'se',
+    'NOR': 'no',      'GRE': 'gr',      'CRO': 'hr',      'SRB': 'rs',
+    'SLO': 'si',      'SVK': 'sk',      'CZE': 'cz',      'ROU': 'ro',
+    'HUN': 'hu',      'AUT': 'at',      'BEL': 'be',      'ESP': 'es',
+    'ITA': 'it',      'FRA': 'fr',      'RUS': 'ru',      'FIN': 'fi',
+    'POL': 'pl',      'UKR': 'ua',      'BUL': 'bg',      'BIH': 'ba',
+    'MKD': 'mk',      'MNE': 'me',      'ALB': 'al',      'CYP': 'cy',
+    'BLR': 'by',      'MDA': 'md',      'ISL': 'is',      'LTU': 'lt',
+    'LVA': 'lv',      'EST': 'ee',      'GEO': 'ge',      'ARM': 'am',
+    'AZE': 'az',
     # ── 남미 ──────────────────────────────────────────────────────────
-    'CHI': 'cl',      # Chile
-    'MEX': 'mx',      # Mexico
-    'ARG': 'ar',      # Argentina
-    'BRA': 'br',      # Brazil
-    'COL': 'co',      # Colombia
-    'ECU': 'ec',      # Ecuador
-    'URU': 'uy',      # Uruguay
-    'PAR': 'py',      # Paraguay
-    'BOL': 'bo',      # Bolivia
-    'PER': 'pe',      # Peru
-    'VEN': 've',      # Venezuela
+    'CHI': 'cl',  'MEX': 'mx',  'ARG': 'ar',  'BRA': 'br',
+    'COL': 'co',  'ECU': 'ec',  'URU': 'uy',  'PAR': 'py',
+    'BOL': 'bo',  'PER': 'pe',  'VEN': 've',
     # ── 북중미 ────────────────────────────────────────────────────────
-    'HON': 'hn',      # Honduras
-    'CRC': 'cr',      # Costa Rica
-    'PAN': 'pa',      # Panama
-    'TRI': 'tt',      # Trinidad and Tobago
-    'TTO': 'tt',      # Trinidad and Tobago (대체 코드)
-    'JAM': 'jm',      # Jamaica
-    'HAI': 'ht',      # Haiti
-    'CAN': 'ca',      # Canada
-    'USA': 'us',      # USA
-    'ESA': 'sv',      # El Salvador
-    'CUB': 'cu',      # Cuba
-    'CUW': 'cw',      # Curaçao
-    'SUR': 'sr',      # Suriname
-    'GUY': 'gy',      # Guyana
+    'HON': 'hn',  'CRC': 'cr',  'PAN': 'pa',  'TRI': 'tt',
+    'TTO': 'tt',  'JAM': 'jm',  'HAI': 'ht',  'CAN': 'ca',
+    'USA': 'us',  'ESA': 'sv',  'CUB': 'cu',  'CUW': 'cw',
+    'SUR': 'sr',  'GUY': 'gy',
     # ── 아프리카 ──────────────────────────────────────────────────────
-    'MOR': 'ma',      # Morocco
-    'ALG': 'dz',      # Algeria
-    'TUN': 'tn',      # Tunisia
-    'EGY': 'eg',      # Egypt
-    'SEN': 'sn',      # Senegal
-    'CAM': 'cm',      # Cameroon
-    'NIG': 'ng',      # Nigeria
-    'GHA': 'gh',      # Ghana
-    'CIV': 'ci',      # Ivory Coast
-    'RSA': 'za',      # South Africa
-    'ZAF': 'za',      # South Africa (대체 코드)
-    'ANG': 'ao',      # Angola
-    'TOG': 'tg',      # Togo
-    'ZAI': 'cd',      # Zaire → DR Congo
-    'COD': 'cd',      # DR Congo
-    'COG': 'cg',      # Congo
-    'GAB': 'ga',      # Gabon
-    'MLI': 'ml',      # Mali
-    'GIN': 'gn',      # Guinea
-    'BFA': 'bf',      # Burkina Faso
-    'ETH': 'et',      # Ethiopia
-    'KEN': 'ke',      # Kenya
-    'MOZ': 'mz',      # Mozambique
-    'ZAM': 'zm',      # Zambia
-    'ZIM': 'zw',      # Zimbabwe
-    'NAM': 'na',      # Namibia
+    'MOR': 'ma',  'DZA': 'dz',  'TUN': 'tn',  'EGY': 'eg',
+    'SEN': 'sn',  'CAM': 'cm',  'NIG': 'ng',  'GHA': 'gh',
+    'CIV': 'ci',  'RSA': 'za',  'ZAF': 'za',  'ANG': 'ao',
+    'TOG': 'tg',  'ZAI': 'cd',  'COD': 'cd',  'COG': 'cg',
+    'GAB': 'ga',  'MLI': 'ml',  'GIN': 'gn',  'BFA': 'bf',
+    'ETH': 'et',  'KEN': 'ke',  'MOZ': 'mz',  'ZAM': 'zm',
+    'ZIM': 'zw',  'NAM': 'na',
     # ── 아시아/중동 ───────────────────────────────────────────────────
-    'KOR': 'kr',      # South Korea
-    'JPN': 'jp',      # Japan
-    'JAP': 'jp',      # Japan (대체 코드)
-    'CHN': 'cn',      # China
-    'IRN': 'ir',      # Iran
-    'SAU': 'sa',      # Saudi Arabia
-    'KSA': 'sa',      # Saudi Arabia (대체 코드)
-    'IRQ': 'iq',      # Iraq
-    'KUW': 'kw',      # Kuwait
-    'UAE': 'ae',      # UAE
-    'QAT': 'qa',      # Qatar
-    'ISR': 'il',      # Israel
-    'SYR': 'sy',      # Syria
-    'JOR': 'jo',      # Jordan
-    'OMA': 'om',      # Oman
-    'BHR': 'bh',      # Bahrain
-    'DPR': 'kp',      # North Korea
-    'KAZ': 'kz',      # Kazakhstan
-    'UZB': 'uz',      # Uzbekistan
+    'KOR': 'kr',  'JPN': 'jp',  'JAP': 'jp',  'CHN': 'cn',
+    'IRI': 'ir',  'KSA': 'sa',  'IRA': 'iq',
+    'KUW': 'kw',  'UAE': 'ae',  'QAT': 'qa',  'ISR': 'il',
+    'SYR': 'sy',  'JOR': 'jo',  'OMA': 'om',  'BHR': 'bh',
+    'DPR': 'kp',  'KAZ': 'kz',  'UZB': 'uz',
     # ── 오세아니아 ────────────────────────────────────────────────────
-    'AUS': 'au',      # Australia
-    'NZL': 'nz',      # New Zealand
+    'AUS': 'au',  'NZL': 'nz',
     # ── 과거/소멸 국가 ────────────────────────────────────────────────
-    'WGE': 'de',      # West Germany → Germany
-    'USS': 'ru',      # Soviet Union → Russia
-    'YUG': 'rs',      # Yugoslavia → Serbia
-    'TCH': 'cz',      # Czechoslovakia → Czech Republic
-    'DDR': 'de',      # East Germany → Germany
-    'SMO': 'rs',      # Serbia & Montenegro → Serbia
+    'WGE': 'de',  'USS': 'ru',  'YUG': 'rs',
+    'TCH': 'cz',  'DDR': 'de',  'SMO': 'rs',
 }
 
 def get_flag_code(name_code: str) -> str:
     upper = name_code.upper()
-    if upper in FLAG_CODE_MAP:
-        return FLAG_CODE_MAP[upper]
-    # 매핑 없으면 소문자 2자리 폴백
-    return name_code.lower()[:2]
+    return FLAG_CODE_MAP.get(upper, name_code.lower()[:2])
 
 def parse_existing(ts_content: str) -> dict[int, dict]:
     existing = {}
@@ -183,6 +91,7 @@ def parse_existing(ts_content: str) -> dict[int, dict]:
             'name':               get('name'),
             'nationality':        get('nationality'),
             'nationality_code':   get('nationality_code'),
+            'team_code':          get('team_code') or '',
             'team_color_primary': get('team_color_primary'),
             'seasons_played':     seasons,
             'career_rating':      float(get('career_rating') or 0),
@@ -204,13 +113,13 @@ def load_from_json(path: Path) -> dict | None:
             return None
 
         name_code = team.get('nameCode') or ''
-        flag_code = get_flag_code(name_code)
 
         return {
             'id':                 data['id'],
             'name':               data['name'],
             'nationality':        team.get('name', ''),
-            'nationality_code':   flag_code,
+            'nationality_code':   get_flag_code(name_code),
+            'team_code':          name_code.upper(),   # teams/*.webp 파일명용
             'team_color_primary': colors.get('primary', '#888888'),
             'seasons_played':     data.get('seasons_played', []),
             'career_rating':      round(data.get('career_rating') or 0, 3),
@@ -231,6 +140,7 @@ def player_to_ts(p: dict) -> str:
         f"    name: {json.dumps(p['name'], ensure_ascii=False)},\n"
         f"    nationality: {json.dumps(p['nationality'], ensure_ascii=False)},\n"
         f"    nationality_code: '{p['nationality_code']}',\n"
+        f"    team_code: '{p['team_code']}',\n"
         f"    team_color_primary: '{p['team_color_primary']}',\n"
         f"    seasons_played: [{seasons}],\n"
         f"    career_rating: {p['career_rating']},\n"
@@ -256,7 +166,13 @@ def main():
     for f in files:
         player_id = int(f.stem)
         if player_id in existing:
-            players.append(existing[player_id])
+            # 기존 선수 — team_code 없으면 JSON에서 보완
+            p = existing[player_id]
+            if not p.get('team_code'):
+                raw = load_from_json(f)
+                if raw:
+                    p['team_code'] = raw['team_code']
+            players.append(p)
         else:
             p = load_from_json(f)
             if p:

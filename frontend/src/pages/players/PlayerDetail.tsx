@@ -30,8 +30,14 @@ export default function PlayerDetail() {
     )
   }
 
+  // 아이콘용 팀 국기
   const flagUrl = player.nationality_code
     ? `https://flagcdn.com/w80/${player.nationality_code.toLowerCase()}.png`
+    : null
+
+  // 배경용 팀 국기
+  const teamFlagUrl = player.team_code
+    ? `/teams/${player.team_code.toUpperCase()}.webp`
     : null
 
   const tabs: YearTab[] = [...player.seasons_played, 'career']
@@ -54,9 +60,11 @@ export default function PlayerDetail() {
         <div className="grid grid-cols-1 md:grid-cols-[280px_1fr] gap-8 mb-10">
           <div className="rounded-2xl overflow-hidden flex items-center justify-center h-72 relative"
             style={{ backgroundColor: player.team_color_primary + '20' }}>
-            {flagUrl && (
-              <img src={flagUrl} alt="" aria-hidden
-                className="absolute inset-0 w-full h-full object-cover opacity-20 scale-110 blur-[2px]" />
+            {teamFlagUrl && (
+              <img src={teamFlagUrl} alt="" aria-hidden
+                className="absolute inset-0 w-full h-full object-cover opacity-20 scale-110"
+                onError={(e) => { e.currentTarget.style.display = 'none' }}
+              />
             )}
             <img
               src={`/players/${player.id}.webp`}
