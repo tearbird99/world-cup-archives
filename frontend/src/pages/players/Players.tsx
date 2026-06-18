@@ -8,21 +8,30 @@ type SortKey = 'name' | 'goals' | 'appearances' | 'rating'
 
 const PAGE_SIZE = 18
 
+// 발음 구별 기호(accent) 제거 — 'Pelé' -> 'pele', 'Müller' -> 'muller'
+function normalizeText(text: string): string {
+  return text
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+}
+
 export default function Players() {
   const { t } = useTranslation('players')
   const [query, setQuery] = useState('')
   const [sortKey, setSortKey] = useState<SortKey>('appearances')
   const [page, setPage] = useState(1)
+  const [pageInput, setPageInput] = useState('1')
 
   const filtered = useMemo(() => {
     let list = [...PLAYERS]
 
     if (query.trim()) {
-      const q = query.toLowerCase()
+      const q = normalizeText(query)
       list = list.filter(
         (p) =>
-          p.name.toLowerCase().includes(q) ||
-          p.nationality.toLowerCase().includes(q),
+          normalizeText(p.name).includes(q) ||
+          normalizeText(p.nationality).includes(q),
       )
     }
 
@@ -50,6 +59,21 @@ export default function Players() {
   function handleSortChange(s: SortKey) {
     setSortKey(s)
     setPage(1)
+  }
+
+  function goToPage(num: number) {
+    const clamped = Math.min(Math.max(1, num), totalPages || 1)
+    setPage(clamped)
+    setPageInput(String(clamped))
+  }
+
+  function handlePageInputSubmit() {
+    const num = parseInt(pageInput, 10)
+    if (!Number.isNaN(num)) {
+      goToPage(num)
+    } else {
+      setPageInput(String(currentPage))
+    }
   }
 
   return (
@@ -115,19 +139,19 @@ export default function Players() {
 
             {/* 페이지네이션 */}
             {totalPages > 1 && (
-              <div className="flex items-center justify-center gap-1 mt-10">
+              <div className="flex items-center justify-center gap-1 mt-10 flex-wrap">
                 {/* 첫 페이지 */}
                 <button
-                  onClick={() => setPage(1)}
+                  onClick={() => goToPage(1)}
                   disabled={currentPage === 1}
                   className="p-2 rounded-lg text-zinc-500 hover:bg-zinc-100 dark:hover:bg-zinc-800 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
                 >
                   <ChevronsLeft className="w-4 h-4" />
                 </button>
-                
+
                 {/* 이전 */}
                 <button
-                  onClick={() => setPage(p => Math.max(1, p - 1))}
+                  onClick={() => goToPage(currentPage - 1)}
                   disabled={currentPage === 1}
                   className="p-2 rounded-lg text-zinc-500 hover:bg-zinc-100 dark:hover:bg-zinc-800 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
                 >
@@ -143,7 +167,7 @@ export default function Players() {
                   ) : (
                     <button
                       key={num}
-                      onClick={() => setPage(Number(num))}
+                      onClick={() => goToPage(Number(num))}
                       className={`min-w-[36px] h-9 px-2 rounded-lg text-sm font-medium transition-colors
                         ${currentPage === num
                           ? 'bg-lime-600 text-white'
@@ -157,7 +181,7 @@ export default function Players() {
 
                 {/* 다음 */}
                 <button
-                  onClick={() => setPage(p => Math.min(totalPages, p + 1))}
+                  onClick={() => goToPage(currentPage + 1)}
                   disabled={currentPage === totalPages}
                   className="p-2 rounded-lg text-zinc-500 hover:bg-zinc-100 dark:hover:bg-zinc-800 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
                 >
@@ -166,12 +190,37 @@ export default function Players() {
 
                 {/* 마지막 페이지 */}
                 <button
-                  onClick={() => setPage(totalPages)}
+                  onClick={() => goToPage(totalPages)}
                   disabled={currentPage === totalPages}
                   className="p-2 rounded-lg text-zinc-500 hover:bg-zinc-100 dark:hover:bg-zinc-800 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
                 >
                   <ChevronsRight className="w-4 h-4" />
                 </button>
+
+                {/* 페이지 직접 입력 */}
+                <div className="flex items-center gap-1.5 ml-3 pl-3 border-l border-zinc-200 dark:border-zinc-700">
+                  <input
+                    type="number"
+                    min={1}
+                    max={totalPages}
+                    value={pageInput}
+                    onChange={(e) => setPageInput(e.target.value)}
+                    onBlur={handlePageInputSubmit}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter') {
+                        e.currentTarget.blur()
+                      }
+                    }}
+                    className="w-14 h-9 text-sm text-center rounded-lg border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-900 text-zinc-900 dark:text-zinc-100 focus:outline-none focus:ring-2 focus:ring-lime-500"
+                  />
+                  <span className="text-sm text-zinc-400 whitespace-nowrap">/ {totalPages}</span>
+                  <button
+                    onClick={handlePageInputSubmit}
+                    className="h-9 px-3 text-sm font-medium rounded-lg bg-lime-600 text-white hover:bg-lime-700 dark:bg-lime-600 dark:hover:bg-lime-500 transition-colors"
+                  >
+                    {t('go_to_page', { defaultValue: '페이지' })}
+                  </button>
+                </div>
               </div>
             )}
           </>
