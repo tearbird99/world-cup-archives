@@ -239,7 +239,7 @@ def main(target_years: list[int] = None):
 
 
 if __name__ == "__main__":
-    main(target_years=[1966])
+    main(target_years=[2022])
 
     # 전체 수집:
     # main()

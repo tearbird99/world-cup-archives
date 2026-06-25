@@ -63,9 +63,9 @@ export default function TeamDetail() {
 
         {/* 상단: 국기 배경 + 기본 정보 */}
         <div className="grid grid-cols-1 md:grid-cols-[280px_1fr] gap-8 mb-10">
-          <div className="rounded-2xl overflow-hidden flex items-center justify-center h-72 relative bg-zinc-100 dark:bg-zinc-900">
+          <div className="self-start rounded-2xl overflow-hidden aspect-[3/2] w-full relative bg-zinc-100 dark:bg-zinc-900">
             <img src={flagUrl} alt={team.name}
-              className="relative z-10 h-full w-full object-cover"
+              className="absolute inset-0 w-full h-full object-cover"
               onError={(e) => { e.currentTarget.style.display = 'none' }}
             />
           </div>
