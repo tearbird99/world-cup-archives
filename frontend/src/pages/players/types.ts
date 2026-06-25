@@ -1,4 +1,4 @@
-export type StatMode = 'total' | 'per90' | 'team'
+export type StatMode = 'total' | 'per90'
 export type YearTab = number | 'career'
 
 export interface SeasonStats {

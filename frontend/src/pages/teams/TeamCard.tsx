@@ -18,11 +18,11 @@ export default function TeamCard({ team }: TeamCardProps) {
       className="group block bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-xl overflow-hidden hover:shadow-lg hover:border-lime-500 dark:hover:border-lime-500 transition-all duration-200"
     >
       {/* 국기 영역 */}
-      <div className="relative flex items-center justify-center h-36 overflow-hidden">
+      <div className="relative aspect-[3/2] w-full overflow-hidden">
         <img
           src={flagUrl}
           alt={team.name}
-          className="w-full h-full object-cover"
+          className="absolute inset-0 w-full h-full object-cover"
           onError={(e) => { e.currentTarget.style.display = 'none' }}
         />
       </div>

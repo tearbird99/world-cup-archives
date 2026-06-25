@@ -1,6 +1,6 @@
 import type { StatMode } from './types'
 
-export const MODE_KEYS: StatMode[] = ['total', 'per90', 'team']
+export const MODE_KEYS: StatMode[] = ['total', 'per90']
 
 export const RADAR_MAX = {
   career_total: {
@@ -21,18 +21,11 @@ export const RADAR_MAX = {
     dribbling:  { successfulDribbles: 6.0, groundDuelsWon: 12.0, aerialDuelsWon: 4.0, totalDuelsWon: 14.0, wasFouled: 5.0 },
     defending:  { tackles: 7.0, tacklesWon: 4.0, interceptions: 2.0, clearances: 4.0, blockedShots: 2.0 },
   },
-  team: {
-    attacking:  { goals: 20, totalShots: 80, shotsOnTarget: 60, goalsFromInsideTheBox: 15, goalsFromOutsideTheBox: 6 },
-    passing:    { assists: 15, keyPasses: 100, bigChancesCreated: 16, accuratePasses: 1200, accurateLongBalls: 100 },
-    dribbling:  { successfulDribbles: 150, groundDuelsWon: 250, aerialDuelsWon: 50, totalDuelsWon: 300, wasFouled: 50 },
-    defending:  { tackles: 100, tacklesWon: 60, interceptions: 30, clearances: 60, blockedShots: 30 },
-  },
 }
 
 export type RadarCategory = keyof typeof RADAR_MAX.career_total
 
 export function getMaxMaps(mode: StatMode, isCareer: boolean) {
   if (mode === 'per90') return RADAR_MAX.per90
-  if (mode === 'team')  return RADAR_MAX.team
   return isCareer ? RADAR_MAX.career_total : RADAR_MAX.season_total
 }

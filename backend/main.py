@@ -49,11 +49,6 @@ def get_player_by_year(player_id: int, year: int):
 
 @app.get("/api/teams/{team_id}")
 def get_team_years_played(team_id: int):
-    """
-    이 팀이 실제로 출전 기록(통계 파일)이 존재하는 모든 연도 목록을 반환.
-    프론트엔드 TeamDetail의 연도 탭 구성에 사용됨.
-    data/teams/{year}/{slug}.json 파일이 있는 연도만 모아서 정렬해서 반환.
-    """
     slug = _slug_for_team(team_id)
 
     years_played: list[int] = []
@@ -74,4 +69,12 @@ def get_team_by_year(team_id: int, year: int):
     path = TEAMS_DIR / str(year) / f"{slug}.json"
     if not path.exists():
         raise HTTPException(status_code=404, detail="Team not found")
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+@app.get("/api/stats/players/{year}")
+def get_player_stats_by_year(year: int):
+    path = PLAYERS_DIR / str(year) / "rankings.json"
+    if not path.exists():
+        raise HTTPException(status_code=404, detail="Rankings not found")
     return json.loads(path.read_text(encoding="utf-8"))

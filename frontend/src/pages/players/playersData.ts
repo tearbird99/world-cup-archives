@@ -1,8 +1,5 @@
 import type { PlayerSummary } from './PlayerCard'
 
-// 이 파일은 scraper/generate_players_data.py로 자동 생성됩니다.
-// 포지션(position)은 수동으로 지정한 선수의 경우 유지됩니다.
-
 export const PLAYERS: PlayerSummary[] = [
   {
     id: 1,
