@@ -1,19 +1,13 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { cn } from '@/lib/utils'
 import { STAT_CATEGORIES, WORLD_CUP_YEARS } from './constants'
 import { getStatsByCategory } from './utils'
 import { usePlayerSeasonRankings } from './hooks/usePlayerSeasonRankings'
-import StatCard from './components/StatCard' 
-
-const CATEGORY_LABELS: Record<string, string> = {
-  matches: '경기',
-  attacking: '공격',
-  passing: '패스',
-  defending: '수비',
-  other: '기타',
-}
+import StatCard from './components/StatCard'
 
 export default function Stats() {
+  const { t } = useTranslation('stats')
   const latestYear = WORLD_CUP_YEARS[WORLD_CUP_YEARS.length - 1]
   const [selectedYear, setSelectedYear] = useState<number | 'all-time'>(latestYear)
   const isAllTime = selectedYear === 'all-time'
@@ -23,8 +17,8 @@ export default function Stats() {
   return (
     <div className="space-y-8">
       <div>
-        <h1 className="text-2xl font-bold mb-1">Stats Leaders</h1>
-        <p className="text-muted-foreground">대회별 선수 스탯 순위</p>
+        <h1 className="text-2xl font-bold mb-1">{t('title')}</h1>
+        <p className="text-muted-foreground">{t('subtitle')}</p>
       </div>
 
       {/* 연도 선택 */}
@@ -44,17 +38,18 @@ export default function Stats() {
           </button>
         ))}
 
+        {/* All-Time 역대 전체 */}
         <button
           disabled
-          title="준비 중입니다"
+          title={t('all_time_coming_soon')}
           className="px-3 py-1.5 rounded-md text-sm font-medium bg-muted text-muted-foreground opacity-50 cursor-not-allowed"
         >
-          All-Time
+          {t('all_time')}
         </button>
       </div>
 
-      {loading && <p className="text-muted-foreground">불러오는 중...</p>}
-      {error && <p className="text-destructive">데이터를 불러오지 못했어요. ({error})</p>}
+      {loading && <p className="text-muted-foreground">{t('loading')}</p>}
+      {error && <p className="text-destructive">{t('error', { error })}</p>}
 
       {!loading && !error && rankings && (
         <div className="space-y-10">
@@ -64,13 +59,14 @@ export default function Stats() {
             return (
               <section key={category}>
                 <h2 className="text-lg font-semibold mb-3 text-lime-600 dark:text-lime-400">
-                  {CATEGORY_LABELS[category]}
+                  {t(`category.${category}`)}
                 </h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                   {statsInCategory.map((def) => (
                     <StatCard
                       key={def.key}
-                      label={def.key}
+                      statKey={def.key}
+                      label={t(`stat.${def.key}`, { defaultValue: def.key })}
                       entries={rankings[def.key] ?? []}
                       detailHref={`/stats/players/${selectedYear}/${def.key}`}
                     />

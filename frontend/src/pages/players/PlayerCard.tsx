@@ -1,8 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 
-export type Position = 'FW' | 'MF' | 'DF' | 'GK' | 'N/A'
-
 export interface PlayerSummary {
   id: number
   name: string
@@ -15,19 +13,10 @@ export interface PlayerSummary {
   goals: number
   assists: number
   appearances: number
-  position: Position
 }
 
 interface PlayerCardProps {
   player: PlayerSummary
-}
-
-const positionStyle: Record<Position, { label: string; color: string }> = {
-  FW: { label: 'FW', color: 'bg-red-200/90 text-black' },
-  MF: { label: 'MF', color: 'bg-green-200/90 text-black' },
-  DF: { label: 'DF', color: 'bg-blue-200/90 text-black' },
-  GK: { label: 'GK', color: 'bg-yellow-200/90 text-black' },
-  'N/A': { label: 'N/A', color: 'bg-zinc-200/90 text-black' },
 }
 
 export default function PlayerCard({ player }: PlayerCardProps) {
@@ -42,8 +31,6 @@ export default function PlayerCard({ player }: PlayerCardProps) {
   const teamFlagUrl = player.team_code
     ? `/teams/${player.team_code.toUpperCase()}.webp`
     : null
-
-  const pos = positionStyle[player.position] ?? positionStyle['N/A']
 
   return (
     <Link
@@ -77,13 +64,6 @@ export default function PlayerCard({ player }: PlayerCardProps) {
             target.src = '/players/default.webp'
           }}
         />
-
-        {/* 포지션 뱃지 — 우상단 */}
-        <span
-          className={`absolute top-2 right-2 z-20 text-[10px] font-bold px-1.5 py-0.5 rounded ${pos.color}`}
-        >
-          {pos.label}
-        </span>
       </div>
 
       {/* 정보 영역 */}

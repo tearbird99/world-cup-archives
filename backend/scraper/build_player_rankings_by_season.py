@@ -7,7 +7,7 @@ Player Season Stats Rankings
     - 1982~     : 400분 이상
 - 동률 시 minutesPlayed 적은 선수 우선
 - 결과: 각 연도 폴더 안에 따로 저장 -> data/players/{year}/rankings.json
-    형태: { "goals": [ {id, name, team, team_slug, value}, ... ], "rating": [...], ... }
+    형태: { "goals": [ {id, name, team, team_code, value}, ... ], "rating": [...], ... }
     (각 스탯 배열은 해당 연도 대회에서 그 스탯이 0이 아닌 선수 전체, 값 내림차순)
 """
 
@@ -42,11 +42,11 @@ STAT_KEYS = [
     "touches",
     "keyPasses",
     "accuratePasses",
-    "accuratePassesPercentage",
     "accurateOppositionHalfPasses",
     "accurateFinalThirdPasses",
+    "accurateLongBalls",
+    "accurateCrosses",
     "successfulDribbles",
-    "successfulDribblesPercentage",
     "groundDuelsWon",
     "aerialDuelsWon",
     "totalDuelsWon",
@@ -108,7 +108,7 @@ def build_rankings_by_season():
             name = data.get("name", "Unknown")
             team = data.get("team") or {}
             team_name = team.get("name")
-            team_slug = team.get("slug")
+            team_code = team.get("nameCode")  # 예: "ENG" — frontend의 /teams/{CODE}.webp 와 매칭
 
             statistics = data.get("statistics") or {}
             minutes = statistics.get("minutesPlayed", 0) or 0
@@ -118,7 +118,7 @@ def build_rankings_by_season():
                 "id": player_id,
                 "name": name,
                 "team": team_name,
-                "team_slug": team_slug,
+                "team_code": team_code,
             }
 
             for key in STAT_KEYS:

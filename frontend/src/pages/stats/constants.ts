@@ -29,9 +29,10 @@ export const STAT_DEFINITIONS: StatDefinition[] = [
   { key: 'keyPasses', category: 'passing' },
   { key: 'bigChancesCreated', category: 'passing' },
   { key: 'accuratePasses', category: 'passing' },
-  { key: 'accuratePassesPercentage', category: 'passing' },
   { key: 'accurateOppositionHalfPasses', category: 'passing' },
   { key: 'accurateFinalThirdPasses', category: 'passing' },
+  { key: 'accurateLongBalls', category: 'passing' },
+  { key: 'accurateCrosses', category: 'passing' },
 
   { key: 'tacklesWon', category: 'defending' },
   { key: 'interceptions', category: 'defending' },
@@ -46,7 +47,6 @@ export const STAT_DEFINITIONS: StatDefinition[] = [
 
   { key: 'touches', category: 'other' },
   { key: 'successfulDribbles', category: 'other' },
-  { key: 'successfulDribblesPercentage', category: 'other' },
   { key: 'groundDuelsWon', category: 'other' },
   { key: 'aerialDuelsWon', category: 'other' },
   { key: 'totalDuelsWon', category: 'other' },

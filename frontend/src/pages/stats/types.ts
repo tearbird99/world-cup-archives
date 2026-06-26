@@ -5,7 +5,7 @@ export interface RankingEntry {
   id: number
   name: string
   team: string | null
-  team_slug: string | null
+  team_code: string | null
   value: number
 }
 
@@ -17,4 +17,5 @@ export interface StatDefinition {
   relatedStat?: string
 }
 
+/* 연도별 랭킹 파일(data/players/{year}/rankings.json) 한 개의 구조 */
 export type RankingsByStat = Record<string, RankingEntry[]>

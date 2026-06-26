@@ -5,12 +5,14 @@ import enNav from '@/locales/en/nav.json'
 import enHome from '@/locales/en/home.json'
 import enPlayers from '@/locales/en/players.json'
 import enTeams from '@/locales/en/teams.json'
+import enStats from '@/locales/en/stats.json'
 import enCommon from '@/locales/en/common.json'
 
 import koNav from '@/locales/ko/nav.json'
 import koHome from '@/locales/ko/home.json'
 import koPlayers from '@/locales/ko/players.json'
 import koTeams from '@/locales/ko/teams.json'
+import koStats from '@/locales/ko/stats.json'
 import koCommon from '@/locales/ko/common.json'
 
 i18n
@@ -22,6 +24,7 @@ i18n
         home: enHome,
         players: enPlayers,
         teams: enTeams,
+        stats: enStats,
         common: enCommon,
       },
       ko: {
@@ -29,6 +32,7 @@ i18n
         home: koHome,
         players: koPlayers,
         teams: koTeams,
+        stats: koStats,
         common: koCommon,
       },
     },
