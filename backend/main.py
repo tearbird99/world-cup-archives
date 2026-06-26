@@ -72,6 +72,14 @@ def get_team_by_year(team_id: int, year: int):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+@app.get("/api/stats/players/all-time")
+def get_player_stats_all_time():
+    path = PLAYERS_DIR / "total" / "rankings.json"
+    if not path.exists():
+        raise HTTPException(status_code=404, detail="Rankings not found")
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
 @app.get("/api/stats/players/{year}")
 def get_player_stats_by_year(year: int):
     path = PLAYERS_DIR / str(year) / "rankings.json"

@@ -9,10 +9,10 @@ import StatCard from './components/StatCard'
 export default function Stats() {
   const { t } = useTranslation('stats')
   const latestYear = WORLD_CUP_YEARS[WORLD_CUP_YEARS.length - 1]
-  const [selectedYear, setSelectedYear] = useState<number | 'all-time'>(latestYear)
-  const isAllTime = selectedYear === 'all-time'
+  const [selectedScope, setSelectedScope] = useState<number | 'all-time'>(latestYear)
+  const isAllTime = selectedScope === 'all-time'
 
-  const { rankings, loading, error } = usePlayerSeasonRankings(isAllTime ? null : selectedYear)
+  const { rankings, loading, error } = usePlayerSeasonRankings(selectedScope)
 
   return (
     <div className="space-y-8">
@@ -26,10 +26,10 @@ export default function Stats() {
         {WORLD_CUP_YEARS.map((year) => (
           <button
             key={year}
-            onClick={() => setSelectedYear(year)}
+            onClick={() => setSelectedScope(year)}
             className={cn(
               'px-3 py-1.5 rounded-md text-sm font-medium transition-colors',
-              selectedYear === year
+              selectedScope === year
                 ? 'bg-lime-500 text-black'
                 : 'bg-muted text-muted-foreground hover:bg-muted/80'
             )}
@@ -38,11 +38,14 @@ export default function Stats() {
           </button>
         ))}
 
-        {/* All-Time 역대 전체 */}
         <button
-          disabled
-          title={t('all_time_coming_soon')}
-          className="px-3 py-1.5 rounded-md text-sm font-medium bg-muted text-muted-foreground opacity-50 cursor-not-allowed"
+          onClick={() => setSelectedScope('all-time')}
+          className={cn(
+            'px-3 py-1.5 rounded-md text-sm font-medium transition-colors',
+            isAllTime
+              ? 'bg-lime-500 text-black'
+              : 'bg-muted text-muted-foreground hover:bg-muted/80'
+          )}
         >
           {t('all_time')}
         </button>
@@ -68,7 +71,7 @@ export default function Stats() {
                       statKey={def.key}
                       label={t(`stat.${def.key}`, { defaultValue: def.key })}
                       entries={rankings[def.key] ?? []}
-                      detailHref={`/stats/players/${selectedYear}/${def.key}`}
+                      detailHref={`/stats/players/${selectedScope}/${def.key}`}
                     />
                   ))}
                 </div>

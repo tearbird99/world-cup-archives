@@ -35,7 +35,7 @@ export default function StatsDetail() {
   const isAllTime = scope === 'all-time'
   const year = isAllTime ? null : Number(scope)
 
-  const { rankings, loading, error } = usePlayerSeasonRankings(isAllTime ? null : year)
+  const { rankings, loading, error } = usePlayerSeasonRankings(isAllTime ? 'all-time' : year)
 
   const entries = stat && rankings ? rankings[stat] ?? [] : []
   const statLabel = stat ? t(`stat.${stat}`, { defaultValue: stat }) : ''
@@ -101,20 +101,23 @@ export default function StatsDetail() {
             {y}
           </Link>
         ))}
-        <button
-          disabled
-          title={t('all_time_coming_soon')}
-          className="px-3 py-1.5 rounded-md text-sm font-medium bg-muted text-muted-foreground opacity-50 cursor-not-allowed"
+        <Link
+          to={`/stats/players/all-time/${stat}`}
+          className={cn(
+            'px-3 py-1.5 rounded-md text-sm font-medium transition-colors',
+            isAllTime
+              ? 'bg-lime-500 text-black'
+              : 'bg-muted text-muted-foreground hover:bg-muted/80'
+          )}
         >
           {t('all_time')}
-        </button>
+        </Link>
       </div>
 
       {loading && <p className="text-muted-foreground">{t('loading')}</p>}
       {error && <p className="text-destructive">{t('error', { error })}</p>}
-      {isAllTime && <p className="text-muted-foreground">{t('all_time_coming_soon')}</p>}
 
-      {!loading && !error && !isAllTime && (
+      {!loading && !error && (
         <>
           <p className="text-sm text-muted-foreground">
             {t('total_players', { count: entries.length, page: currentPage, totalPages })}
