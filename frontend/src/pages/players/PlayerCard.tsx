@@ -13,6 +13,7 @@ export interface PlayerSummary {
   goals: number
   assists: number
   appearances: number
+  position: string
 }
 
 interface PlayerCardProps {
