@@ -4,8 +4,6 @@ import { useTranslation } from 'react-i18next'
 import { Button } from '@/components/ui/button'
 import { useTheme } from '@/contexts/ThemeContext'
 import { useSidebar } from '@/contexts/SidebarContext'
-import gbFlag from 'flag-icons/flags/4x3/gb.svg?url'
-import krFlag from 'flag-icons/flags/4x3/kr.svg?url'
 
 export default function Header() {
   const { theme, toggleTheme } = useTheme()
@@ -69,7 +67,7 @@ export default function Header() {
           <span
             className="absolute inset-0 w-full h-full"
             style={{
-              backgroundImage: `url(${i18n.language === 'en' ? gbFlag : krFlag})`,
+              backgroundImage: `url('/teams/${i18n.language === 'en' ? 'USA' : 'KOR'}.webp')`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
