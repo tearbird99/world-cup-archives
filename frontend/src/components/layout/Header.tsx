@@ -1,8 +1,11 @@
 import { Moon, Sun, Trophy, Menu } from 'lucide-react'
+import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Button } from '@/components/ui/button'
 import { useTheme } from '@/contexts/ThemeContext'
 import { useSidebar } from '@/contexts/SidebarContext'
+import gbFlag from 'flag-icons/flags/4x3/gb.svg?url'
+import krFlag from 'flag-icons/flags/4x3/kr.svg?url'
 
 export default function Header() {
   const { theme, toggleTheme } = useTheme()
@@ -42,13 +45,16 @@ export default function Header() {
           <Menu className="w-5 h-5" />
         </Button>
 
-        {/* 로고 */}
-        <div className="flex items-center gap-2.5">
+        {/* 로고: 클릭 시 홈으로 이동 */}
+        <Link
+          to="/"
+          className="flex items-center gap-2.5 hover:opacity-85 transition-opacity"
+        >
           <Trophy className={`w-5 h-5 ${isDark ? 'text-black' : 'text-white'}`} />
           <span className={`font-bold text-base tracking-tight ${isDark ? 'text-black' : 'text-white'}`}>
             World Cup <span className={isDark ? 'text-black/60' : 'text-white/80'}>Archives</span>
           </span>
-        </div>
+        </Link>
 
         <div className="flex-1" />
 
@@ -63,7 +69,7 @@ export default function Header() {
           <span
             className="absolute inset-0 w-full h-full"
             style={{
-              backgroundImage: `url('/node_modules/flag-icons/flags/4x3/${i18n.language === 'en' ? 'gb' : 'kr'}.svg')`,
+              backgroundImage: `url(${i18n.language === 'en' ? gbFlag : krFlag})`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}

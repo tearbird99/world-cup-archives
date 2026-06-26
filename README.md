@@ -123,7 +123,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-`http://localhost:8000`에서 API 실행. `/docs`에서 인터랙티브 문서 확인 가능.
+`http://localhost:8000`에서 API 실행. `/docs`에서 인터랙티브 문서 확인 가능합니다.
 
 ### 프론트엔드
 
