@@ -1,0 +1,26 @@
+{
+  "hub": {
+    "title": "게임 & 퀴즈",
+    "subtitle": "월드컵 기록으로 즐기는 미니 게임 모음",
+    "play": "플레이",
+    "comingSoon": "준비 중"
+  },
+  "statBattle": {
+    "title": "스탯 배틀",
+    "description": "내 카드와 상대 카드의 스탯을 비교하는 카드 배틀이에요. 더 높은 쪽을 고르면 상대 카드를 가져갈 수 있어요.",
+    "stat_goals": "골",
+    "stat_assists": "어시스트",
+    "stat_appearances": "출전 경기",
+    "stat_rating": "평점",
+    "yourTurn": "스탯을 하나 골라보세요",
+    "cpuThinking": "상대가 스탯을 고르는 중...",
+    "roundWin": "이겼습니다! 상대 카드를 가져왔어요",
+    "roundLose": "졌습니다... 카드를 내줬어요",
+    "roundTie": "무승부! 각자 카드를 가져갑니다",
+    "nextRound": "다음 라운드",
+    "gameOverWin": "승리했습니다! 모든 카드를 모았어요",
+    "gameOverLose": "패배했습니다. 카드가 모두 떨어졌어요",
+    "gameOverTie": "무승부로 게임이 끝났습니다",
+    "restart": "다시하기"
+  }
+}

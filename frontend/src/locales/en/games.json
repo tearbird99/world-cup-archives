@@ -1,0 +1,26 @@
+{
+  "hub": {
+    "title": "Games & Quizzes",
+    "subtitle": "Mini games built from World Cup records",
+    "play": "Play",
+    "comingSoon": "Coming soon"
+  },
+  "statBattle": {
+    "title": "Stat Battle",
+    "description": "A card battle comparing your card against your opponent's. Pick the higher stat to take their card.",
+    "stat_goals": "Goals",
+    "stat_assists": "Assists",
+    "stat_appearances": "Appearances",
+    "stat_rating": "Rating",
+    "yourTurn": "Pick a stat",
+    "cpuThinking": "Opponent is picking a stat...",
+    "roundWin": "You won! Took the opponent's card",
+    "roundLose": "You lost... gave up your card",
+    "roundTie": "Tie! Both cards return to their decks",
+    "nextRound": "Next round",
+    "gameOverWin": "You won! You collected every card",
+    "gameOverLose": "You lost. Your deck ran out of cards",
+    "gameOverTie": "The game ended in a tie",
+    "restart": "Play again"
+  }
+}
