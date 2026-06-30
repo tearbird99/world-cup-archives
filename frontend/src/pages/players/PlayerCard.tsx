@@ -20,6 +20,32 @@ interface PlayerCardProps {
   player: PlayerSummary
 }
 
+// 연도별 월드컵 우승 팀 코드 (team_code 기준)
+const WORLD_CUP_WINNERS: Record<number, string> = {
+  1930: 'URU',
+  1934: 'ITA',
+  1938: 'ITA',
+  1950: 'URU',
+  1954: 'WGE',
+  1958: 'BRA',
+  1962: 'BRA',
+  1966: 'ENG',
+  1970: 'BRA',
+  1974: 'WGE',
+  1978: 'ARG',
+  1982: 'ITA',
+  1986: 'ARG',
+  1990: 'WGE',
+  1994: 'BRA',
+  1998: 'FRA',
+  2002: 'BRA',
+  2006: 'ITA',
+  2010: 'ESP',
+  2014: 'GER',
+  2018: 'FRA',
+  2022: 'ARG',
+}
+
 export default function PlayerCard({ player }: PlayerCardProps) {
   const { t } = useTranslation('players')
 
@@ -32,6 +58,11 @@ export default function PlayerCard({ player }: PlayerCardProps) {
   const teamFlagUrl = player.team_code
     ? `/teams/${player.team_code.toUpperCase()}.webp`
     : null
+
+  // 우승 연도 여부 판별
+  function isWinningYear(year: number): boolean {
+    return WORLD_CUP_WINNERS[year] === player.team_code
+  }
 
   return (
     <Link
@@ -100,14 +131,24 @@ export default function PlayerCard({ player }: PlayerCardProps) {
             color="bg-amber-50 dark:bg-amber-900/30 text-amber-800 dark:text-amber-400" />
         </div>
 
-        {/* 대회 연도 태그 */}
+        {/* 대회 연도 태그 — 우승 연도는 금색으로 강조 */}
         <div className="flex flex-wrap gap-1 mt-2">
-          {player.seasons_played.map((yr) => (
-            <span key={yr}
-              className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-zinc-100 dark:bg-zinc-800 text-zinc-500 dark:text-zinc-400">
-              {yr}
-            </span>
-          ))}
+          {player.seasons_played.map((yr) => {
+            const won = isWinningYear(yr)
+            return (
+              <span
+                key={yr}
+                title={won ? '우승' : undefined}
+                className={`text-[10px] font-mono px-1.5 py-0.5 rounded ${
+                  won
+                    ? 'bg-amber-100 dark:bg-amber-900/40 text-amber-700 dark:text-amber-400 font-semibold'
+                    : 'bg-zinc-100 dark:bg-zinc-800 text-zinc-500 dark:text-zinc-400'
+                }`}
+              >
+                {yr}
+              </span>
+            )
+          })}
         </div>
       </div>
     </Link>

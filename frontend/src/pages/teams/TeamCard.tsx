@@ -42,25 +42,11 @@ export default function TeamCard({ team }: TeamCardProps) {
 
         {/* 우승 연도 */}
         {team.titles.length > 0 && (
-          <div className="flex flex-wrap gap-1 mb-1">
+          <div className="flex flex-wrap gap-1">
             {team.titles.map((yr) => (
               <span
                 key={yr}
                 className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-amber-100 dark:bg-amber-900/40 text-amber-700 dark:text-amber-400 font-semibold"
-              >
-                {yr}
-              </span>
-            ))}
-          </div>
-        )}
-
-        {/* 준우승 연도 */}
-        {team.runner_ups.length > 0 && (
-          <div className="flex flex-wrap gap-1">
-            {team.runner_ups.map((yr) => (
-              <span
-                key={yr}
-                className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-zinc-100 dark:bg-zinc-800 text-zinc-500 dark:text-zinc-400"
               >
                 {yr}
               </span>

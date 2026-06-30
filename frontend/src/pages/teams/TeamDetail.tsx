@@ -75,10 +75,9 @@ export default function TeamDetail() {
             <div className="flex flex-col gap-1">
               <span className="text-zinc-500 dark:text-zinc-400">{team.name_ko}</span>
             </div>
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-2">
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mt-2">
               <BigStat label={t('card_appearances')} value={team.appearances} />
               <BigStat label={t('card_titles')}      value={team.titles.length}     accent="lime" />
-              <BigStat label={t('card_runner_ups')}  value={team.runner_ups.length} accent="teal" />
               <BigStat label={t('card_rating')}      value={s ? s.avgRating.toFixed(2) : '–'} accent="amber" />
             </div>
           </div>
