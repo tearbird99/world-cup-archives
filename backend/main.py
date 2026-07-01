@@ -3,7 +3,13 @@ from fastapi.middleware.cors import CORSMiddleware
 import json
 from pathlib import Path
 
+from db.database import Base, engine
+from db import models  # noqa: F401
+
 app = FastAPI()
+
+# 앱 시작 시 users/favorites/comments 테이블이 없으면 자동 생성
+Base.metadata.create_all(bind=engine)
 
 app.add_middleware(
     CORSMiddleware,
