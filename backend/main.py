@@ -5,6 +5,7 @@ from pathlib import Path
 
 from db.database import Base, engine
 from db import models  # noqa: F401
+from auth.routes import router as auth_router
 
 app = FastAPI()
 
@@ -14,9 +15,11 @@ Base.metadata.create_all(bind=engine)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:5173"],
-    allow_methods=["GET"],
+    allow_methods=["GET", "POST", "DELETE", "PATCH"],
     allow_headers=["*"],
 )
+
+app.include_router(auth_router)
 
 DATA_DIR = Path(__file__).parent / "data"
 PLAYERS_DIR = DATA_DIR / "players"

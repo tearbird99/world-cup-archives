@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next'
 import { Button } from '@/components/ui/button'
 import { useTheme } from '@/contexts/ThemeContext'
 import { useSidebar } from '@/contexts/SidebarContext'
+import { GoogleLoginButton } from '@/components/auth/GoogleLoginButton'
 
 export default function Header() {
   const { theme, toggleTheme } = useTheme()
@@ -55,6 +56,9 @@ export default function Header() {
         </Link>
 
         <div className="flex-1" />
+
+        {/* 구글 로그인 / 프로필 */}
+        <GoogleLoginButton />
 
         {/* 언어 토글 버튼 */}
         <Button
