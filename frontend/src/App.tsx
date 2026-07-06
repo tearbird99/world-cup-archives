@@ -13,6 +13,8 @@ import TeamDetail from '@/pages/teams/TeamDetail'
 import StatsDetail from '@/pages/stats/StatsDetail'
 import StatBattlePage from '@/pages/games/stat-battle/StatBattlePage'
 import Privacy from '@/pages/privacy/Privacy'
+import Favorites from '@/pages/favorites/Favorites'
+import { RequireAuth } from '@/components/auth/RequireAuth'
 
 // 페이지 이동마다 스크롤바 항상 최상단
 function ScrollToTop() {
@@ -37,6 +39,14 @@ export default function App() {
           <Route path="history" element={<History />} />
           <Route path="games" element={<Games />} />
           <Route path="stats" element={<Stats />} />
+          <Route
+            path="favorites"
+            element={
+              <RequireAuth>
+                <Favorites />
+              </RequireAuth>
+            }
+          />
           <Route path="/players/:id" element={<PlayerDetail />} />
           <Route path="/teams/:id" element={<TeamDetail />} />
           <Route path="/stats/:entity/:scope/:stat" element={<StatsDetail />} />

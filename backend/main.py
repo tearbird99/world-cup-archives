@@ -6,6 +6,7 @@ from pathlib import Path
 from db.database import Base, engine
 from db import models  # noqa: F401
 from auth.routes import router as auth_router
+from favorites.routes import router as favorites_router
 
 app = FastAPI()
 
@@ -20,6 +21,7 @@ app.add_middleware(
 )
 
 app.include_router(auth_router)
+app.include_router(favorites_router)
 
 DATA_DIR = Path(__file__).parent / "data"
 PLAYERS_DIR = DATA_DIR / "players"

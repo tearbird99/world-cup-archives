@@ -8,6 +8,7 @@ import {
   BookOpen,
   Gamepad2,
   BarChart2,
+  Star,
   X,
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
@@ -15,11 +16,13 @@ import { Separator } from '@/components/ui/separator'
 import { Button } from '@/components/ui/button'
 import { useSidebar } from '@/contexts/SidebarContext'
 import { useTheme } from '@/contexts/ThemeContext'
+import { useAuth } from '@/contexts/AuthContext'
 
 export default function Sidebar() {
   const { t } = useTranslation('nav')
   const { isOpen, close } = useSidebar()
   const { theme } = useTheme()
+  const { isLoggedIn } = useAuth()
 
   const isDark = theme === 'dark'
 
@@ -36,6 +39,10 @@ export default function Sidebar() {
     { to: '/records', icon: Medal, label: t('records') },
     { to: '/history', icon: BookOpen, label: t('history') },
     { to: '/stats', icon: BarChart2, label: t('stats') },
+    // 로그인한 유저에게만 즐겨찾기 메뉴 노출
+    ...(isLoggedIn
+      ? [{ to: '/favorites', icon: Star, label: '즐겨찾기' }]
+      : []),
   ]
 
   const extraItems = [

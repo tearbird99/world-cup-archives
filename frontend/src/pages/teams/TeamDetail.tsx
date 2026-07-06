@@ -11,6 +11,7 @@ import BigStat from './components/BigStat'
 import ModeToggle from './components/ModeToggle'
 import StatTable from './components/StatTable'
 import RadarGroup from './components/RadarGroup'
+import { StarButton } from '@/components/ui/StarButton'
 
 export default function TeamDetail() {
   const { id } = useParams<{ id: string }>()
@@ -71,7 +72,10 @@ export default function TeamDetail() {
           </div>
 
           <div className="flex flex-col justify-center gap-3">
-            <h1 className="text-3xl font-bold text-zinc-900 dark:text-zinc-100">{team.name}</h1>
+            <div className="flex items-center gap-2">
+              <h1 className="text-3xl font-bold text-zinc-900 dark:text-zinc-100">{team.name}</h1>
+              <StarButton targetType="team" targetId={String(team.id)} />
+            </div>
             <div className="flex flex-col gap-1">
               <span className="text-zinc-500 dark:text-zinc-400">{team.name_ko}</span>
             </div>
