@@ -17,9 +17,9 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 457526,
+    "userCount": 626248,
     "nameCode": "NED",
-    "ranking": 7,
+    "ranking": 9,
     "disabled": false,
     "national": true,
     "type": 0,
@@ -42,23 +42,24 @@
     }
   },
   "seasons_played": [
-    2022
+    2022,
+    2026
   ],
-  "career_rating": 6.75,
-  "totalRating": 27.0,
-  "countRating": 4,
+  "career_rating": 6.72,
+  "totalRating": 33.6,
+  "countRating": 5,
   "statistics": {
     "goals": 0,
     "bigChancesCreated": 0,
     "bigChancesMissed": 0,
     "assists": 0,
     "goalsAssistsSum": 0,
-    "accuratePasses": 96,
+    "accuratePasses": 97,
     "inaccuratePasses": 21,
-    "totalPasses": 117,
+    "totalPasses": 118,
     "accurateOwnHalfPasses": 45,
-    "accurateOppositionHalfPasses": 51,
-    "accurateFinalThirdPasses": 14,
+    "accurateOppositionHalfPasses": 52,
+    "accurateFinalThirdPasses": 15,
     "keyPasses": 0,
     "successfulDribbles": 0,
     "tackles": 7,
@@ -73,7 +74,7 @@
     "groundDuelsWon": 7,
     "aerialDuelsWon": 4,
     "totalDuelsWon": 11,
-    "minutesPlayed": 185,
+    "minutesPlayed": 195,
     "penaltiesTaken": 0,
     "penaltyGoals": 0,
     "penaltyWon": 0,
@@ -96,7 +97,7 @@
     "possessionWonAttThird": 0,
     "totalChippedPasses": 2,
     "accurateChippedPasses": 0,
-    "touches": 143,
+    "touches": 144,
     "wasFouled": 0,
     "fouls": 3,
     "hitWoodwork": 0,
@@ -137,11 +138,11 @@
     "savesCaught": 0,
     "savesParried": 0,
     "totalOwnHalfPasses": 54,
-    "totalOppositionHalfPasses": 63,
+    "totalOppositionHalfPasses": 64,
     "totwAppearances": 0,
     "goalKicks": 0,
     "ballRecovery": 8,
     "outfielderBlocks": 0,
-    "appearances": 5
+    "appearances": 6
   }
 }

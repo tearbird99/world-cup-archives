@@ -17,9 +17,9 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 1189275,
+    "userCount": 2034617,
     "nameCode": "FRA",
-    "ranking": 1,
+    "ranking": 3,
     "disabled": false,
     "national": true,
     "type": 0,
@@ -40,7 +40,8 @@
     }
   },
   "seasons_played": [
-    2022
+    2022,
+    2026
   ],
   "career_rating": 6.74,
   "totalRating": 33.7,
@@ -71,7 +72,7 @@
     "groundDuelsWon": 14,
     "aerialDuelsWon": 8,
     "totalDuelsWon": 22,
-    "minutesPlayed": 155,
+    "minutesPlayed": 156,
     "penaltiesTaken": 0,
     "penaltyGoals": 0,
     "penaltyWon": 0,
@@ -140,6 +141,9 @@
     "goalKicks": 0,
     "ballRecovery": 8,
     "outfielderBlocks": 0,
-    "appearances": 5
+    "appearances": 6,
+    "kilometersCovered": 0.25,
+    "numberOfSprints": 0,
+    "topSpeed": 21.24
   }
 }

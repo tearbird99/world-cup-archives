@@ -1,6 +1,6 @@
 {
   "id": 868812,
-  "name": "Vinicius Júnior",
+  "name": "Vinícius Júnior",
   "year": 2022,
   "season_id": 41087,
   "player_info": {
@@ -137,9 +137,9 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 2244777,
+    "userCount": 3371721,
     "nameCode": "BRA",
-    "ranking": 6,
+    "ranking": 5,
     "disabled": false,
     "national": true,
     "type": 0,

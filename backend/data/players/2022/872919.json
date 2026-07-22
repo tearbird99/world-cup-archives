@@ -1,6 +1,6 @@
 {
   "id": 872919,
-  "name": "Ruben Vargas",
+  "name": "Rubén Vargas",
   "year": 2022,
   "season_id": 41087,
   "player_info": {
@@ -137,9 +137,9 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 155748,
+    "userCount": 307154,
     "nameCode": "SUI",
-    "ranking": 19,
+    "ranking": 14,
     "disabled": false,
     "national": true,
     "type": 0,

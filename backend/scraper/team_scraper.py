@@ -311,9 +311,9 @@ def main():
         COOLDOWN_THRESHOLD = 3       # 연속 실패 이 횟수 넘으면 쿨다운
         COOLDOWN_SECONDS = 90        # 쿨다운 시간
 
-        # 이번 재실행 범위: 1998~2022 (이전 실행에서 1966~1998 일부까지는 이미 완료됨)
-        YEAR_RANGE_START = 1998
-        YEAR_RANGE_END = 2022
+        # 이번 재실행 범위: 2026~2026 (이전 실행에서 1966~1998 일부까지는 이미 완료됨)
+        YEAR_RANGE_START = 2026
+        YEAR_RANGE_END = 2026
 
         for year, info in sorted(team_season_map.items(), key=lambda x: int(x[0])):
             if not (YEAR_RANGE_START <= int(year) <= YEAR_RANGE_END):

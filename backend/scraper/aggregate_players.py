@@ -19,7 +19,7 @@ PLAYERS_DIR = os.path.join(DATA_DIR, "players")
 TOTAL_DIR = os.path.join(PLAYERS_DIR, "total")
 INDEX_PATH = os.path.join(DATA_DIR, "players-index.json")
 
-SEASON_YEARS = [1966, 1970, 1974, 1978, 1982, 1986, 1990, 1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022]
+SEASON_YEARS = [1966, 1970, 1974, 1978, 1982, 1986, 1990, 1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022, 2026]
 
 # 합산에서 제외할 키
 EXCLUDE_KEYS = {

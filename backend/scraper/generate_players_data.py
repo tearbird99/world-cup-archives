@@ -47,7 +47,7 @@ FLAG_CODE_MAP: dict[str, str] = {
     'TOG': 'tg',  'ZAI': 'cd',  'COD': 'cd',  'COG': 'cg',
     'GAB': 'ga',  'MLI': 'ml',  'GIN': 'gn',  'BFA': 'bf',
     'ETH': 'et',  'KEN': 'ke',  'MOZ': 'mz',  'ZAM': 'zm',
-    'ZIM': 'zw',  'NAM': 'na',
+    'ZIM': 'zw',  'NAM': 'na',  'CPV': 'cv',
     # ── 아시아/중동 ───────────────────────────────────────────────────
     'KOR': 'kr',  'JPN': 'jp',  'JAP': 'jp',  'CHN': 'cn',
     'IRI': 'ir',  'KSA': 'sa',  'IRA': 'iq',
@@ -157,7 +157,14 @@ def main():
         existing = parse_existing(OUTPUT_FILE.read_text(encoding='utf-8'))
         print(f'기존 선수 수: {len(existing)}명')
 
-    files = sorted(TOTAL_DIR.glob('*.json'), key=lambda p: int(p.stem))
+    all_files = list(TOTAL_DIR.glob('*.json'))
+    files = sorted(
+        (f for f in all_files if f.stem.isdigit()),
+        key=lambda p: int(p.stem),
+    )
+    skipped = [f.name for f in all_files if not f.stem.isdigit()]
+    if skipped:
+        print(f'선수 파일이 아니라 건너뜀: {skipped}')
     print(f'total/ 파일 수: {len(files)}')
 
     players = []
@@ -166,13 +173,14 @@ def main():
     for f in files:
         player_id = int(f.stem)
         if player_id in existing:
-            # 기존 선수 — team_code 없으면 JSON에서 보완
-            p = existing[player_id]
-            if not p.get('team_code'):
-                raw = load_from_json(f)
-                if raw:
-                    p['team_code'] = raw['team_code']
-            players.append(p)
+            # 기존 선수 — position만 수동 지정값 유지, 나머지는 JSON 최신값으로 갱신
+            old = existing[player_id]
+            raw = load_from_json(f)
+            if raw:
+                raw['position'] = old.get('position', 'N/A')
+                players.append(raw)
+            else:
+                players.append(old)  # JSON 로드 실패 시에만 기존 값 폴백
         else:
             p = load_from_json(f)
             if p:

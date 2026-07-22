@@ -17,9 +17,9 @@
       "slug": "football",
       "id": 1
     },
-    "userCount": 53144,
+    "userCount": 126622,
     "nameCode": "AUS",
-    "ranking": 27,
+    "ranking": 28,
     "disabled": false,
     "national": true,
     "type": 0,
@@ -42,7 +42,8 @@
   "seasons_played": [
     2014,
     2018,
-    2022
+    2022,
+    2026
   ],
   "career_rating": 6.96,
   "totalRating": 69.6,
@@ -73,7 +74,7 @@
     "groundDuelsWon": 0,
     "aerialDuelsWon": 2,
     "totalDuelsWon": 2,
-    "minutesPlayed": 900,
+    "minutesPlayed": 901,
     "penaltiesTaken": 0,
     "penaltyGoals": 0,
     "penaltyWon": 0,
@@ -144,7 +145,7 @@
     "goalKicks": 81,
     "ballRecovery": 120,
     "outfielderBlocks": 0,
-    "appearances": 10,
+    "appearances": 11,
     "goalsPrevented": -0.5031
   }
 }

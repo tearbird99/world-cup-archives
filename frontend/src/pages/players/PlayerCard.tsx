@@ -45,6 +45,7 @@ const WORLD_CUP_WINNERS: Record<number, string> = {
   2014: 'GER',
   2018: 'FRA',
   2022: 'ARG',
+  2026: 'ESP',
 }
 
 export default function PlayerCard({ player }: PlayerCardProps) {

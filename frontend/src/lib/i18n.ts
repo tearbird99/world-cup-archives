@@ -8,6 +8,7 @@ import enTeams from '@/locales/en/teams.json'
 import enStats from '@/locales/en/stats.json'
 import enCommon from '@/locales/en/common.json'
 import enGames from '@/locales/en/games.json'
+import enFavorites from '@/locales/en/favorites.json'
 
 import koNav from '@/locales/ko/nav.json'
 import koHome from '@/locales/ko/home.json'
@@ -16,6 +17,7 @@ import koTeams from '@/locales/ko/teams.json'
 import koStats from '@/locales/ko/stats.json'
 import koCommon from '@/locales/ko/common.json'
 import koGames from '@/locales/ko/games.json'
+import koFavorites from '@/locales/ko/favorites.json'
 
 i18n
   .use(initReactI18next)
@@ -29,6 +31,7 @@ i18n
         stats: enStats,
         common: enCommon,
         games: enGames,
+        favorites: enFavorites,
       },
       ko: {
         nav: koNav,
@@ -38,6 +41,7 @@ i18n
         stats: koStats,
         common: koCommon,
         games: koGames,
+        favorites: koFavorites,
       },
     },
     lng: localStorage.getItem('language') ?? 'en',

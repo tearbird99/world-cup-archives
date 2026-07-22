@@ -41,7 +41,7 @@ export default function Sidebar() {
     { to: '/stats', icon: BarChart2, label: t('stats') },
     // 로그인한 유저에게만 즐겨찾기 메뉴 노출
     ...(isLoggedIn
-      ? [{ to: '/favorites', icon: Star, label: '즐겨찾기' }]
+      ? [{ to: '/favorites', icon: Star, label: t('favorites') }]
       : []),
   ]
 
