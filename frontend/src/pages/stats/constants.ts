@@ -57,7 +57,7 @@ export const STAT_DEFINITIONS: StatDefinition[] = [
 // World Cup Archives가 다루는 대회 연도 (오래된 순)
 export const WORLD_CUP_YEARS = [
   1966, 1970, 1974, 1978, 1982, 1986, 1990, 1994,
-  1998, 2002, 2006, 2010, 2014, 2018, 2022,
+  1998, 2002, 2006, 2010, 2014, 2018, 2022, 2026,
 ]
 
 export const STAT_DEFINITION_MAP: Record<string, StatDefinition> = Object.fromEntries(

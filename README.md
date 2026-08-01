@@ -1,6 +1,6 @@
 # World Cup Archives
 
-**1966년부터 2022년까지** 모든 FIFA 월드컵 대회를 아우르는 종합 통계 아카이브입니다. 선수 프로필, 팀별 역사, 스탯 순위까지 — 데이터 수집부터 직접 구축했습니다.
+**1966년부터 2026년까지** 모든 FIFA 월드컵 대회를 아우르는 종합 통계 아카이브입니다. 선수 프로필, 팀별 역사, 스탯 순위까지 — 데이터 수집부터 직접 구축했습니다.
 
 🔗 **라이브 데모:** https://world-cup-archives.onrender.com
 
@@ -78,7 +78,7 @@ world-cup-archives/
 │   │   └── models.py                # User, Favorite, Comment 테이블 모델
 │   ├── data/                         # 생성된 정적 데이터 (커밋됨, API가 런타임에 읽기만 함)
 │   │   ├── players/
-│   │   │   ├── {year}/               # 대회별 선수 시즌 스탯 (1966~2022)
+│   │   │   ├── {year}/               # 대회별 선수 시즌 스탯 (1966~2026)
 │   │   │   │   ├── {player_id}.json
 │   │   │   │   └── rankings.json     # 해당 대회 스탯 순위
 │   │   │   └── total/                # 선수별 통산 스탯 + all-time 순위

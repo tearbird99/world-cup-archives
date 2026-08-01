@@ -13,7 +13,7 @@ export const TEAMS: TeamSummary[] = [
   { id: 4707, name: 'Italy',            name_ko: '이탈리아',               country_code: 'ITA', appearances: 18, titles: [1934,1938,1982,2006] },
   { id: 4481, name: 'France',           name_ko: '프랑스',                 country_code: 'FRA', appearances: 16, titles: [1998,2018] },
   { id: 4713, name: 'England',          name_ko: '잉글랜드',               country_code: 'ENG', appearances: 16, titles: [1966] },
-  { id: 4698, name: 'Spain',            name_ko: '스페인',                 country_code: 'ESP', appearances: 16, titles: [2010] },
+  { id: 4698, name: 'Spain',            name_ko: '스페인',                 country_code: 'ESP', appearances: 16, titles: [2010, 2026] },
   { id: 4705, name: 'Netherlands',      name_ko: '네덜란드',               country_code: 'NED', appearances: 11, titles: [] },
   { id: 4715, name: 'Croatia',          name_ko: '크로아티아',             country_code: 'CRO', appearances: 6,  titles: [] },
   { id: 4688, name: 'Sweden',           name_ko: '스웨덴',                 country_code: 'SWE', appearances: 12, titles: [] },

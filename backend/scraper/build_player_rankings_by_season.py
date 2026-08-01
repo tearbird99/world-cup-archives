@@ -84,6 +84,7 @@ def build_rankings_by_season():
     year_dirs = sorted(
         d for d in os.listdir(PLAYERS_DIR)
         if os.path.isdir(os.path.join(PLAYERS_DIR, d)) and d != "total"
+        and d == "2026"
     )
 
     for year_dir in year_dirs:
