@@ -8,6 +8,8 @@
 
 ## 스크린샷
 
+## 스크린샷
+
 | 홈 | 선수 목록 |
 |---|---|
 | ![Home](docs/screenshots/home.png) | ![Players](docs/screenshots/players.png) |
@@ -16,9 +18,9 @@
 |---|---|
 | ![Player Detail](docs/screenshots/player-detail.png) | ![Teams](docs/screenshots/teams.png) |
 
-| 스탯 리더보드 |
-|---|
-| ![Stats](docs/screenshots/stats.png) |
+| 스탯 리더보드 | History |
+|---|---|
+| ![Stats](docs/screenshots/stats.png) | ![History](docs/screenshots/history.png) |
 
 ## 기술 스택
 
