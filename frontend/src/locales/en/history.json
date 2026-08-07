@@ -1,0 +1,9 @@
+{
+  "title": "History",
+  "subtitle": "World Cup tournament archives",
+  "loading": "Loading...",
+  "error": "Failed to load data.",
+  "empty": "No articles yet.",
+  "not_found": "Article not found.",
+  "back": "Back to History"
+}

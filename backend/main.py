@@ -1,6 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 import json
+import frontmatter
 from pathlib import Path
 
 from db.database import Base, engine
@@ -27,6 +28,7 @@ DATA_DIR = Path(__file__).parent / "data"
 PLAYERS_DIR = DATA_DIR / "players"
 TEAMS_DIR = DATA_DIR / "teams"
 TEAM_SLUG_MAP_PATH = DATA_DIR / "team-slug-map.json"
+HISTORY_DIR = DATA_DIR / "history"
 
 # team_id(sofascore 원본 ID) -> slug ("brazil" 등). 서버 시작 시 한 번만 로드.
 # 키는 JSON에서 문자열로 저장되어 있으므로 조회 시 str(team_id)로 변환해서 사용.
@@ -97,3 +99,38 @@ def get_player_stats_by_year(year: int):
     if not path.exists():
         raise HTTPException(status_code=404, detail="Rankings not found")
     return json.loads(path.read_text(encoding="utf-8"))
+
+@app.get("/api/history")
+def get_history_list():
+    if not HISTORY_DIR.exists():
+        return []
+    articles = []
+    for path in HISTORY_DIR.glob("*.md"):
+        post = frontmatter.load(path)
+        articles.append({
+            "year": post.get("year"),
+            "title": post.get("title"),
+            "host": post.get("host"),
+            "champion": post.get("champion"),
+            "summary": post.get("summary"),
+            "cover_image": post.get("cover_image"),
+        })
+    articles.sort(key=lambda a: a["year"])
+    return articles
+
+
+@app.get("/api/history/{year}")
+def get_history_article(year: int):
+    path = HISTORY_DIR / f"{year}.md"
+    if not path.exists():
+        raise HTTPException(status_code=404, detail="Article not found")
+    post = frontmatter.load(path)
+    return {
+        "year": post.get("year"),
+        "title": post.get("title"),
+        "host": post.get("host"),
+        "champion": post.get("champion"),
+        "summary": post.get("summary"),
+        "cover_image": post.get("cover_image"),
+        "content": post.content,
+    }
