@@ -45,7 +45,8 @@
 - Playwright 기반 Python 스크래퍼로 대회별 선수·팀·스탯 데이터를 수집 및 정규화
 
 **배포**
-- Render (프론트엔드는 Static Site, FastAPI 백엔드는 Web Service, PostgreSQL은 Managed DB)
+- Render (프론트엔드는 Static Site, FastAPI 백엔드는 Web Service)
+- Neon (PostgreSQL, Managed DB)
 
 ## 주요 기능
 
